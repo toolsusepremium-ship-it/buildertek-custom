@@ -1,0 +1,138 @@
+{
+    "hero": {
+        "title": "Complete Control\n On Project Budgets\n With BuilderTek ",
+        "description": "BuilderTek Budgets gives construction teams real-time visibility into costs, commitments, and forecasts, so financial decisions stay aligned with project realities from start to finish.",
+        "badge": "Plan Accurately. Track \nContinuously. Protect Margins.",
+        "backgroundImage2": "/assets/solutions/hero/hero-bg.png",
+        "backgroundImage": "/assets/solutions/Budgets/hero-image.png"
+    },
+    "sectionTitle": {
+        "title": "Experience Real-Time Budget\n Management for Construction Projects",
+        "description": "One system to plan, track, and forecast project costs with confidence.\n\nCentralize budget creation, cost tracking, commitments, and revisions into a single, connected system with BuilderTek Budgeting Management Tool. Eliminate disconnected spreadsheets and delayed reporting, gain continuous insight into financial performance, and proactively manage risk before overruns occur. "
+    },
+    "features": [
+        {
+            "tag": "PRECISION BUDGET BUILDING",
+            "title": "Build Accurate Budgets",
+            "description": "Create detailed budget structures aligned to project scope, cost codes, and phases, ensuring financial plans reflect how work is actually executed.",
+            "image": "/assets/solutions/Budgets/B01_Build Accurate Budgets.png",
+            "imagePosition": "right"
+        },
+        {
+            "tag": "REAL-TIME COST TRACKING",
+            "title": "Track Commitments & Actuals",
+            "description": "Monitor purchase orders, contracts, and invoices against budget in real time to understand committed and actual costs at every stage. ",
+            "image": "/assets/solutions/Budgets/B02_Build Accurate Budgets.png",
+            "imagePosition": "left"
+        },
+        {
+            "tag": "SPOT RISKS EARLY",
+            "title": "Forecast with Confidence",
+            "description": "Identify projected variances early by comparing planned, committed, and actual costs—helping teams take corrective action before issues escalate.",
+            "image": "/assets/solutions/Budgets/B03_Build Accurate Budgets.png",
+            "imagePosition": "right"
+        },
+        {
+            "tag": "ONE TEAM, ONE DATA",
+            "title": "Stay Connected Across Teams",
+            "description": " Finance, operations, and project teams work from the same real-time data, improving coordination and reducing misalignment.",
+            "image": "/assets/solutions/Budgets/B04_Build Accurate Budgets.png",
+            "imagePosition": "left"
+        }
+    ],
+    "whyChoose": {
+        "section": {
+            "title": " Complete Financial Visibility Without the Guesswork and Assumptions",
+            "subtitle": "Gain real-time insight into budgets, commitments, actuals, and forecasts, all connected within a single system. BuilderTek eliminates manual spreadsheets and delayed reporting, giving construction teams accurate financial data to make informed decisions with confidence, not assumptions."
+        },
+        "features": [
+            {
+                "title": "Accurate & Real-Time Tracking",
+                "description": "Instant visibility into budget status. Always know where costs stand, without waiting for manual reports.",
+                "image": "/assets/solutions/Budgets/C01_Accurate & Real-Time Tracking.png"
+            },
+            {
+                "title": "Commitment Management",
+                "description": "Track financial commitments as they happen, giving teams a clear picture of future spend alongside current costs.",
+                "image": "/assets/solutions/Budgets/C02_Accurate & Real-Time Tracking.png"
+            },
+            {
+                "title": "Forecasting Tools",
+                "description": "Built-in forecasting highlights potential overruns early, supporting proactive financial decision-making.",
+                "image": "/assets/solutions/Budgets/C03_Accurate & Real-Time Tracking.png"
+            },
+            {
+                "title": "Real Time  Reporting",
+                "description": "Leverage the BuildetTek budget dashboard to analyze performance across projects with accuracy and speed.",
+                "image": "/assets/solutions/Budgets/C04_Accurate & Real-Time Tracking.png"
+            }
+        ]
+    },
+    "makeSmarter": {
+        "section": {
+            "title": " Next Level Budgeting for Stronger Margins and Accurate Forecasts",
+            "description": " Stay ahead of costs with clarity and control."
+        },
+        "cards": [
+            {
+                "icon": "pricing",
+                "useImage": true,
+                "image": "/assets/solutions/make-smarter-one/fi_15171204.svg",
+                "title": "Reduce Cost Overruns",
+                "description": "Early visibility into variances allows teams to address issues before they impact profitability."
+            },
+            {
+                "icon": "speed",
+                "useImage": true,
+                "image": "/assets/solutions/make-smarter-one/fi_10158785.svg",
+                "title": "Improve Forecasting Accuracy",
+                "description": "Real-time cost data ensures forecasts reflect actual project conditions—not outdated assumptions."
+            },
+            {
+                "icon": "win",
+                "useImage": true,
+                "image": "/assets/solutions/make-smarter-one/fi_15171254.svg",
+                "title": "Maintain Financial Transparency",
+                "description": "Clear, centralized budgets keep all stakeholders aligned on financial performance."
+            }
+        ]
+    },
+    "bringStructure": {
+        "section": {
+            "title": "Take Control of Project Costs in ",
+            "highlight": " BuilderTek Budgets ",
+            "description": "See how BuilderTek Budgets helps protect margins and improve financial confidence.",
+            "cta": {
+                "label": "Schedule a Demo",
+                "link": "https://buildertek3-dev-ed.develop.my.site.com/CaseManagement/login?ec=302&startURL=%2FCaseManagement%2F"
+            },
+            "image": "/assets/solutions/bring-structure-one/image.png"
+        }
+    },
+    "faq": {
+        "title": "FAQs",
+        "subtitle": "Explore Answers to Frequently Asked Questions about BuilderTek.",
+        "items": [
+            {
+                "question": "How does BuilderTek Budgets help prevent cost overruns?",
+                "answer": "BuilderTek highlights variances early. You can track actuals and commitments in real time, helping your team to act before costs escalate."
+            },
+            {
+                "question": "Can BuilderTek Budgets integrate with contracts and purchase orders?",
+                "answer": "Yes. BuilderTek Budgeting Tool is directly connected to our other services and tools- contracts, Quotes, contacts, invoices, etc. Your team can align all purchase orders and contracts in one integrated system."
+            },
+            {
+                "question": "Do finance and project teams use the same budget data?",
+                "answer": "Yes. BuilderTek provides a single source of truth accessible to all teams."
+            },
+            {
+                "question": " Is BuilderTek Budgets suitable for large, complex projects?",
+                "answer": " Absolutely. The module scales to support multi-phase, multi-cost-code projects."
+            },
+            {
+                "question": "Can I generate financial reports from BuilderTek Budgets?",
+                "answer": " Yes. Salesforce-native reporting allows flexible, real-time financial analysis."
+            }
+        ]
+    }
+}

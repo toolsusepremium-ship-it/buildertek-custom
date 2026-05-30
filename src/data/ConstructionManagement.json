@@ -1,0 +1,194 @@
+{
+    "hero": {
+        "title": "Manage Construction Projects With\nComplete Clarity in\nBuilderTek",
+        "description": "Plan smarter, coordinate better, and deliver projects on time; all from a single platform.\n\nBuilderTek Construction Management empowers end-to-end construction management- schedules, inspections, documents, and project tracking into a single, connected system.",
+        "topBadge": "Designed for real-world construction workflows.",
+        "badge": "Strengthen Cost Control.\nAward with Confidence.",
+        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.png",
+        "backgroundImage": "/assets/services/hero/service-hero2.png"
+    },
+    "financialControl": {
+        "title": "End-to-End Project Control, Built for Construction Management",
+        "description": "Stay aligned, reduce delays, and maintain full visibility across every phase of the project lifecycle; one system to plan, track, and manage every project detail with confidence.",
+        "features": [
+            "BuilderTek Construction Management eliminates fragmented tools and manual coordination by centralizing core project operations into one intuitive platform. It connects in-field and office teams with real-time project data. ",
+            "BuilderTek Construction Management Software ensures schedules, inspections, documents, and progress tracking stay aligned from kickoff through closeout."
+        ],
+        "image": "/assets/about/B_AboutBuilderTek.png"
+    },
+    "whyChoose": {
+        "section": {
+            "title": "Flawless Core Project Management for Construction Teams",
+            "subtitle": "Manage construction project flawlessly with America’s top construction management software, on time, and within budget.  "
+        },
+        "features": [
+            {
+                "title": "Project Scheduling & Planning",
+                "description": "Build and manage detailed project timelines with tasks, dependencies, and milestones to keep work moving efficiently.",
+                "icon": "/assets/services/financial/Group 39233.svg"
+            },
+            {
+                "title": "Inspection & Quality Management",
+                "description": "Schedule, conduct, and track inspections digitally to maintain quality standards and compliance.",
+                "icon": "/assets/services/financial/Group 39231 copy 2.svg"
+            },
+            {
+                "title": "Centralized Document Management",
+                "description": "Store drawings, specifications, photos, and reports in one secure, searchable location.",
+                "icon": "/assets/services/financial/Group 39235.svg"
+            },
+            {
+                "title": "Real-Time Project Tracking",
+                "description": "Monitor task status, completion percentages, and milestones as work progresses.",
+                "icon": "/assets/services/financial/Group 39233 copy 2.svg"
+            },
+            {
+                "title": "Team Collaboration & Communication",
+                "description": "Keep field teams, project managers, and stakeholders aligned with shared access and updates",
+                "icon": "/assets/services/financial/Group 39234 copy 2.svg"
+            },
+            {
+                "title": "Risk & Issue Management",
+                "description": "Identify, document, and resolve project risks or field issues quickly with structured tracking, clear ownership, and status visibility.",
+                "icon": "/assets/services/financial/Group 39235 copy 2.svg"
+            }
+        ]
+    },
+    "sharperFinancial": {
+        "section": {
+            "title": " Stronger Execution.\nFewer Delays.\n Better Outcomes.",
+            "description": "BuilderTek Construction Management Tool provides in-depth insights on the go, connecting the in-field and in-office teams in real-time, empowering faster project execution, real-time updates, and better outcomes. "
+        },
+        "cards": [
+            {
+                "icon": "pricing",
+                "useImage": true,
+                "image": "/assets/services/sharper/visibility.svg",
+                "title": "Improved Project Visibility",
+                "description": "Enable proactive construction management with centralized project data. Teams gain real-time insight into schedules, tasks, inspections, and documentation, reducing last-minute surprises. "
+            },
+            {
+                "icon": "speed",
+                "useImage": true,
+                "image": "/assets/services/sharper/fi_3722005.svg",
+                "title": "Better Team Coordination",
+                "description": "Shared schedules, documents, and updates ensure field and office teams stay aligned, minimizing miscommunication and rework."
+            },
+            {
+                "icon": "win",
+                "useImage": true,
+                "image": "/assets/services/sharper/fi_837989.svg",
+                "title": "Predictable Project Delivery",
+                "description": "Clear timelines, structured workflows, and consistent tracking. Teams identify risks early and keep projects moving on schedule."
+            }
+        ]
+    },
+    "build": {
+        "title": " BuilderTek Construction Management:\n Built for Visibility, Coordination, and Control",
+         "description": "Maintain clear visibility, coordination, and control throughout your construction project timeline with a natively built contruction platform. ",
+            
+        "features": [
+            
+            {
+                "icon": "/assets/services/financial-control/Group (1).svg",
+                "title": "Gantt Chart & Timeline Views",
+                "description": "Visualize schedules, dependencies, and progress clearly",
+                "image":"/assets/services/co/E01_Gantt Chart & Timeline Views.png"
+            },
+            {
+                "icon": "/assets/services/financial-control/Vector3.svg",
+                "title": "Task & Milestone Tracking",
+                "description": "Monitor critical phases and deliverables",
+                "image":"/assets/services/co/E02_Gantt Chart & Timeline Views.png"
+            },
+            {
+                "icon": "/assets/services/financial-control/Group.svg",
+                "title": "Document Version Control",
+                "description": "Ensure teams work from the latest files",
+                "image":"/assets/services/co/E03_Gantt Chart & Timeline Views.png"
+            },
+            {
+                "icon": "/assets/services/financial-control/Group(1).svg",
+                "title": "Mobile-Friendly Access",
+                "description": "Support field teams on the go",
+                "image":"/assets/services/co/E04_Gantt Chart & Timeline Views.png"
+            },
+            {
+                "icon": "/assets/services/financial-control/Group(1).svg",
+                "title": "BuilderTek Native Reporting",
+                "description": "Use dashboards to track project performance",
+                "image":"/assets/services/co/E05_Gantt Chart & Timeline Views.png"
+            },
+            {
+                "icon": "/assets/services/financial-control/Group(1).svg",
+                "title": "Multi-Project Oversight",
+                "description": "Manage multiple jobs from a single platform",
+                
+                "image":"/assets/services/co/E06_Gantt Chart & Timeline Views.png"
+            }
+        ]
+    },
+    "Financial": {
+        "title": "How It Works – Construction Workflow",
+        "features": [
+            {
+                "title": "Plan the Project",
+                "description": "Define schedules, milestones, and responsibilities from the start."
+            },
+            {
+                "title": " Coordinate Teams",
+                "description": "Generate invoices and align billing with contractual terms and progress."
+            },
+            {
+                "title": "Track Progress",
+                "description": "Monitor task completion, inspections, and timeline updates in real time."
+            },
+            {
+                "title": " Manage Documentation",
+                "description": "Store and access drawings, reports, and photos centrally."
+            },
+            {
+                "title": " Review & Close Out",
+                "description": "Maintain complete project records through final inspection and closeout."
+            }
+        ]
+    },
+    "bringStructure": {
+        "section": {
+            "title": "Bring Clarity to Construction & Project Management",
+            "highlight": "With BuilderTek",
+            "description": "Gain complete visibility, stronger coordination, and greater control over every project with BuilderTek Construction Management.",
+            "cta": {
+                "label": "Schedule a Demo",
+                "link": "https://buildertek3-dev-ed.develop.my.site.com/CaseManagement/login?ec=302&startURL=%2FCaseManagement%2F"
+            },
+            "image": "/assets/solutions/bring-structure-one/image.png"
+        }
+    },
+    "faq": {
+        "title": "FAQs",
+        "subtitle": "Explore Answers to Frequently Asked Questions about BuilderTek.",
+        "items": [
+            {
+                "question": "Does BuilderTek support both field and office teams?",
+                "answer": "Yes. BuilderTek is designed to connect field crews, project managers, and leadership through shared, real-time project data."
+            },
+            {
+                "question": "Can I manage multiple projects at the same time?",
+                "answer": "Absolutely. BuilderTek supports multi-project oversight with centralized dashboards and reporting."
+            },
+            {
+                "question": "Does BuilderTek include document and inspection management?",
+                "answer": "Yes. Inspections, documents, photos, and reports are all managed within the Construction Management module."
+            },
+            {
+                "question": "Is BuilderTek suitable for residential and commercial projects?",
+                "answer": "Yes. The platform scales to support projects of all sizes, from remodels to large commercial builds."
+            },
+            {
+                "question": "How does BuilderTek improve project visibility?",
+                "answer": "By centralizing schedules, tasks, documents, and updates into one system, BuilderTek provides real-time insight into project health."
+            }
+        ]
+    }
+}

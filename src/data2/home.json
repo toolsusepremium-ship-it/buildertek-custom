@@ -1,0 +1,240 @@
+{
+  "hero": {
+    "title": "Build It All With ",
+    "subtitle": "Confidence  On ",
+    "highlight": "BuilderTek",
+    "description": "BuilderTek Construction keeps your team on task and on target with intuitive systems to organize, manage, mature to optimize, and enhance your business processes.",
+    "backgroundImage": "/assets/home/hero/home_banner.jpg",
+    "backgroundImage3": "/assets/home/hero/hero.webp",
+    "backgroundImage2": "/assets/home/hero/hero-bg.png",
+    "cta": {
+      "label": "Schedule a Demo",
+      "link": "https://buildertek3-dev-ed.develop.my.site.com/CaseManagement/login?ec=302&startURL=%2FCaseManagement%2F",
+      "icon": "/assets/home/hero/arrow.svg"
+    },
+    "image1": "/assets/home/hero/image 62.svg",
+    "image2": "/assets/home/hero/image 44.svg",
+    "sideimage": {
+      "image1": "/assets/home/hero/Frame 39268.png",
+      "image2": "/assets/home/hero/Frame 39269.svg"
+    },
+    "image": "/assets/home/hero/hero-forground.png",
+    "imageAlt": "BuilderTek construction dashboard preview"
+  },
+  "trustedLogos": {
+    "title": "Powering Construction Success as a Trusted Salesforce ISV Partner",
+    "logos": [
+      "/assets/home/trusted-slider/image-14.svg",
+      "/assets/home/trusted-slider/image-16.svg",
+      "/assets/home/trusted-slider/image-17.svg",
+      "/assets/home/trusted-slider/image-18.svg",
+      "/assets/home/trusted-slider/image-22.svg",
+      "/assets/home/trusted-slider/image-23.svg",
+      "/assets/home/trusted-slider/image-24.svg",
+      "/assets/home/trusted-slider/image-25.svg",
+      "/assets/home/trusted-slider/image-26.svg"
+    ]
+  },
+  "platformSection": {
+    "title": "The All-in-One Construction Platform",
+    "description": "As an exclusive ISV partner with Salesforce for over 15 years, BuilderTek is built for efficiency, accuracy, and seamless collaboration, so you deliver every project with confidence.",
+    "mainFeature2": {
+      "tag": "Salesforce",
+      "title": "Salesforce-",
+      "subtitle": "Native Power",
+      "description": "Run your entire project on the world’s most secure and scalable cloud platform-Salesforce.",
+      "image": "/assets/home/platform-section/image-lapotp-full.png"
+    },
+    "mainFeature": {
+      "circleImage": "/assets/home/platform-section/clip-path-group.svg",
+      "tagImage": "/assets/home/platform-section/salesforce.svg",
+      "badgeImage": "",
+      "cloudImage": "/assets/home/platform-section/bg-image.png",
+      "title": "Salesforce-",
+      "subtitle": "Native Power",
+      "description": "Run your entire project on the world’s most secure and scalable cloud platform-Salesforce.",
+      "image": "/assets/home/platform-section/Salesforce Native Power home page 1.png"
+    },
+    "features": [
+      {
+        "title": "End-to-End Project Visibility",
+        "description": "Track budgets, schedules, resources, and documents in real time- everything on one reliable platform.",
+        "image": "/assets/home/platform-section/image 12.png"
+      },
+      {
+        "title": "Accurate Project Execution",
+        "description": "Automate tasks, eliminate duplicate work, and improve decision-making with centralized project insights and built-in reporting.",
+        "image": "/assets/home/platform-section/image 73.png"
+      }
+    ]
+  },
+  "industriesSection": {
+    "title": "A Powerful Asset For Modern Construction Teams",
+    "description": "From large-scale commercial developments to routine renovation projects, BuilderTek serves as a strategic asset for construction teams of every size.",
+    "tabs": [
+      {
+        "name": "Commercial Contractors",
+        "tag": "COMMERCIAL CONTRACTORS",
+        "title": "Manage Complex, Large-Scale Projects",
+        "subtitle": "with precision and complete cost control.",
+        "points": [
+          "Manage complex projects at scale",
+          "Bring strategic initiatives to life",
+          "Detect and mitigate project risks"
+        ],
+        "image": "/assets/home/sw/Commercial Contractors.png"
+      },
+      {
+        "name": "Home Builders & Residential Contractors",
+        "tag": "HOME BUILDERS",
+        "title": "Streamline Residential Project Workflows",
+        "subtitle": "from planning to completion.",
+        "points": [
+          "Track builds efficiently",
+          "Manage teams and vendors",
+          "Control project timelines"
+        ],
+        "image": "/assets/home/sw/Home Builders & Residential Contractors.png"
+      },
+      {
+        "name": "Specialty Contractors",
+        "tag": "SPECIALTY CONTRACTORS",
+        "title": "Structure Workflow For Speciality Teams",
+        "subtitle": "with centralized management.",
+        "points": [
+          "Track subcontractors",
+          "Improve job costing",
+          "Reduce delays"
+        ],
+        "image": "/assets/home/sw/Specialty Contractors.png"
+      },
+      {
+        "name": "Real Estate & Property Developers",
+        "tag": "REAL ESTATE DEVELOPERS",
+        "title": "Bring Clarity to Property Development",
+        "subtitle": "from Acquisition to Completion.",
+        "points": [
+          "Portfolio tracking",
+          "Financial forecasting",
+          "Project visibility"
+        ],
+        "image": "/assets/home/sw/Real Estate & Property Developers.png"
+      }
+    ]
+  },
+  "connectedOperations": {
+    "title": "Connected Construction Operations on BuilderTek",
+    "description": "BuilderTek, a trusted ISV Salesforce partner for 15 years, brings your field, office, and financial teams into one unified system",
+    "items": [
+      {
+        "title": "Construction Management",
+        "desc": "From scheduling, to inspections, bidding, tracking, documents, and warranty, organize all construction projects with a single app.",
+        "image": "/assets/home/connected-operations/image.svg"
+      },
+      {
+        "title": "Financial Management",
+        "desc": "All account management tools in one platform. Monitor budgets, track purchase orders, change orders, manage inventory, expenses, and much more. ",
+        "image": "/assets/home/connected-operations/image (1).svg"
+      },
+      {
+        "title": "Realty & Closing Management",
+        "desc": "From managing listings to inspections and closings, keep everything well-organized and seamless for the desired outcome.",
+        "image": "/assets/home/connected-operations/image 70.svg"
+      },
+      {
+        "title": "CRM For Construction",
+        "desc": "Build a strong reputation through robust communication across teams and clients, from leads to opportunities to account management.",
+        "image": "/assets/home/connected-operations/image 71.svg"
+      },
+      {
+        "title": "Resource & Labor Management",
+        "desc": "Automate time cards, crews, and workforce allocation.",
+        "image": "/assets/home/connected-operations/image 12.svg"
+      }
+    ]
+  },
+  "featuresSection": {
+    "title": "Smart Features To Elevate\nConstruction Workflow",
+    "description": "Every tool is built for accuracy, real-time updates, and seamless collaboration across your construction team.",
+    "rightSideImage": "/assets/home/features-section/right image.png",
+    "features": [
+      {
+        "id": 1,
+        "title": "Mobile Tools Access",
+        "image": "/assets/home/features-section/Group 39341.svg"
+      },
+      {
+        "id": 2,
+        "title": "Bidding & Vendor Management",
+        "image": "/assets/home/features-section/image 72.svg"
+      },
+      {
+        "id": 3,
+        "title": "Advanced Scheduling",
+        "image": "/assets/home/features-section/image (1).svg",
+        "cta": "Approve"
+      },
+      {
+        "id": 4,
+        "title": "Budgeting & Cost Control",
+        "image": "/assets/home/features-section/image 75.svg"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Trusted By Industry leaders",
+    "quoteImage": "/assets/home/testimonials/quote.png",
+    "items": [
+      {
+        "id": 1,
+        "quote": "Perfect balance between cost optimization and robust security measures makes them an invaluable asset.",
+        "name": "Nicolas Chaillan",
+        "role": "Chief Software Officer (CSO)"
+      },
+      {
+        "id": 2,
+        "quote": "BuilderTek has made it much easier for our team to stay aligned with project timelines and scope. It has improved our coordination with general contractors. We can clearly track tasks, changes, and approvals without going back and forth on emails.",
+        "name": "Jason Miller",
+        "role": " Electrical Contractor"
+      },
+      {
+        "id": 3,
+        "quote": "As a developer managing multiple residential projects, visibility is everything. BuilderTek gives us real-time insight into budgets, schedules, and approvals in one place. It gives better control across our portfolio.",
+        "name": "Michael Thompson",
+        "role": "Residential Developer"
+      },
+      {
+        "id": 4,
+        "quote": "We use BuilderTek for managing construction projects across multiple locations, and the platform has brought much-needed structure and transparency. It helped us maintain accountability and streamline reporting for stakeholders.",
+        "name": "David Rodriguez",
+        "role": "Program & Construction Manager"
+      },
+      {
+        "id": 5,
+        "quote": "BuilderTek has simplified how we manage property workflows, from listings to transaction tracking and final handovers. Everything is centralized, keeping our documentation and communication organized.",
+        "name": "Sarah Collins",
+        "role": "Realty Operations Manager"
+      },
+      {
+        "id": 6,
+        "quote": "We can track change orders and keep clients informed with clear documentation with BuilderTek. It has made our processes more consistent and reduced misunderstandings.",
+        "name": "Denny Carter",
+        "role": "Remodeling Contractor"
+      }
+    ]
+  },
+  "bringStructure": {
+    "section": {
+      "title": "Build Smarter With",
+      "nor": "The Best",
+      "highlight": "Construction Software",
+      "title2": "",
+      "description": "Get a deep insight to see how BuilderTek helps your team deliver faster, stay organized, and take full control of every project.",
+      "cta": {
+        "label": "Schedule a Demo",
+        "link": "https://buildertek3-dev-ed.develop.my.site.com/CaseManagement/login?ec=302&startURL=%2FCaseManagement%2F"
+      },
+      "image": "/assets/solutions/bring-structure-one/image.png"
+    }
+  }
+}

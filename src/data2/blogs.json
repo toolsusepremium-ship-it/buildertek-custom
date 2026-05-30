@@ -1,0 +1,79 @@
+{
+    "sectionBadge": "Blogs",
+    "title": "BuilderTek Blogs",
+    "sideBadge": "Construction Blogs For Builders & Industry Experts",
+    "blogs": [
+        {
+            "id": 1,
+            "category": "Technology",
+            "title": "The Impact of Technology on the Workplace: How Technology is Changing",
+            "date": "August 20, 2022",
+            "image": "/assets/blogs/blog-one.png",
+            "slug": "technology-impact-workplace"
+        },
+        {
+            "id": 2,
+            "category": "Technology",
+            "title": "The Impact of Technology on the Workplace: How Technology is Changing",
+            "date": "August 20, 2022",
+            "image": "/assets/blogs/blog-two.png",
+            "slug": "technology-impact-workplace-2"
+        },
+        {
+            "id": 3,
+            "category": "Technology",
+            "title": "The Impact of Technology on the Workplace: How Technology is Changing",
+            "date": "August 20, 2022",
+            "image": "/assets/blogs/blog-three.png",
+            "slug": "technology-impact-workplace-3"
+        },
+        {
+            "id": 4,
+            "category": "Technology",
+            "title": "The Impact of Technology on the Workplace: How Technology is Changing",
+            "date": "August 20, 2022",
+            "image": "/assets/blogs/blog-four.png",
+            "slug": "technology-impact-workplace"
+        },
+        {
+            "id": 5,
+            "category": "Technology",
+            "title": "The Impact of Technology on the Workplace: How Technology is Changing",
+            "date": "August 20, 2022",
+            "image": "/assets/blogs/blog-five.png",
+            "slug": "technology-impact-workplace-2"
+        },
+        {
+            "id": 6,
+            "category": "Technology",
+            "title": "The Impact of Technology on the Workplace: How Technology is Changing",
+            "date": "August 20, 2022",
+            "image": "/assets/blogs/blog-six.png",
+            "slug": "technology-impact-workplace-3"
+        },
+        {
+            "id": 7,
+            "category": "Technology",
+            "title": "The Impact of Technology on the Workplace: How Technology is Changing",
+            "date": "August 20, 2022",
+            "image": "/assets/blogs/blog-seven.png",
+            "slug": "technology-impact-workplace"
+        },
+        {
+            "id": 8,
+            "category": "Technology",
+            "title": "The Impact of Technology on the Workplace: How Technology is Changing",
+            "date": "August 20, 2022",
+            "image": "/assets/blogs/blog-eight.png",
+            "slug": "technology-impact-workplace-2"
+        },
+        {
+            "id": 9,
+            "category": "Technology",
+            "title": "The Impact of Technology on the Workplace: How Technology is Changing",
+            "date": "August 20, 2022",
+            "image": "/assets/blogs/blog-nine.png",
+            "slug": "technology-impact-workplace-3"
+        }
+    ]
+}

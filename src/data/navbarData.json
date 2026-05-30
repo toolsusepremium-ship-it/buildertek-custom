@@ -1,0 +1,119 @@
+{
+    "logo": {
+        "src": "/assets/logos/builder-logo.png",
+        "alt": "BuilderTek",
+        "link": "/"
+    },
+    "menu": [
+        {
+            "label": "Home",
+            "path": "/"
+        },
+        {
+            "label": "About Us",
+            "path": "/about"
+        },
+        {
+            "label": "Solutions",
+            "dropdown": true,
+            "items": [
+                {
+                    "label": "RFQ",
+                    "path": "/solutions/rfq"
+                },
+                {
+                    "label": "Quote",
+                    "path": "/solutions/quote"
+                },
+                {
+                    "label": "Contracts",
+                    "path": "/solutions/contract"
+                },
+                {
+                    "label": "Budgets",
+                    "path": "/solutions/budgets"
+                },
+                {
+                    "label": "Schedule",
+                    "path": "/solutions/schedule"
+                }
+            ]
+        },
+        {
+            "label": "Who We Serve",
+            "path": "/who-we-serve",
+            "dropdown": true,
+            "items": [
+                {
+                    "label": "General Contractors",
+                    "path": "/serve/general-contractors"
+                },
+                {
+                    "label": "Residential Builders",
+                    "path": "/serve/residential-builders"
+                },
+                {
+                    "label": "Remodelers",
+                    "path": "/serve/remodelers"
+                },
+                {
+                    "label": "Specialty Contractors",
+                    "path": "/serve/specialty-contractors"
+                },
+                {
+                    "label": "Developers",
+                    "path": "/serve/developers"
+                }
+            ]
+        },
+        {
+            "label": "Services",
+            "path": "/services",
+            "dropdown": true,
+            "items": [
+                {
+                    "label": "Finance",
+                    "path": "/services/finance"
+                },
+                {
+                    "label": "Construction",
+                    "path": "/services/construction"
+                },
+                {
+                    "label": "CRM Management",
+                    "path": "/services/crm-management"
+                },
+                {
+                    "label": "Realty Management",
+                    "path": "/services/realty-management"
+                },
+                {
+                    "label": "Resource Management",
+                    "path": "/services/resource-management"
+                }
+            ]
+        },
+        {
+            "label": "Resource",
+            "dropdown": true,
+            "items": [
+                {
+                    "label": "Blogs",
+                    "path": "/blogs"
+                },
+                {
+                    "label": "Documentation",
+                    "path": "/docs"
+                }
+            ]
+        },
+        {
+            "label": "Contact Us",
+            "path": "/contact"
+        }
+    ],
+    "cta": {
+        "label": "Support Hub",
+        "path": "https://buildertek3-dev-ed.develop.my.site.com/CaseManagement/login?ec=302&startURL=%2FCaseManagement%2F"
+    }
+}

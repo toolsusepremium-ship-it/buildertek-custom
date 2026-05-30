@@ -1,0 +1,157 @@
+{
+    "hero": {
+        "title": "Transform\nComplex Projects\nwith BuilderTek",
+        "description": "One platform for General Contractors to manage bids, budgets, schedules, and contracts in one connected Salesforce workflow.",
+        "topBadge": "General Contractors",
+        "badge": "Strengthen Cost Control.\nAward with Confidence.",
+        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.png",
+        "backgroundImage": "/assets/who-we-are/hero/who-we-are.png"
+    },
+    "simplifyConstruction": {
+        "title": "Simplify Construction Projects for General Contractors",
+        "description": "One connected platform across the full project lifecycle. BuilderTek simplifies timelines with reduced handoffs, clear accountability, and complete visibility from preconstruction through closeout.",
+        "tabs": [
+            {
+                "name": "Centralized Project Control",
+                "tag": "ONE PLATFORM, FULL CONTROL",
+                "title": "Centralized ",
+                "title2": "Project Control",
+                "description": "Manage RFQs, quotes, contracts, budgets, and schedules from one unified Salesforce-based platform.",
+                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.png"
+            },
+            {
+                "name": "Structured Procurement Workflows",
+                "tag": "BIDS, STANDARDIZED",
+                "title": "Structured ",
+                "title2": "Procurement Workflows",
+                "description": "Standardize procurement processes with clear approvals, vendor management, and complete audit trails.",
+                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.png"
+            },
+            {
+                "name": "Real-Time Financial Tracking",
+                "tag": "COSTS, ALWAYS TRANSPARENT",
+                "title": "Real-Time ",
+                "title2": "Financial Tracking",
+                "description": "Track budgets, costs, and forecasts in real time to maintain complete financial visibility.",
+                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.png"
+            },
+            {
+                "name": "Integrated Change Management",
+                "tag": "CHANGE ORDERS, UNDER CONTROL",
+                "title": "Integrated ",
+                "title2": "Change Management",
+                "description": "Manage change orders seamlessly with full cost, schedule, and approval impact tracking.",
+                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.png"
+            },
+            {
+                "name": "Role-Based Collaboration",
+                "tag": "RIGHT ACCESS, RIGHT PEOPLE",
+                "title": "Role-Based ",
+                "title2": "Collaboration",
+                "description": "Enable secure collaboration across teams with role-specific access and responsibilities.",
+                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.png"
+            },
+            {
+                "name": "Enterprise-Ready Reporting",
+                "tag": "INSIGHTS, ALWAYS CURRENT",
+                "title": "Enterprise-Ready ",
+                "title2": "Reporting",
+                "description": "Leverage enterprise-grade reporting and dashboards for actionable project insights.",
+                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.png"
+            }
+        ]
+    },
+    "whyChoose": {
+        "section": {
+            "title": "BuilderTek General Contractor Software: Built for Control, Clarity, and Scale",
+            "subtitle": "Operational efficiency that protects margins throughout the project timeline. Connect cost, contract, and schedule data to reduce manual effort, improve accuracy, identify risks earlier, and deliver projects on time with stronger margins."
+        },
+        "features": [
+            {
+                "title": "Stronger Cost Control",
+                "description": "Getting early visibility into commitments and changes helps protect margins before issues escalate.",
+                "icon": "/assets/who-we-are/why-choose/stronger-cost.svg"
+            },
+            {
+                "title": "Faster Project Execution",
+                "description": "Streamlined workflows reduce delays across bidding, approvals, and scheduling.",
+                "icon": "/assets/who-we-are/why-choose/faster-project.svg"
+            },
+            {
+                "title": "Improved Decision-Making",
+                "description": "Connected data across cost, contracts, and schedules enables proactive, informed choices.",
+                "icon": "/assets/who-we-are/why-choose/improved-decision.svg"
+            },
+            {
+                "title": "Reduced Administrative Overhead",
+                "description": "Eliminate duplicate data entry, spreadsheets, and manual tracking.",
+                "icon": "/assets/who-we-are/why-choose/reduced-admin.svg"
+            },
+            {
+                "title": "Greater Accountability",
+                "description": "Audit-ready records ensure every decision, approval, and revision is documented.",
+                "icon": "/assets/who-we-are/why-choose/greater-acc.svg"
+            },
+            {
+                "title": "Scalable Operations",
+                "description": "Support growth without increasing complexity or losing control across projects.",
+                "icon": "/assets/who-we-are/why-choose/scalable-ope.svg"
+            }
+        ]
+    },
+    "whyGeneral": {
+        "title": "Why General Contractors ",
+        "title2": "Choose BuilderTek",
+        "description": "More than software; It is an all-around construction operating system!",
+        "content": {
+            "headline": "BuilderTek is a true ",
+            "headline2": "Salesforce construction ",
+            "headline3": "platform built for General Contractors.",
+            "tick": "/assets/who-we-are/why-general/tick.svg",
+            "points": [
+                "BuilderTek is a true Salesforce construction platform with enterprise scalability, real-time reporting, and seamless integrations.",
+                "A future-ready general contractor software designed to support both growth and governance."
+            ],
+            "image": "/assets/who-we-are/why-general/why-general.png",
+            "badge": ""
+        }
+    },
+    "bringStructure": {
+        "section": {
+            "title": "See BuilderTek In Action: Built for ",
+            "highlight": "General Contractors",
+            "description": "Discover how BuilderTek helps general contractors simplify workflows, gain financial clarity, and deliver projects with confidence.",
+            "cta": {
+                "label": "Schedule a Demo",
+                "link": "https://buildertek3-dev-ed.develop.my.site.com/CaseManagement/login?ec=302&startURL=%2FCaseManagement%2F"
+            },
+            "image": "/assets/solutions/bring-structure-one/image.png"
+        }
+    },
+    "faq": {
+        "title": "FAQs",
+        "subtitle": "Explore Answers to Frequently Asked Questions about BuilderTek.",
+        "items": [
+            {
+                "question": "Why is BuilderTek General Contractor Software different from traditional construction software?",
+                "answer": "BuilderTek is built natively on Salesforce, offering deeper integration, real-time reporting, and enterprise scalability that most traditional, standalone construction management software cannot match."
+            },
+            {
+                "question": "Can BuilderTek General Contractor software support large, multi-project? ",
+                "answer": "Yes. BuilderTek is designed for complex portfolios, supporting multiple projects, teams, and approval workflows within a single platform."
+            },
+            {
+                "question": "Does BuilderTek General Construction Software replace separate tools for bidding, budgets, and contracts?",
+                "answer": "Yes. With BuilderTek construction management software, you can consolidate RFQs, quotes, contracts, budgets, and schedules into one connected system."
+            },
+            {
+                "question": "How does BuilderTek improve cost and margin control?",
+                "answer": "By using BuilderTek general contractor software, you can link budgets, commitments, and change orders in real time. BuilderTek gives general contractors early visibility into financial risks."
+            },
+            {
+                "question": "Is BuilderTek suitable for commercial and mixed-use construction projects?",
+                "answer": "Absolutely. BuilderTek is designed to handle the complexity, scale, and compliance needs of commercial and mixed-use general contractors."
+            }
+        ]
+    }
+}

@@ -1,0 +1,192 @@
+{
+    "hero": {
+        "title": "Optimize Crews\n and Resources with\n BuilderTek Resource\n Management",
+        "description": "Plan smarter, reduce downtime, and keep every project properly staffed without the guesswork with BuilderTek resource management.",
+        "topBadge": "SMARTER CREW DEPLOYMENT",
+        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.png",
+        "backgroundImage": "/assets/services/hero/service-hero5.png"
+    },
+    "financialControl": {
+        "title": "Seamless Construction Resource Planning Across Teams",
+        "description": "One system to manage labor, crews, and availability across projects, built for real-world construction complexities. ",
+        "features": [
+            "BuilderTek Resource Management tool replaces reactive scheduling and disconnected tracking with a centralized, real-time view of workforce and equipment utilization.",
+            " Designed specifically for construction workflows, it connects schedules, tasks, and project timelines, so resource decisions are based on accurate data, not assumptions. "
+        ],
+        "image": "/assets/services/ro/B_ About BuilderTek Resource.png"
+    },
+    "whyChoose": {
+        "section": {
+            "title": "Resource Management Tool for Construction Operations",
+            "subtitle": "Plan, allocate, and track crews and equipment across construction projects with real-time visibility. Stay optimized, stay aligned, and keep downtime to a minimum. "
+        },
+        "features": [
+            {
+                "title": "Crew & Labor Allocation",
+                "description": "Assign crews to tasks and projects based on availability, skill sets, and schedules.",
+                "icon": "/assets/services/financial/Group 39236.svg"
+            },
+            {
+                "title": "Equipment & Asset Visibility",
+                "description": "Track where equipment is assigned, in use, or available across jobs.",
+                "icon": "/assets/services/financial/Group 39231.svg"
+            },
+            {
+                "title": "Availability & Utilization Tracking",
+                "description": "Identify overbooked or underutilized resources in real time.",
+                "icon": "/assets/services/financial/Group 39232.svg"
+            },
+            {
+                "title": "Schedule-Driven Resource Planning",
+                "description": "Align labor and equipment directly to project schedules and milestones.",
+                "icon": "/assets/services/financial/Group 39233.svg"
+            },
+            {
+                "title": "Cross-Project Resource View",
+                "description": "See workforce and equipment distribution across multiple projects.",
+                "icon": "/assets/services/financial/Group 39234.svg"
+            },
+            {
+                "title": "Audit-Ready Assignment History",
+                "description": "Maintain a complete record of resource assignments and changes.",
+                "icon": "/assets/services/financial/Group 39235.svg"
+            }
+        ]
+    },
+    "sharperFinancial": {
+        "section": {
+            "title": " Why Choose BuilderTek Resource Management For Construction Projects",
+            "description": " Better Utilization. Fewer Delays. And Stronger Execution"
+        },
+        "cards": [
+            {
+                "icon": "pricing",
+                "useImage": true,
+                "image": "/assets/services/sharper/Group 39287.svg",
+                "title": "Reduced Downtime",
+                "description": "Smarter resource allocation minimizes idle crews and unused equipment between tasks and projects."
+            },
+            {
+                "icon": "speed",
+                "useImage": true,
+                "image": "/assets/services/sharper/fi_10319171.svg",
+                "title": "Improved Planning Accuracy",
+                "description": "Real-time availability and utilization data help teams plan labor and equipment with confidence."
+            },
+            {
+                "icon": "win",
+                "useImage": true,
+                "image": "/assets/services/sharper/Group.svg",
+                "title": "Stronger Project Coordination",
+                "description": "By linking resources directly to schedules, BuilderTek ensures field and office teams stay aligned."
+            }
+        ]
+    },
+    "build": {
+        "title": "Keep Track of Resource Allocation With BuilderTek Resource Management",
+        "features": [
+            {
+                "icon": "/assets/services/financial-control/material-symbols_dashboard-outline-rounded.png",
+                "title": "Centralized Resource Dashboard",
+                "description": "View crews and assets across all projects",
+                
+        "image": "/assets/services/ro/E01_Centralized Resource Dashboard.png"
+            },
+            {
+                "icon": "/assets/services/financial-control/mdi_error-outline.svg",
+                "title": "Conflict Detection",
+                "description": "Identify scheduling overlaps before they cause delays",
+        "image": "/assets/services/ro/E02_Conflict Detection.png"
+            },
+            {
+                "icon": "/assets/services/financial-control/uil_lock-access.svg",
+                "title": "Role-Based Access",
+                "description": "Ensure teams see only the resources they manage",
+        "image": "/assets/services/ro/E03_Role-Based Access.png"
+            },
+            {
+                "icon": "/assets/services/financial-control/Group copy.svg",
+                "title": "Real-time Reporting",
+                "description": " Analyze utilization and productivity trends",
+        "image": "/assets/services/ro/E04_Salesforce-Native Reporting.png"
+            },
+            {
+                "icon": "/assets/services/financial-control/Group (1).svg",
+                "title": "Multi-Project Planning",
+                "description": " Balance demand across active jobs",
+                
+                "image": "/assets/services/ro/E05_Multi-Project Planning.png"
+            },
+            {
+                "icon": "/assets/services/financial-control/Group (2).svg",
+                "title": "Mobile-Friendly Views",
+                "description": "Support field and operations teams on the go",
+            
+                "image": "/assets/services/ro/E06_Mobile-Friendly Views.png"
+            }
+        ]
+    },
+    "Financial": {
+        "title": "How It Works – Resource Workflow",
+        "features": [
+            {
+                "title": "Define Resources",
+                "description": "Set up crews, roles, and equipment in a centralized database."
+            },
+            {
+                "title": "Assign to Projects",
+                "description": "Allocate resources based on schedules and availability."
+            },
+            {
+                "title": "Monitor Utilization",
+                "description": "Track workload and detect conflicts in real time."
+            },
+            {
+                "title": "Adjust as Projects Change",
+                "description": "Reassign resources easily as timelines shift."
+            },
+            {
+                "title": "Review Performance",
+                "description": "Use reports to improve future planning decisions."
+            }
+        ]
+    },
+    "bringStructure": {
+        "section": {
+            "title": " Simplify Team Management & Bring Structure to",
+            "highlight": "  Resource Planning",
+            "description": "Gain control over labor and equipment allocation with BuilderTek Resource Management, designed to keep projects staffed, efficient, and on schedule.",
+            "cta": {
+                "label": "Schedule a Demo",
+                "link": "https://buildertek3-dev-ed.develop.my.site.com/CaseManagement/login?ec=302&startURL=%2FCaseManagement%2F"
+            },
+            "image": "/assets/solutions/bring-structure-one/image.png"
+        }
+    },
+    "faq": {
+        "title": "FAQs",
+        "subtitle": "Explore Answers to Frequently Asked Questions about BuilderTek.",
+        "items": [
+            {
+                "question": "Can BuilderTek manage both labor and equipment resources?",
+                "answer": " Yes. BuilderTek supports tracking and planning for both workforce and equipment resources for on-site and off-site resources."
+            },
+            {
+                "question": " Does Resource Management integrate with project schedules?",
+                "answer": "Absolutely. The BuilderTek resource management tool can be directly aligned with project schedules and milestones."
+            },
+            {
+                "question": "Can I view resource availability across multiple projects?",
+                "answer": "Can I view resource availability across multiple projects?"
+            },
+            {
+                "question": "Is BuilderTek Resource Management suitable for large teams?",
+                "answer": "Yes. It scales to support projects of all sizes and shapes- from commercial contracts to small-scale remodelling projects. "
+            },
+            {
+                "question": "Can historical resource data be reviewed for planning?",
+                "answer": "Yes. You can easily view, update, or add assignment history and utilization reports to improve future workforce planning."
+            }
+        ]
+    }
+}

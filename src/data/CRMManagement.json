@@ -1,0 +1,183 @@
+{
+    "hero": {
+        "title": "Build Stronger\n Relationships Across\n Every Project With\n BuilderTek CRM",
+        "description": "BuilderTek CRM Management gives construction teams a single, connected interface for tracking leads and opportunities for project-linked communication. CRM Management Software ensures nothing gets lost as projects move from preconstruction through closeout.",
+        "topBadge": "CONNECTED CLIENT MANAGEMENT",
+        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.png",
+        "backgroundImage": "/assets/services/hero/service-hero3.png"
+    },
+    "financialControl": {
+        "title": "Construction-Focused CRM Built to Streamline Lead and Prospect Management.",
+        "description": "A smarter way to manage relationships, opportunities, and project communication.",
+        "features": [
+            "BuilderTek extends Salesforce's CRM capabilities with construction-specific workflows.",
+            "Give teams complete visibility into every relationship while reducing manual data entry and disconnected communication."
+        ],
+        "image": "/assets/services/cms/B_About BuilderTek CRM.png"
+    },
+    "whyChoose": {
+        "section": {
+            "title": "BuilderTek CRM Tools Designed for Construction Workflows",
+            "subtitle": "Built for construction teams, BuilderTek CRM aligns relationships, opportunities, and project data in one connected workflow."
+        },
+        "features": [
+            {
+                "title": "Account & Contact Management",
+                "description": "Maintain a centralized database for customers, subcontractors, vendors, and partners—fully connected to projects.",
+                "icon": "/assets/services/financial/Group 39236 copy.svg"
+            },
+            {
+                "title": "Lead & Opportunity Tracking",
+                "description": "Manage leads and opportunities from first contact through contract award with full visibility into sales pipelines.",
+                "icon": "/assets/services/financial/Group 39231 copy.svg"
+            },
+            {
+                "title": "Project-Connected Communication",
+                "description": "Link emails, notes, and activity history directly to accounts, opportunities, and projects.",
+                "icon": "/assets/services/financial/Group 39232 copy.svg"
+            },
+            {
+                "title": "Automated Follow-Ups & Tasks",
+                "description": "Create reminders and task workflows to ensure timely communication and consistent outreach.",
+                "icon": "/assets/services/financial/Group 39233 copy.svg"
+            },
+            {
+                "title": "Cross-Team Visibility",
+                "description": "Sales, operations, and project teams all work from the same CRM data.",
+                "icon": "/assets/services/financial/Group 39234 copy.svg"
+            },
+            {
+                "title": " Sales-to-Project Conversion",
+                "description": "Seamlessly convert awarded opportunities into active projects from preconstruction to execution without re-entering data.",
+                "icon": "/assets/services/financial/Group 39235 copy.svg"
+            }
+        ]
+    },
+    "sharperFinancial": {
+        "section": {
+            "title": " Stronger Relationships\n Better Project Outcomes.",
+            "description": "Unify relationship data, communication, and project context to improve collaboration, streamline handoffs, and deliver more successful construction projects."
+        },
+        "cards": [
+            {
+                "icon": "pricing",
+                "useImage": true,
+                "image": "/assets/services/sharper/fi_17399294.svg",
+                "title": "Improved Relationship Visibility",
+                "description": "With all communication and data centralized, teams gain a complete understanding of each client and vendor relationship, reducing miscommunication and missed follow-ups."
+            },
+            {
+                "icon": "speed",
+                "useImage": true,
+                "image": "/assets/services/sharper/fi_9410339.svg",
+                "title": "Smoother Handoffs from Sales to Delivery",
+                "description": "Project teams inherit full context from CRM records, ensuring nothing is lost between opportunity award and project execution."
+            },
+            {
+                "icon": "win",
+                "useImage": true,
+                "image": "/assets/services/sharper/fi_11620696.svg",
+                "title": "Greater Consistency & Accountability",
+                "description": "Standardized workflows and activity tracking help teams maintain professionalism and follow-through across every interaction."
+            }
+        ]
+    },
+    "build": {
+        "title": " Leverage Salesforce CRM’s Best-in-class Functionality for Organized Workflows in BuilderTek",
+        "features": [
+            {
+                "icon": "/assets/services/financial-control/Group copy.svg",
+                "title": "Compelling CRM Framework",
+                "description": "Leverage the world’s most powerful CRM foundation.",
+                "image":"/assets/services/cms/E01_Salesforce-Native CRM Framework.png"
+            },
+            {
+                "icon": "/assets/services/financial-control/Group (1).svg",
+                "title": "Pipeline & Forecast Views",
+                "description": "Track opportunities and expected revenue.",
+                "image":"/assets/services/cms/E02_Pipeline & Forecast Views.png"
+            },
+            {
+                "icon": "/assets/services/financial-control/entypo_email.svg",
+                "title": "Integrated Email Communication",
+                "description": "Send branded emails without leaving the dashboard.",
+                "image":"/assets/services/cms/E03_Integrated Email Communication.png"
+            },
+            {
+                "icon": "/assets/services/financial-control/Group.svg",
+                "title": "Manage Proposal and Contacts",
+                "description": "See every interaction in one timeline.",
+                "image":"/assets/services/cms/E04_Manage Proposal and Contacts.png"
+            },
+            {
+                "icon": "/assets/services/financial-control/Group (2).svg",
+                "title": "Project-to-CRM Linking",
+                "description": "Maintain continuity from sales to execution",
+                "image":"/assets/services/cms/E05_Project-to-CRM Linking.png"
+            }
+        ]
+    },
+    "Financial": {
+        "title": "How It Works – CRM Workflow",
+        "features": [
+            {
+                "title": "Capture & Qualify Leads",
+                "description": "Track new prospects and inquiries in a centralized pipeline."
+            },
+            {
+                "title": "Manage Accounts & Opportunities",
+                "description": "Organize customers, vendors, and opportunities with complete visibility."
+            },
+            {
+                "title": "Communicate & Follow Up",
+                "description": "Log emails, notes, and tasks tied to each relationship."
+            },
+            {
+                "title": "Convert to Projects",
+                "description": "Seamlessly connect awarded opportunities to projects, quotes, and contracts."
+            },
+            {
+                "title": "Maintain Ongoing Relationships",
+                "description": "Track post-project communication and future opportunities."
+            }
+        ]
+    },
+    "bringStructure": {
+        "section": {
+            "title": "Simplify Interactions and  Improve Customer Relationships with ",
+            "highlight": " BuilderTek CRM",
+            "description": "Turn disconnected contacts and conversations into a centralized, project-connected CRM with BuilderTek CRM Management.",
+            "cta": {
+                "label": "Schedule a Demo",
+                "link": "https://buildertek3-dev-ed.develop.my.site.com/CaseManagement/login?ec=302&startURL=%2FCaseManagement%2F"
+            },
+            "image": "/assets/solutions/bring-structure-one/image.png"
+        }
+    },
+    "faq": {
+        "title": "FAQs",
+        "subtitle": "Explore Answers to Frequently Asked Questions about BuilderTek.",
+        "items": [
+            {
+                "question": "How is BuilderTek CRM different from standard CRM?",
+                "answer": "BuilderTek enhancced a normal CRM with construction-specific workflows and direct links to projects, budgets, and contracts."
+            },
+            {
+                "question": "Can sales and project teams use the CRM together?",
+                "answer": "BuilderTek CRM is designed for shared visibility across sales, operations, and project teams."
+            },
+            {
+                "question": "Does BuilderTek CRM support vendor and subcontractor management?",
+                "answer": "Yes. Vendors and subcontractors are managed as accounts and contacts connected directly to projects."
+            },
+            {
+                "question": "Can emails and communication be tracked in BuilderTek CRM?",
+                "answer": "Yes. Emails, notes, tasks, and follow-ups are logged directly in BuilderTek dashboard for a complete history."
+            },
+             {
+                "question": "Does CRM data connect to financial and project workflows?",
+                "answer": "BuilderTek CRM records link seamlessly to quotes, contracts, budgets, and projects for full lifecycle continuity."
+            }
+        ]
+    }
+}

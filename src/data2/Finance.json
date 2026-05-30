@@ -1,0 +1,141 @@
+{
+    "hero": {
+        "title": "BuilderTek: Confident\nConstruction Finance",
+        "description": "Streamline cost tracking, commitments, and financial workflows made easy within a Salesforce-powered construction platform.",
+        "topBadge": "Financial Management",
+        "badge": "Strengthen Cost Control.\nAward with Confidence.",
+        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.png",
+        "backgroundImage": "/assets/services/hero/service-hero.png"
+    },
+    "financialControl": {
+        "badge": "FINANCIAL CONTROL",
+        "title": "Complete Financial Control On Construction Projects With BuilderTek",
+        "description": "Unify project spending, forecasting, billing, and workflows in one comprehensive, powerful Salesforce-powered construction software. Natively built on Salesforce, BuilderTek financial management software integrates budgets, contracts, change orders, and reporting. Every action aligns with real-time project performance and risk insights.",
+        "features": [
+            "Eliminate disconnected spreadsheets",
+            "Downsize manual reconciliation",
+            "Reduce data blind spots",
+            "Centralize financial visibility"
+        ],
+        "image": "/assets/services/financial-control/dashboard.png"
+    },
+    "whyChoose": {
+        "section": {
+            "title": "Financial Tools Designed for Construction Workflows",
+            "subtitle": "Why builders choose Buildertek for financial management in construction projects across North America"
+        },
+        "features": [
+            {
+                "title": "Real-Time Cost Tracking",
+                "description": "Track budgets, commitments, and actuals in one place—with up-to-the-minute accuracy.",
+                "icon": "/assets/services/financial/financial-one.png"
+            },
+            {
+                "title": "Automated Billing & Invoicing",
+                "description": "Generate invoices directly from contract terms and change orders with minimal effort.",
+                "icon": "/assets/services/financial/financial-two.png"
+            },
+            {
+                "title": "Change Order Financial Impact",
+                "description": "Monitor how every change order affects the bottom line with full approval history.",
+                "icon": "/assets/services/financial/financial-three.png"
+            },
+            {
+                "title": "Cash Flow & Forecasting",
+                "description": "Project cash needs and identify cost pressures before they become problems.",
+                "icon": "/assets/services/financial/financial-four.png"
+            },
+            {
+                "title": "Purchase Order Alignment",
+                "description": "Link POs back to budgets and contracts to eliminate disconnects.",
+                "icon": "/assets/services/financial/financial-five.png"
+            },
+            {
+                "title": "Audit-Ready Recordkeeping",
+                "description": "Capture every financial action with timestamps, user history, and searchable logs.",
+                "icon": "/assets/services/financial/financial-six.png"
+            }
+        ]
+    },
+    "sharperFinancial": {
+        "section": {
+            "title": "Sharper Financial Insight.\nStronger Project Outcomes.",
+            "description": "BuilderTek Financial Management Tool gives in-depth insights into project financials. Unlock improved financial efficiency and profitability in a Salesforce-powered interface."
+        },
+        "cards": [
+            {
+                "icon": "pricing",
+                "useImage": true,
+                "image": "/assets/services/sharper/visibility.svg",
+                "title": "Greater Financial Visibility",
+                "description": "One source of truth for costs, billing, and commitments—eliminating guesswork across finance and operations."
+            },
+            {
+                "icon": "speed",
+                "useImage": true,
+                "image": "/assets/services/sharper/decision.svg",
+                "title": "Improved decision making",
+                "description": "Real-time visibility to respond to risk, optimize cash flow, and predict budget pressures."
+            },
+            {
+                "icon": "win",
+                "useImage": true,
+                "image": "/assets/services/sharper/Better.svg",
+                "title": "Better accountability and compliance",
+                "description": "Complete audit trails and version control reduce compliance risks and disputes."
+            }
+        ]
+    },
+    "build": {
+        "title": "Built for Precision, Control, and Speed",
+        "features": [
+            {
+                "icon": "/assets/services/financial-control/Vector1.svg",
+                "title": "Budget vs. Actual Variance Reports",
+                "description": "Compare planned vs. actual spending in real time."
+            },
+            {
+                "icon": "/assets/services/financial-control/Vector2.png",
+                "title": "Multi-Project Financial Views"
+            },
+            {
+                "icon": "/assets/services/financial-control/Vector3.svg",
+                "title": "Salesforce-Native Reporting Tools"
+            },
+            {
+                "icon": "/assets/services/financial-control/Group.svg",
+                "title": "Automated Approvals"
+            },
+            {
+                "icon": "/assets/services/financial-control/Group(1).svg",
+                "title": "Integrated Cost Codes"
+            }
+        ],
+        "image": "/assets/services/financial-control/Group3.png"
+    },
+    "Financial": {
+        "title": "How It Works – Financial Workflow",
+        "features": [
+            {
+                "title": "Define & Track Budgets",
+                "description": "Establish project budgets with cost codes aligned to your scope and track commitments daily."
+            },
+            {
+                "title": "Capture Costs & Change Orders",
+                "description": "Monitor POs, invoices, and change orders against planned costs."
+            },
+            {
+                "title": "Reconcile & Bill",
+                "description": "Generate invoices and align billing with contractual terms and progress."
+            },
+            {
+                "title": "Forecast Cash Requirements",
+                "description": "Predict future cash flow needs with real-time data."
+            },
+            {
+                "title": "Report & Review",
+                "description": "Use Salesforce dashboards to measure performance and inform decisions."
+            }
+        ]
+    }
+}

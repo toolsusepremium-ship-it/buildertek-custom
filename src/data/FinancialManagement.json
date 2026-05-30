@@ -1,0 +1,176 @@
+{
+    "hero": {
+        "title": "Gain Complete Control\nOver Construction Finances\nWith BuilderTek Construction",
+        "description": "Streamline cost tracking, commitments, and financial workflows made easy within the best construction platform.",
+        "topBadge": "Financial Management",
+        "badge": "Strengthen Cost Control.\nAward with Confidence.",
+        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.png",
+        "backgroundImage": "/assets/services/hero/service-hero.png"
+    },
+    "financialControl": {
+        "badge": "",
+        "title": "Complete Financial Control On All Construction Projects With BuilderTek",
+        "description": "Unify project spending, forecasting, billing, and workflows in one comprehensive, and powerful construction software.\n BuilderTek financial management software integrates budgets, contracts, change orders, and reporting. Every action aligns with real-time project performance and risk insights.",
+        "features": [
+            "Eliminate disconnected spreadsheets",
+            "Downsize manual reconciliation",
+            "Reduce data blind spots",
+            "Centralize financial visibility"
+        ],
+        "image": "/assets/about/B_Financial Control.png"
+    },
+    "whyChoose": {
+        "section": {
+            "title": "Financial Tools Designed for Construction Workflows",
+            "subtitle": "Why builders choose Buildertek for financial management in construction projects across North America"
+        },
+        "features": [
+            {
+                "title": "Real-Time Cost Tracking",
+                "description": "Track budgets, commitments, and actuals in one place—with up-to-the-minute accuracy.",
+                "icon": "/assets/services/financial/Group 39236 copy 2.svg"
+            },
+            {
+                "title": "Automated Billing & Invoicing",
+                "description": "Generate invoices directly from contract terms and change orders with minimal effort.",
+                "icon": "/assets/services/financial/Group 39231 copy 3.svg"
+            },
+            {
+                "title": "Change Order Financial Impact",
+                "description": "Monitor how every change order affects the bottom line with full approval history.",
+                "icon": "/assets/services/financial/Group 39232 copy 2.svg"
+            },
+            {
+                "title": "Cash Flow & Forecasting",
+                "description": "Project cash needs and identify cost pressures before they become problems.",
+                "icon": "/assets/services/financial/Group 39233 copy 3.svg"
+            },
+            {
+                "title": "Purchase Order Alignment",
+                "description": "Link POs back to budgets and contracts to eliminate disconnects.",
+                "icon": "/assets/services/financial/Group 39234 copy 3.svg"
+            },
+            {
+                "title": "Audit-Ready Recordkeeping",
+                "description": "Capture every financial action with timestamps, user history, and searchable logs.",
+                "icon": "/assets/services/financial/Group 39235 copy 3.png"
+            }
+        ]
+    },
+    "sharperFinancial": {
+        "section": {
+            "title": "Sharper Financial Insight.\nStronger Project Outcomes.",
+            "description": "BuilderTek Financial Management Tool gives in-depth insights into project financials. Unlock improved financial efficiency and profitability in a unified interface."
+        },
+        "cards": [
+            {
+                "icon": "pricing",
+                "useImage": true,
+                "image": "/assets/services/sharper/fi_17399294 copy.svg",
+                "title": "Greater Financial Visibility",
+                "description": "One source of truth for costs, billing, and commitments—eliminating guesswork across finance and operations."
+            },
+            {
+                "icon": "speed",
+                "useImage": true,
+                "image": "/assets/services/sharper/Group copy 2.svg",
+                "title": "Improved decision making",
+                "description": "Real-time visibility to respond to risk, optimize cash flow, and predict budget pressures."
+            },
+            {
+                "icon": "win",
+                "useImage": true,
+                "image": "/assets/services/sharper/Group 39253.svg",
+                "title": "Better accountability and compliance",
+                "description": "Complete audit trails and version control reduce compliance risks and disputes."
+            }
+        ]
+    },
+    "build": {
+        "title1":"BuilderTek Financial Management Services",
+        "title": "Built for Precision, Control, and Speed",
+        "features": [
+            {
+                "icon": "/assets/services/financial-control/Vector1.svg",
+                "title": "Budget vs. Actual Variance Reports",
+                "description": "Compare planned vs. actual spending in real time.",
+                "image":"/assets/services/fi/E1_Budget vs. Actual Variance Reports.png"    
+            },
+            {
+                "icon": "/assets/services/financial-control/Group (1).svg",
+                "title": "Multi-Project Financial Views",
+                "description":" See costs across portfolios, not just individual jobs.",
+                  "image":"/assets/services/fi/E2_Budget vs. Actual Variance Reports.png"   
+            },
+            {
+                "icon": "/assets/services/financial-control/Vector3.svg",
+                "title": "Consolidated Reporting Tools",
+                "description":"Leverage dashboards and custom analytics.",
+                  "image":"/assets/services/fi/E3_Budget vs. Actual Variance Reports.png"   
+            },
+            {
+                "icon": "/assets/services/financial-control/Group.svg",
+                "title": "Automated Approvals",
+                "description":"Built-in workflows to reduce billing and PO recall delays.",
+                  "image":"/assets/services/fi/E4_Budget vs. Actual Variance Reports.png"   
+            },
+            {
+                "icon": "/assets/services/financial-control/Group(1).svg",
+                "title": "Integrated Cost Codes",
+                "description":"Standardize cost tracking across teams and projects.",
+                  "image":"/assets/services/fi/E5_Budget vs. Actual Variance Reports.png"   
+            }
+        ]
+    },
+    "Financial": {
+        "title": "How It Works – Financial Workflow",
+        "features": [
+            {
+                "title": "Define & Track Budgets",
+                "description": "Establish project budgets with cost codes aligned to your scope and track commitments daily."
+            },
+            {
+                "title": "Capture Costs & Change Orders",
+                "description": "Monitor POs, invoices, and change orders against planned costs."
+            },
+            {
+                "title": "Reconcile & Bill",
+                "description": "Generate invoices and align billing with contractual terms and progress."
+            },
+            {
+                "title": "Forecast Cash Requirements",
+                "description": "Predict future cash flow needs with real-time data."
+            },
+            {
+                "title": "Report & Review",
+                "description": "Use a single dashboard to measure performance and make informed decisions."
+            }
+        ]
+    },
+    "faq": {
+        "title": "FAQs",
+        "subtitle": "Explore Answers to Frequently Asked Questions about BuilderTek.",
+        "items": [
+            {
+                "question": "Can the BuilderTek Financial Management tool handle multi-project financial reporting?",
+                "answer": "Yes. BuilderTek rolls up financial data across all active projects for portfolio-level visibility and reporting."
+            },
+            {
+                "question": "How does BuilderTek link budgeting to actual costs?",
+                "answer": "By connecting budgets with commitments, contracts, POs, invoices, and change orders in real time."
+            },
+            {
+                "question": "Does BuilderTek support automated billing?",
+                "answer": "Yes. Invoicing can be generated directly from contract terms and approved change orders."
+            },
+            {
+                "question": "Can finance and project teams work in the same system?",
+                "answer": "Absolutely. All financial workflows are shared and updated in real time across teams."
+            },
+            {
+                "question": "Is historical financial data and audit tracking available?",
+                "answer": "Yes. Every change, approval, and financial record is timestamped and searchable for audits."
+            }
+        ]
+    }
+}

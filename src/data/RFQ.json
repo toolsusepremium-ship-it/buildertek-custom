@@ -1,0 +1,138 @@
+{
+    "hero": {
+        "title": "Vendor Bidding\n Simplified With\n BuilderTek",
+        "description": "Manage every stage of the Request for Quote/Bidding process directly within BuilderTek. Find a new project partner, manage the budget, simplify every step, and stay connected for the whole project with one unified dashboard.",
+        "badge": "Strengthen Cost Control.\nAward with Confidence.",
+        "backgroundImage2": "/assets/solutions/hero/hero-bg.png",
+        "backgroundImage": "/assets/solutions/Rfq/hero-image.png"
+    },
+    "sectionTitle": {
+        "title": "Centralized RFQ Management\nFor Construction Teams",
+        "description": "Don't waste time sending quote requests one by one. BuilderTek RFQ replaces manual, repeatable, auditable processes for collecting and comparing quotes without leaving your project environment."
+    },
+    "features": [
+        {
+            "tag": "CREATE RFQS IN SECONDS",
+            "title": "Generate Fully Structured RFQs In Just A Few Clicks",
+            "description": "Generate RFQs directly from any project. Define scope, line items, quantities, pricing units, and due dates, then attach drawings and specifications so vendors receive complete, consistent information.",
+            "image": "/assets/solutions/Rfq/About BuilderTek RFQ_01.png",
+            "imagePosition": "right"
+        },
+        {
+            "tag": "INVITE THE RIGHT VENDORS",
+            "title": "Send Secure And Trackable Invitations",
+            "description": "Send RFQs to one or multiple vendors with secure, email-based links—no portals or extra logins required. Track when RFQs are sent, viewed, and responded to in real time.",
+            "image": "/assets/solutions/Rfq/About BuilderTek RFQ_02.png",
+            "imagePosition": "left"
+        },
+        {
+            "tag": "COLLECT STRUCTURED QUOTES",
+            "title": "Consistent, Standardized Format For Clear Comparisons",
+            "description": "Ensure all vendor responses follow the same structure, making it easy to compare pricing, scope, and compliance side by side.",
+            "image": "/assets/solutions/Rfq/About BuilderTek RFQ_03.png",
+            "imagePosition": "right"
+        },
+        {
+            "tag": "Award with Confidence",
+            "title": "Complete Pricing Visibility And Seamless Handoff",
+            "description": "Finalize awards directly from the RFQ and seamlessly convert approved quotes into purchase orders or contracts.",
+            "image": "/assets/solutions/Rfq/About BuilderTek RFQ_04.png",
+            "imagePosition": "left"
+        }
+    ],
+    "whyChoose": {
+        "section": {
+            "title": "Why Choose BuilderTek\nFor Your Construction Management Needs",
+            "subtitle": "Purpose-built Features to Support\nProfessional, Procurement workflows."
+        },
+        "features": [
+            {
+                "title": "Multi-Recipient Vendor Emails",
+                "description": "Include multiple contacts per vendor to ensure whole team stays aligned. ",
+                "image": "/assets/solutions/Rfq/Why Choose BuilderTek_01.png"
+            },
+            {
+                "title": "Side-by-Side Quote Comparison",
+                "description": "Instantly evaluate vendors on price, scope, and completeness.",
+                "image": "/assets/solutions/Rfq/Why Choose BuilderTek_02.png"
+            },
+            {
+                "title": "Audit-Ready Tracking",
+                "description": "Timestamped records of every action, change, and response.",
+                "image": "/assets/solutions/Rfq/Why Choose BuilderTek_03.png"
+            },
+            {
+                "title": "Salesforce-Native Experience",
+                "description": "Work natively inside Salesforce with real-time visibility and security.",
+                "image": "/assets/solutions/Rfq/Why Choose BuilderTek_04.png"
+            }
+        ]
+    },
+    "makeSmarter": {
+        "section": {
+            "title": "Make Smarter RFQs For\nStronger Bid Management",
+            "description": "Bring accuracy, efficiency, and consistency to vendor bidding. Help construction teams prepare faster, reduce risk, and secure the right partners with confidence."
+        },
+        "cards": [
+            {
+                "icon": "pricing",
+                "useImage": true,
+                "image": "/assets/solutions/Rfq/Great-Pricing.svg",
+                "title": "Greater Pricing Accuracy",
+                "description": "Accuracy in every vendor bid from the same scope—line items, quantities, drawings, and specifications."
+            },
+            {
+                "icon": "speed",
+                "useImage": true,
+                "image": "/assets/solutions/Rfq/RFQ-preparation.svg",
+                "title": "Faster, Easier RFQ Preparation",
+                "description": "Direct RFQ creation in just a few clicks. No manual spreadsheets and email chains. Reduced repeatable workflow and administrative effort."
+            },
+            {
+                "icon": "win",
+                "useImage": true,
+                "image": "/assets/solutions/Rfq/Awards.svg",
+                "title": "Higher Win Rates on Awards",
+                "description": "Standardized RFQ workflows deliver higher-quality bids, leading to data-backed award decisions. "
+            }
+        ]
+    },
+    "bringStructure": {
+        "section": {
+            "title": "Bring Structure And Confidence To Your",
+            "highlight": "RFQ Process",
+            "description": "Gives your team a clear, repeatable way to work with vendors at reduced risk and better accuracy. Strengthen cost control across the project.",
+            "cta": {
+                "label": "Schedule a Demo",
+                "link": "https://buildertek3-dev-ed.develop.my.site.com/CaseManagement/login?ec=302&startURL=%2FCaseManagement%2F"
+            },
+            "image": "/assets/solutions/bring-structure-one/image.png"
+        }
+    },
+    "faq": {
+        "title": "FAQs",
+        "subtitle": "Explore Answers to Frequently Asked Questions about BuilderTek.",
+        "items": [
+            {
+                "question": "How does BuilderTek streamline the bidding process for subcontractors and vendors?",
+                "answer": "BuilderTek centralizes the entire RFQ workflow. From creating and sending RFQs to subcontractors, you can collect, compare, and award bids through our RFQ module. It helps with structured pricing, real-time status tracking, and side-by-side comparisons, which eliminates manual follow-ups and reduces bid turnaround time."
+            },
+            {
+                "question": "Do my subcontractors and vendors need a BuilderTek account to submit bids?",
+                "answer": "No. Subcontractors and vendors can submit bids securely through email or shared links without needing a full BuilderTek account."
+            },
+            {
+                "question": "Do I need a separate estimating software after receiving vendor bids?",
+                "answer": "No. BuilderTek allows you to review, compare, and analyze bids directly within the RFQ module, reducing the need for additional estimating tools."
+            },
+            {
+                "question": "How does BuilderTek simplify communication with subcontractors and vendors?",
+                "answer": "All RFQ-related communication is centralized in one place, including clarifications, updates, and document sharing, ensuring transparency and faster responses."
+            },
+            {
+                "question": "Can BuilderTek RFQ be used for both residential and commercial projects?",
+                "answer": "Yes. BuilderTek RFQ is designed to support both residential and commercial construction projects of any scale."
+            }
+        ]
+    }
+}

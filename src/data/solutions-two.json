@@ -1,0 +1,140 @@
+{
+    "hero": {
+        "title": "Quote Management\nSimplified With\nBuilderTek",
+        "title2": "Simplified With ",
+        "title3": "BuilderTek",
+        "description": "BuilderTek Quote Management centralizes pricing, revisions, approvals, and documentation . Reduce time at every stage, maintain consistency, and protect margins throughout the project lifecycle",
+        "badge": "Improve accuracy, respond faster, and close winning quotes in minutes.",
+        "backgroundImage2": "/assets/solutions/hero/hero-bg.png",
+        "backgroundImage": "/assets/solutions/Quote/hero-image.png"
+    },
+    "sectionTitle": {
+        "title": "An All-In-One Platform To Manage Quotes for Construction Projects",
+        "description": "BuilderTek Quotes eliminate fragmented pricing workflows. The platform's versatility extends from quote creation, revisions, approvals, and tracking into one unified system.  BuilderTek Quotes ensure pricing accuracy, version control, and complete visibility, without disconnected spreadsheets or email chains."
+    },
+    "features": [
+        {
+            "tag": "CREATE QUOTES IN SECONDS",
+            "title": "Create Quotes with Confidence",
+            "description": "Build detailed quotes using structured line items, pricing rules, and cost data pulled directly from your project.",
+            "image": "/assets/solutions/Quote/About BuilderTek Quotes_01.png",
+            "imagePosition": "right"
+        },
+        {
+            "tag": "MANAGE REVISIONS",
+            "title": "Manage Revisions with Control",
+            "description": "Track revisions automatically with clear version history and approval status.",
+            "image": "/assets/solutions/Quote/About BuilderTek Quotes_02.png",
+            "imagePosition": "left"
+        },
+        {
+            "tag": "QUICK PROFESSIONAL QUOTES",
+            "title": "Send Professional Quotes",
+            "description": "Deliver branded, professional quotes directly from BuilderTek with complete documentation.",
+            "image": "/assets/solutions/Quote/About BuilderTek Quotes_03.png",
+            "imagePosition": "right"
+        },
+        {
+            "tag": "CONVERT QUOTES",
+            "title": "Convert Quotes Seamlessly",
+            "description": "Turn approved quotes into contracts, budgets, or jobs without re-entering data.",
+            "image": "/assets/solutions/Quote/About BuilderTek Quotes_04.png",
+            "imagePosition": "left"
+        }
+    ],
+    "whyChoose": {
+        "section": {
+            "title": "Error-Free and Effort-Free Quotes For Construction Projects",
+            "subtitle": "BuilderTek Quotes brings structure and control to quote creation, approvals, and conversions-all centralized inside BuilderTek Quotes."
+        },
+        "features": [
+            {
+                "title": "Version-Controlled Quotes",
+                "description": "Every quote revision is automatically tracked, ensuring your team always works from the latest version while maintaining a complete history of changes for reference, compliance, and accountability.",
+                "image": "/assets/solutions/Quote/Key Features_01.png"
+            },
+            {
+                "title": "Buildertek-Native Pricing Logic",
+                "description": "Leverage BuilderTek's powerful data model to apply consistent pricing rules, cost structures, and project data, reducing manual errors and improving pricing accuracy across all quotes.",
+                "image": "/assets/solutions/Quote/Key Features_02.png"
+            },
+            {
+                "title": "Real-Time Status Tracking",
+                "description": "Instantly see where each quote stands- draft, sent, revised, approved, or awarded, so teams can prioritize follow-ups and respond quickly to opportunities.",
+                "image": "/assets/solutions/Quote/Key Features_03.png"
+            },
+            {
+                "title": "Built-In Approval Workflows",
+                "description": "Route quotes through configurable approval processes before they are shared or finalized. Maintain internal controls while eliminating delays caused by disconnected review cycles.",
+                "image": "/assets/solutions/Quote/Key Features_04.png"
+            }
+        ]
+    },
+    "makeSmarter": {
+        "section": {
+            "title": "Why Construction Companies Choose BuilderTek Quote Management",
+            "description": "It makes quote management faster and smarter!"
+        },
+        "cards": [
+            {
+                "icon": "pricing",
+                "useImage": true,
+                "image": "/assets/solutions/make-smarter-two/Group.svg",
+                "title": "Pricing consistency",
+                "description": "Follow the same pricing structure, cost logic, and project data from initial estimate through final execution."
+            },
+            {
+                "icon": "speed",
+                "useImage": true,
+                "image": "/assets/solutions/make-smarter-two/fi_7927955.svg",
+                "title": "Reduced approval delays",
+                "description": "Built-in approval workflows streamline internal reviews and eliminate back-and-forth emails."
+            },
+            {
+                "icon": "win",
+                "useImage": true,
+                "image": "/assets/solutions/make-smarter-two/fi_2838815.svg",
+                "title": "Improved Decision Accuracy.",
+                "description": "Standardized quotes make proposal evaluation more efficient for informed decision-making."
+            }
+        ]
+    },
+    "bringStructure": {
+        "section": {
+            "title": "Take Control of Your Quoting Process With",
+            "highlight": "BuilderTek Quotes",
+            "description": "",
+            "cta": {
+                "label": "Schedule a Demo",
+                "link": "https://buildertek3-dev-ed.develop.my.site.com/CaseManagement/login?ec=302&startURL=%2FCaseManagement%2F"
+            },
+            "image": "/assets/solutions/bring-structure-one/image.png"
+        }
+    },
+    "faq": {
+        "title": "FAQs",
+        "subtitle": "Explore Answers to Frequently Asked Questions about BuilderTek.",
+        "items": [
+            {
+                "question": "Can BuilderTek Quotes be used for both customer and vendor pricing?",
+                "answer": "BuilderTek Quotes has structured line items, native pricing logic, and version control. The system ensures that every quote is built from consistent, accurate data and reduces manual errors and pricing discrepancies throughout the project lifecycle. Yes. BuilderTek Quotes supports both customer-facing and vendor-related pricing, allowing teams to manage multiple quote types while maintaining consistency and control in one centralized system."
+            },
+            {
+                "question": "Do my subcontractors and vendors need a BuilderTek account to submit bids?",
+                "answer": "No. Subcontractors and vendors can submit bids securely through email or shared links without needing a full BuilderTek account."
+            },
+            {
+                "question": "Can I manage quote revisions and approvals within BuilderTek?",
+                "answer": "Yes. BuilderTek automatically tracks all quote revisions and supports configurable approval workflows, giving teams clear visibility into version history, approval status, and changes made at each stage."
+            },
+            {
+                "question": "Do approved quotes integrate with other BuilderTek modules?",
+                "answer": "Absolutely. Approved quotes can be seamlessly converted into contracts, budgets, or jobs within BuilderTek, eliminating duplicate data entry and maintaining continuity across project workflows."
+            },
+            {
+                "question": "Is BuilderTek Quotes suitable for both residential and commercial projects?",
+                "answer": "Yes. BuilderTek Quotes is designed to scale across residential, commercial, and mixed-use projects, providing the same structured, auditable quote management process regardless of project size or complexity."
+            }
+        ]
+    }
+}

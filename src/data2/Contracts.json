@@ -1,0 +1,134 @@
+{
+    "hero": {
+        "title": "Contract Management \n Streamlined With \n BuilderTek",
+        "description": "Design, manage, amend, and approve contracts while staying compliant. Simplify contract management during your construction project with all-around visibility in one place. ",
+        "badge": " Reduce Risk. Maintain\n Control. Stay Compliant.",
+        "backgroundImage2": "/assets/solutions/hero/hero-bg.png",
+        "backgroundImage": "/assets/solutions/Request/hero-image.png"
+    },
+    "sectionTitle": {
+        "title": "Streamlined Contract Management \n for Construction Complexity",
+        "description": "BuilderTek Contract Management provides a structured, auditable way to manage agreements, change orders, and approvals. Every obligation, update, and revision is trackable and accessible. "
+    },
+    "features": [
+        {
+            "title": "Create & Store Contracts Centrally",
+            "description": "Maintain all contracts, revisions, and supporting documents in one secure, searchable location.",
+            "image": "/assets/solutions/features/feature-img.png",
+            "imagePosition": "right"
+        },
+        {
+            "title": "Manage Change Orders with Clarity",
+            "description": "Track contract amendments with full version history, approval status, and documented changes. ",
+            "image": "/assets/solutions/features/feature-img.png",
+            "imagePosition": "left"
+        },
+        {
+            "title": "Ensure Compliance & Audit Readiness",
+            "description": "Automatically capture approval trails, timestamps, and user actions. Create complete, audit-ready records. ",
+            "image": "/assets/solutions/features/feature-img.png",
+            "imagePosition": "right"
+        },
+        {
+            "title": "Connect Contracts to Financials",
+            "description": "Seamlessly link contracts to budgets, billing, and job costs. Provides real-time visibility into contractual commitments and project performance.",
+            "image": "/assets/solutions/features/feature-img.png",
+            "imagePosition": "left"
+        }
+    ],
+    "whyChoose": {
+        "section": {
+            "title": "Powerful Contract Tools\n That Reduce Risk and Save Time",
+            "subtitle": "Contract management tool combines automation, visibility, and control to simplify complex construction agreements. Manage changes, accelerate approvals, and maintain complete contractual records from start to finish."
+        },
+        "features": [
+            {
+                "title": "Automated Billing",
+                "description": "Generate accurate billing directly from contract terms and approved change orders.",
+                "image": "/assets/solutions/why-choose/why-choose.png"
+            },
+            {
+                "title": " Time-Saving Workflows",
+                "description": "Automated, role-based workflows streamline reviews, approvals, and updates. ",
+                "image": "/assets/solutions/why-choose/why-choose.png"
+            },
+            {
+                "title": "Change Order Tracking",
+                "description": "Track all contract changes with clear version history, approvals, and impact visibility.",
+                "image": "/assets/solutions/why-choose/why-choose.png"
+            },
+            {
+                "title": "Centralized Record Management",
+                "description": "Store all contracts, revisions, attachments, and correspondence in one secure, searchable system.",
+                "image": "/assets/solutions/why-choose/why-choose.png"
+            }
+        ]
+    },
+    "makeSmarter": {
+        "section": {
+            "title": "Stronger Contracts. Lower Risk with BuilderTek Contract Management Tool",
+            "description": ""
+        },
+        "cards": [
+            {
+                "icon": "pricing",
+                "useImage": true,
+                "image": "/assets/solutions/make-smarter-one/fi_6895190.svg",
+                "title": "Reduce disputes",
+                "description": "Clear, documented records of contracts, change orders, approvals, and revisions."
+            },
+            {
+                "icon": "speed",
+                "useImage": true,
+                "image": "/assets/solutions/make-smarter-one/fi_6083641.svg",
+                "title": "Improve compliance",
+                "description": "Captures approval histories, timestamps, and version control to stay compliant."
+            },
+            {
+                "icon": "win",
+                "useImage": true,
+                "image": "/assets/solutions/make-smarter-one/fi_7402524.svg",
+                "title": "Maintain contractual visibility across teams",
+                "description": "Provide project, operations, and finance teams with real-time access to the same contract data."
+            }
+        ]
+    },
+    "bringStructure": {
+        "section": {
+            "title": "Tap into Structured Contract Management ",
+            "highlight": "with BuilderTek",
+            "description": "",
+            "cta": {
+                "label": "Schedule a Demo",
+                "link": "https://buildertek3-dev-ed.develop.my.site.com/CaseManagement/login?ec=302&startURL=%2FCaseManagement%2F"
+            },
+            "image": "/assets/solutions/bring-structure-one/image.png"
+        }
+    },
+    "faq": {
+        "title": "FAQs",
+        "subtitle": "Explore Answers to Frequently Asked Questions about BuilderTek.",
+        "items": [
+            {
+                "question": "How does BuilderTek Contracts help manage construction agreements?",
+                "answer": "BuilderTek centralizes contracts, amendments, approvals, and documentation into one secure system. You can easily track revisions, manage change orders, and maintain a complete audit trail during your construction project."
+            },
+            {
+                "question": "Can I track contract revisions and change orders in BuilderTek?",
+                "answer": "Yes. BuilderTek provides full version control for contracts and change orders. Your team can see what changes, who changed, and who approved them. All within the same dashboard throughout the project lifecycle."
+            },
+            {
+                "question": "Does BuilderTek support digital approvals and signatures?",
+                "answer": "Yes. BuilderTek supports digital approvals and electronic signatures to reduce manual paperwork."
+            },
+            {
+                "question": " How does BuilderTek Contracts integrate with budgets and billing?",
+                "answer": "Contracts are directly linked to budgets, job costs, and billing workflows. This integration ensures financial alignment and provides real-time visibility into contractual commitments and project performance."
+            },
+            {
+                "question": " Is BuilderTek Contracts suitable for both residential and commercial projects?",
+                "answer": "Yes. BuilderTek Contracts is designed to scale across residential, commercial, and mixed-use construction projects, providing consistent contract control regardless of project size or complexity."
+            }
+        ]
+    }
+}

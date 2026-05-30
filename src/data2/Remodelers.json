@@ -1,0 +1,149 @@
+{
+    "hero": {
+        "title": "Take Control of\n Remodeling Projects\n with BuilderTek",
+        "description": "BuilderTek remodeling software is built to manage scope changes, client requests, and cost adjustments without losing control. From centralized schedules to budgets, documents, and approvals- keep remodeling projects organized. ",
+        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person4.png",
+        "isBg": "/assets/who-we-are/hero/Vector.png",
+        "backgroundImage": "/assets/who-we-are/hero/who-we-are.png"
+    },
+    "simplifyConstruction": {
+        "title": " Remodel with confidence with BuilderTek",
+        "description": "One system to manage complex remodeling projects without confusion.\n\nRemodeling projects call for frequent updates. BuilderTek remodeling management software gives a structured way to capture changes, track costs, and document decisions, without slowing execution.",
+        "tabs": [
+            {
+                "name": "Centralized Tracking",
+                "title": "Centralized Tracking ",
+                "title2": "",
+                "description": "Capture every scope adjustment with clear approvals, pricing, and revision history, ensuring changes are documented and agreed upon before work proceeds.",
+                "image": "/assets/who-we-are/remodelers/B01_Centralized Tracking.png"
+            },
+            {
+                "name": "Live Budget Updates",
+                "title": "Live Budget ",
+                "title2": "Updates",
+                "description": "Instantly see how changes impact project costs, allowing remodelers to address overruns early and maintain tighter budget control.",
+                "image": "/assets/who-we-are/remodelers/B02_Centralized Tracking.png"
+            },
+            {
+                "name": "Integrated Documentation",
+                "title": "Integrated ",
+                "title2": "Documentation",
+                "description": "Store photos, notes, drawings, and reports in one place, making it easy to reference decisions and site conditions at any time.",
+                "image": "/assets/who-we-are/remodelers/B03_Centralized Tracking.png"
+            },
+            {
+                "name": "Vendor Pricing Consistency",
+                "title": "Vendor Pricing ",
+                "title2": "Consistency",
+                "description": "Collect structured, standardized quotes from trade partners to reduce pricing discrepancies and improve bid comparisons.",
+                "image": "/assets/who-we-are/remodelers/B04_Centralized Tracking.png"
+            },
+            {
+                "name": "Full Project History",
+                "title": "Full Project ",
+                "title2": "History",
+                "description": "Maintain a complete record of changes, approvals, and communications for client reference, warranty needs, and future work.",
+                "image": "/assets/who-we-are/remodelers/B05_Centralized Tracking.png"
+            },
+            {
+                "name": "Simplified Team Coordination",
+                "title": "Simplified Team ",
+                "title2": "Coordination",
+                "description": "Keep office staff, field crews, and vendors aligned through shared access to schedules, updates, and documentation",
+                "image": "/assets/who-we-are/remodelers/B06_Centralized Tracking.png"
+            }
+        ]
+    },
+    "whyChoose": {
+        "section": {
+            "title": "Get Complete Flexibility Without Any Risk with BuilderTek Remodeler Software",
+            "subtitle": "Adapt fast while staying profitable for your remodeling projects. Connect budgets, schedules, documentation, and approvals, reduce uncertainty, limit disputes, and deliver projects with greater control and predictability"
+        },
+        "features": [
+            {
+                "title": " Controlled Scope Changes",
+                "description": "Structured change management minimizes misunderstandings and ensures every update is clearly approved and priced.",
+                "icon": "/assets/who-we-are/remodelers/one.svg"
+            },
+            {
+                "title": " Budget Accuracy",
+                "description": "Real-time cost tracking helps remodelers understand the financial impact of changes before margins are affected.",
+                "icon": "/assets/who-we-are/remodelers/two.svg"
+            },
+            {
+                "title": " Stronger Client Trust",
+                "description": "Transparent records and clear communication build homeowner confidence and reduce friction throughout the remodel.",
+                "icon": "/assets/who-we-are/remodelers/three.svg"
+            },
+            {
+                "title": "Less Administrative Work",
+                "description": "Automated workflows and centralized data reduce manual tracking, freeing teams to focus on execution.",
+                "icon": "/assets/who-we-are/remodelers/four.svg"
+            },
+            {
+                "title": " Repeatable Processes",
+                "description": "Consistent workflows bring structure to every remodel, improving efficiency regardless of project size.",
+                "icon": "/assets/who-we-are/remodelers/five.svg"
+            },
+            {
+                "title": " Fewer Delays & Disruptions",
+                "description": "Better visibility into schedules and scope changes helps teams anticipate issues and keep work moving forward.",
+                "icon": "/assets/who-we-are/remodelers/six.svg"
+            }
+        ]
+    },
+    "whyGeneral": {
+        "title": "Why Remodelers Choose BuilderTek ",
+        "title2": "",
+        "description": "Structured control for unpredictable projects.",
+        "content": {
+            "headline": "Built for  ",
+            "headline2": "Stability in Ever-Changing  ",
+            "headline3": "Remodeling Environments",
+            "tick": "/assets/who-we-are/why-general/tick.svg",
+            "points": [
+                "BuilderTek’s foundation provides remodelers with reliability, audit-ready records, and flexibility, ensuring control even when conditions change."
+            ],
+            "image": "/assets/who-we-are/remodelers/C_Why Remodelers Choose BuilderTek.png",
+            "badge": ""
+        }
+    },
+    "bringStructure": {
+        "section": {
+            "title": "Confidently Manage Remodeling with ",
+            "highlight": "Buildertek Remodeling Software",
+            "description": "",
+            "cta": {
+                "label": "Schedule a Demo",
+                "link": "https://buildertek3-dev-ed.develop.my.site.com/CaseManagement/login?ec=302&startURL=%2FCaseManagement%2F"
+            },
+            "image": "/assets/solutions/bring-structure-one/image.png"
+        }
+    },
+    "faq": {
+        "title": "FAQs",
+        "subtitle": "Explore Answers to Frequently Asked Questions about BuilderTek.",
+        "items": [
+            {
+                "question": "Can BuilderTek track frequent scope changes?",
+                "answer": "Yes. BuilderTek is designed for change-heavy remodeling projects. Every scope update is captured with detailed cost impact, approvals, and revision history."
+            },
+            {
+                "question": "Does BuilderTek support notes and documentation?",
+                "answer": "Yes. BuilderTek allows teams to store notes, quotes, and reports in a centralized, searchable location, making it easy to reference site conditions and decisions."
+            },
+            {
+                "question": "Can I manage multiple remodels simultaneously?",
+                "answer": "Absolutely. BuilderTek provides centralized dashboards and project-level views that help remodelers track multiple active projects without losing visibility."
+            },
+            {
+                "question": "Is BuilderTek suitable for occupied-home remodels?",
+                "answer": "Yes. BuilderTek supports detailed scheduling, documentation, and communication, helping teams coordinate work efficiently in occupied spaces while minimizing disruption to homeowners."
+            },
+            {
+                "question": "Can I integrate BuilderTek with an external calendar?",
+                "answer": "Yes. BuilderTek supports integration with external calendar systems, allowing schedules and key project dates to sync with commonly used calendar tools."
+            }
+        ]
+    }
+}

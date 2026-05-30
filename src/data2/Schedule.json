@@ -1,0 +1,134 @@
+{
+    "hero": {
+        "title": "Keep Construction\n Project on Track\n With BuilderTek",
+        "description": "Keep your project in full control with BuilderTek Scheduling Solutions- the project command center for timelines. Give teams a clear, shared view of tasks, resources, and progress from kickoff to closeout. ",
+        "badge": "  Plan Smarter. Communicate\n Better. Deliver On Time.",
+        "backgroundImage2": "/assets/solutions/hero/hero-bg.png",
+        "backgroundImage": "/assets/solutions/Schedule/hero-image.png"
+    },
+    "sectionTitle": {
+        "title": "Keep Your Project Streamlined with The \nCentral Command Center for Project Timelines",
+        "description": "One collaborative view for planning, tracking, and execution.\n\n  BuilderTek Schedule brings tasks, milestones, resources, and updates into a single, shared environment. With real-time visibility and collaboration, teams stay aligned and can respond quickly to schedule changes.  "
+    },
+    "features": [
+        {
+            "title": "Visual Scheduling Views",
+            "description": "Plan and manage timelines using intuitive Gantt charts and timeline views that clearly display task dependencies and milestones.",
+            "image": "/assets/solutions/Schedule/B01_Visual Scheduling Views.png",
+            "imagePosition": "right"
+        },
+        {
+            "title": "Resource & Crew Coordination",
+            "description": "Assign labor and resources efficiently to avoid conflicts, delays, and downtime.",
+            "image": "/assets/solutions/Schedule/B02_Visual Scheduling Views.png",
+            "imagePosition": "left"
+        },
+        {
+            "title": "Real-Time Updates",
+            "description": "Track task completion percentages and milestone progress as work happens.",
+            "image": "/assets/solutions/Schedule/B03_Visual Scheduling Views.png",
+            "imagePosition": "right"
+        },
+        {
+            "title": "Collaborative Access",
+            "description": "Multiple users can view and update schedules, ensuring everyone works from the same plan.",
+            "image": "/assets/solutions/Schedule/B04_Visual Scheduling Views.png",
+            "imagePosition": "left"
+        }
+    ],
+    "whyChoose": {
+        "section": {
+            "title": "Effortless Scheduling Solution- Built for Clarity, Coordination, and Control",
+            "subtitle": "Plan, adjust, and manage project timelines with precision using BuilderTek’s intuitive scheduling tools. With real-time task updates, clear milestone tracking, and seamless team collaboration, your entire project schedule stays aligned, reducing delays, improving coordination, and keeping every phase under control."
+        },
+        "features": [
+            {
+                "title": "Gantt Chart Scheduling",
+                "description": "Visualize timelines, dependencies, and progress in an easy-to-understand format.",
+                "image": "/assets/solutions/Schedule/C01_Gantt Chart Scheduling.png"
+            },
+            {
+                "title": "Milestone Tracking",
+                "description": "Monitor critical milestones to ensure key project phases stay on track. ",
+                "image": "/assets/solutions/Schedule/C02_Gantt Chart Scheduling.png"
+            },
+            {
+                "title": "Resource Management",
+                "description": "Align crews and resources to project needs while minimizing inefficiencies.",
+                "image": "/assets/solutions/Schedule/C03_Gantt Chart Scheduling.png"
+            },
+            {
+                "title": "Real-Time Progress Updates",
+                "description": "Instant updates ensure teams always know the current project status.",
+                "image": "/assets/solutions/Schedule/C04_Gantt Chart Scheduling.png"
+            }
+        ]
+    },
+    "makeSmarter": {
+        "section": {
+            "title": "Schedule Construction Projects with Fewer Delays and Better Decisions.",
+            "description": "Maintain momentum with clear, real-time visibility."
+        },
+        "cards": [
+            {
+                "icon": "pricing",
+                "useImage": true,
+                "image": "/assets/solutions/make-smarter-one/fi_17399294.svg",
+                "title": "Improved Visibility",
+                "description": "See the full project timeline and current progress at a glance."
+            },
+            {
+                "icon": "speed",
+                "useImage": true,
+                "image": "/assets/solutions/make-smarter-one/fi_2669764.svg",
+                "title": "Reduced Downtime",
+                "description": "Proactive planning helps prevent idle crews and scheduling conflicts."
+            },
+            {
+                "icon": "win",
+                "useImage": true,
+                "image": "/assets/solutions/make-smarter-one/fi_3722005.svg",
+                "title": "Team Coordination",
+                "description": "Shared access and real-time updates keep everyone aligned"
+            }
+        ]
+    },
+    "bringStructure": {
+        "section": {
+            "title": "Take Control of Project Timelines With ",
+            "highlight": "BuilderTek Scheduling Solution ",
+            "description": "Discover how BuilderTek Schedule helps teams deliver on time with confidence. ",
+            "cta": {
+                "label": "Schedule a Demo",
+                "link": "https://buildertek3-dev-ed.develop.my.site.com/CaseManagement/login?ec=302&startURL=%2FCaseManagement%2F"
+            },
+            "image": "/assets/solutions/bring-structure-one/image.png"
+        }
+    },
+    "faq": {
+        "title": "FAQs",
+        "subtitle": "Explore Answers to Frequently Asked Questions about BuilderTek.",
+        "items": [
+            {
+                "question": "Does BuilderTek Schedule support Gantt charts?",
+                "answer": " Yes. BuilderTek provides visual Gantt charts to manage tasks, dependencies, and milestones."
+            },
+            {
+                "question": "Can multiple team members update the schedule?",
+                "answer": " Yes. BuilderTek supports collaborative access so teams can work together in real time."
+            },
+            {
+                "question": "Can I track task completion percentages?",
+                "answer": "Yes. Progress updates are tracked at both task and project levels."
+            },
+            {
+                "question": "Does BuilderTek Schedule integrate with other BuilderTek modules?",
+                "answer": " Yes. Scheduling connects with projects, resources, and financial workflows."
+            },
+            {
+                "question": " Is BuilderTek Schedule suitable for residential and commercial projects?",
+                "answer": "Yes. The module is flexible and scalable for projects of all sizes."
+            }
+        ]
+    }
+}

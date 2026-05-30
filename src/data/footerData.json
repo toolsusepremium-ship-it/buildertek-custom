@@ -1,0 +1,100 @@
+{
+    "brand": {
+        "logo": "/assets/logos/builder-logo.png",
+        "description": "The #1 Construction Software App On the Salesforce® platform. BuilderTek has been an exclusive ISV Partner of Salesforce® for over 15 years!",
+        "address": "605 SW US HWY 40, P.O Box 452 Blue Springs, MO. 64014",
+        "email": "sales@buildertek.com",
+        "phone": "1-844-547-7225 Ext. 700"
+    },
+    "links": {
+        "quickLinks": [
+            "Home",
+            "About Us",
+            "Solutions",
+            "Blog",
+            "Contact Us"
+        ],
+        "whoWeServe": [
+            "General Contractors",
+            "Residential Builders",
+            "Remodelers",
+            "Specialty Contractors",
+            "Developers"
+        ],
+        "services": [
+            "Finance",
+            "Construction",
+            "CRM",
+            "Realty",
+            "Resource"
+        ]
+    },
+    "newsletter": {
+        "title": "Weekly Newsletter",
+        "subtitle": "Schedule your demo and get setup in hours.",
+        "buttonText": "Subscribe Now"
+    },
+    "bottom": {
+        "copyright": "2026 BuilderTek, LLC - All Rights Reserved",
+        "legal": [
+            "Terms of Use",
+            "Privacy Policy",
+            "Cookie Policy"
+        ]
+    },
+    "footerOld": {
+        "brand": {
+            "name": "BuilderTek",
+            "tagline": "The #1 Construction Software App\nOn the Salesforce® platform.\nBuilderTek has been an exclusive ISV Partner of Salesforce® for over 15 years!",
+            "address": "500 SW South AVE, P.O Box 1975 Blue Springs, MO. 64014",
+            "email": "sales@buildertek.com",
+            "phone": "1-844-547-7225 Ext. 700",
+            "logo": "/assets/logos/builder-logo.png"
+        },
+        "links": {
+            "quickLinks": {
+                "title": "Quick Link",
+                "items": [
+                    "Home",
+                    "About Us",
+                    "Solutions",
+                    "Blog"
+                ]
+            },
+            "whoWeServe": {
+                "title": "Who We Serve",
+                "items": [
+                    "General Contractors",
+                    "Residential Builders",
+                    "Remodelers",
+                    "Speciality Contractors",
+                    "Developers / Owners"
+                ]
+            },
+            "services": {
+                "title": "Services",
+                "items": [
+                    "Finance",
+                    "Construction",
+                    "CRM",
+                    "Realty",
+                    "Resource"
+                ]
+            }
+        },
+        "newsletter": {
+            "title": "Weekly Newsletter",
+            "subtitle": "Schedule your demo and get setup in hours.",
+            "placeholder": "Your Email",
+            "buttonText": "Subscribe Now"
+        },
+        "bottom": {
+            "copyright": "2025 BuilderTek, LLC - All Rights Reserved",
+            "policies": [
+                "Terms of Use",
+                "Privacy Policy",
+                "Cookie Policy"
+            ]
+        }
+    }
+}
