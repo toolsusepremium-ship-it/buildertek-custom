@@ -18,11 +18,11 @@
             "dropdown": true,
             "items": [
                 {
-                    "label": "RFQ",
+                    "label": "RFQs",
                     "path": "/solutions/rfq"
                 },
                 {
-                    "label": "Quote",
+                    "label": "Quotes",
                     "path": "/solutions/quote"
                 },
                 {
@@ -34,7 +34,7 @@
                     "path": "/solutions/budgets"
                 },
                 {
-                    "label": "Schedule",
+                    "label": "Schedules",
                     "path": "/solutions/schedule"
                 }
             ]

@@ -97,7 +97,7 @@ const location=useLocation()
           </Text>
           {status && <div className="my-8 mb-16">
             <a
-              href={"https://buildertek3-dev-ed.develop.my.site.com/CaseManagement/login?ec=302&startURL=%2FCaseManagement%2F"}
+              href={"mailto:sales@buildertek.com"}
               target="_blank"
               className="inline-flex items-center justify-center  text-xl px-8 py-3 rounded-2xl font-semibold  text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2] border border-[#1146F2]   hover:opacity-90 transition"
             >

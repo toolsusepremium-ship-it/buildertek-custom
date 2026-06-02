@@ -9,7 +9,7 @@
     "backgroundImage2": "/assets/home/hero/hero-bg.png",
     "cta": {
       "label": "Schedule a Demo",
-      "link": "https://buildertek3-dev-ed.develop.my.site.com/CaseManagement/login?ec=302&startURL=%2FCaseManagement%2F",
+      "link": "mailto:sales@buildertek.com",
       "icon": "/assets/home/hero/arrow.svg"
     },
     "image1": "/assets/home/hero/image 62.svg",
