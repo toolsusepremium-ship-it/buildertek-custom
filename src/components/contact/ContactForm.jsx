@@ -86,7 +86,6 @@ const ContactForm = ({ data }) => {
         company: '',
         [SF_CTYPE]: '',
         description: '',
-        optIn: false,
     });
     const [errors, setErrors] = useState({});
     const [submitted, setSubmitted] = useState(false);
@@ -96,9 +95,8 @@ const ContactForm = ({ data }) => {
     const { title, subtitle, fields, footer } = data;
 
     const handleChange = (e) => {
-        const { name, value, type, checked } = e.target;
-        const newValue = type === 'checkbox' ? checked : value;
-        setFormData((prev) => ({ ...prev, [name]: newValue }));
+        const { name, value } = e.target;
+        setFormData((prev) => ({ ...prev, [name]: value }));
 
         if (submitted && validate[name]) {
             setErrors((prev) => ({ ...prev, [name]: validate[name](newValue) }));
@@ -159,7 +157,7 @@ const ContactForm = ({ data }) => {
                     >
                         {/* Salesforce required hidden fields */}
                         <input type="hidden" name="oid" value="00Dak00000LHFzR" />
-                        <input type="hidden" name="retURL" value="https://buildertek.vercel.app/contact" />
+                        <input type="hidden" name="retURL" value="https://buildertek.vercel.app/thank-you" />
 
                         {/* Department */}
                         <div className="space-y-1.5">
@@ -314,27 +312,6 @@ const ContactForm = ({ data }) => {
                             />
                             <FieldError msg={errors.description} />
                         </div>
-
-                        {/* Opt-in */}
-                        <label className="flex items-start gap-6 cursor-pointer group mt-4">
-                            <div className="mt-1 relative flex-shrink-0">
-                                <input
-                                    type="checkbox"
-                                    name="optIn"
-                                    checked={formData.optIn}
-                                    onChange={handleChange}
-                                    className="peer sr-only"
-                                />
-                                <div className="w-8 h-8 border-2 border-gray-200 rounded-xl bg-white peer-checked:bg-[#1868f0] peer-checked:border-[#1868f0] transition-all flex items-center justify-center group-hover:scale-110 group-hover:border-blue-400 shadow-sm">
-                                    <svg className="w-5 h-5 text-white opacity-0 peer-checked:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={4} d="M5 13l4 4L19 7" />
-                                    </svg>
-                                </div>
-                            </div>
-                            <span className="text-sm sm:text-base text-gray-500 group-hover:text-gray-900 transition-colors leading-relaxed font-normal">
-                                {fields.optIn}
-                            </span>
-                        </label>
 
                         {/* Submit */}
                         <div className="pt-8">

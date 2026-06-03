@@ -27,7 +27,6 @@ import { About } from './pages/About'
 import Contact from './pages/Contact'
 import BlogPost from './pages/BlogPost'
 import NotFound from './pages/NotFound.jsx'
-import FreeDemo from './pages/FreeDemo'
 import ThankYou from './pages/ThankYou'
 
 
@@ -62,7 +61,6 @@ const App = () => {
           <Route path='/blogs' element={<Blogs />} />
           <Route path='/blog/:slug' element={<BlogPost />} />
           <Route path='/contact' element={<Contact />} />
-          <Route path='/free-demo' element={<FreeDemo />} />
           <Route path='/thank-you' element={<ThankYou />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

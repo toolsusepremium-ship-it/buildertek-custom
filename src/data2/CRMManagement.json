@@ -149,7 +149,7 @@
             "description": "Turn disconnected contacts and conversations into a centralized, project-connected CRM with BuilderTek CRM Management.",
             "cta": {
                 "label": "Schedule a Demo",
-                "link": "https://buildertek3-dev-ed.develop.my.site.com/CaseManagement/login?ec=302&startURL=%2FCaseManagement%2F"
+                "link": "/contact"
             },
             "image": "/assets/solutions/bring-structure-one/image.png"
         }

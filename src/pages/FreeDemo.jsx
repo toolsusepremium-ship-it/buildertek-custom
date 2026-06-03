@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion } from 'motion/react';
 import PageTransition from '../components/reusable/PageTransition';
 import FreeDemoForm from '../components/contact/FreeDemoForm';
@@ -7,6 +7,18 @@ import contactData from '../data/Contact.json';
 
 const FreeDemo = () => {
     const { cards } = contactData;
+
+    useEffect(() => {
+        let tag = document.querySelector('meta[name="robots"][data-freedemo]');
+        if (!tag) {
+            tag = document.createElement('meta');
+            tag.setAttribute('name', 'robots');
+            tag.setAttribute('data-freedemo', '1');
+            document.head.appendChild(tag);
+        }
+        tag.setAttribute('content', 'noindex, nofollow');
+        return () => tag.remove();
+    }, []);
 
     return (
         <PageTransition>

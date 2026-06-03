@@ -142,7 +142,7 @@ const NotFound = () => {
                     </Link>
 
                     <Link
-                        to="https://buildertek3-dev-ed.develop.my.site.com/CaseManagement/login?ec=302&startURL=%2FCaseManagement%2F"
+                        to="/contact"
                         className="inline-flex items-center justify-center gap-2 px-8 py-3 rounded-xl font-semibold text-blue-600 bg-white border border-blue-100 hover:border-blue-300 hover:scale-105 transition-all duration-300 text-sm sm:text-base shadow-sm"
                     >
                         Schedule a Demo

@@ -96,13 +96,12 @@ const location=useLocation()
             {hero.description}
           </Text>
           {status && <div className="my-8 mb-16">
-            <a
-              href={"mailto:sales@buildertek.com"}
-              target="_blank"
+            <Link
+              to="/contact"
               className="inline-flex items-center justify-center  text-xl px-8 py-3 rounded-2xl font-semibold  text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2] border border-[#1146F2]   hover:opacity-90 transition"
             >
               Schedule a Demo
-            </a>
+            </Link>
           </div>}
         </motion.div>
  {

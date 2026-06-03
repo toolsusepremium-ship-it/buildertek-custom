@@ -155,7 +155,7 @@
             "description": "Unify property management, transactions, and project data with BuilderTek Realty Management.",
             "cta": {
                 "label": "Schedule a Demo",
-                "link": "https://buildertek3-dev-ed.develop.my.site.com/CaseManagement/login?ec=302&startURL=%2FCaseManagement%2F"
+                "link": "/contact"
             },
             "image": "/assets/solutions/bring-structure-one/image.png"
         }

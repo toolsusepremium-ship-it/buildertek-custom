@@ -7,7 +7,7 @@
     "backgroundImage2": "/assets/home/hero/hero-bg.png",
     "cta": {
       "label": "Schedule a Demo",
-      "link": "https://buildertek3-dev-ed.develop.my.site.com/CaseManagement/login?ec=302&startURL=%2FCaseManagement%2F"
+      "link": "/contact"
     },
     "image": "/assets/home/hero/hero-forground.png",
     "imageAlt": "BuilderTek construction dashboard preview"
@@ -119,7 +119,7 @@
       "description": "Discover how BuilderTek can bring clarity, control, and connected workflows to your construction projects.",
       "cta": {
         "label": "Schedule a Demo",
-        "link": "https://buildertek3-dev-ed.develop.my.site.com/CaseManagement/login?ec=302&startURL=%2FCaseManagement%2F"
+        "link": "/contact"
       },
       "image": "/assets/solutions/bring-structure-one/image.png"
     }
