@@ -157,7 +157,7 @@ const ContactForm = ({ data }) => {
                     >
                         {/* Salesforce required hidden fields */}
                         <input type="hidden" name="oid" value="00Dak00000LHFzR" />
-                        <input type="hidden" name="retURL" value="https://buildertek.vercel.app/thank-you" />
+                        <input type="hidden" name="retURL" value="https://buildertek.com/thank-you" />
 
                         {/* Department */}
                         <div className="space-y-1.5">
