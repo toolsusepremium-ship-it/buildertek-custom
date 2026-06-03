@@ -99,7 +99,7 @@ const ContactForm = ({ data }) => {
         setFormData((prev) => ({ ...prev, [name]: value }));
 
         if (submitted && validate[name]) {
-            setErrors((prev) => ({ ...prev, [name]: validate[name](newValue) }));
+            setErrors((prev) => ({ ...prev, [name]: validate[name](value) }));
         }
     };
 
