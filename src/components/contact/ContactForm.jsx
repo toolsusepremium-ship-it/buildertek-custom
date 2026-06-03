@@ -1,24 +1,27 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import { useNavigate } from 'react-router-dom';
+
+// Salesforce custom field IDs
+const SF_DEPT = '00Nak00003zqYtl';
+const SF_CTYPE = '00Nak00003zpcBV';
 
 // ── Validators ──────────────────────────────────────────────────────────────
 const validate = {
-    department: (v) => (!v ? 'Please select a department' : ''),
+    [SF_DEPT]: (v) => (!v ? 'Please select a department' : ''),
 
-    firstName: (v) => {
+    first_name: (v) => {
         if (!v.trim()) return 'First name is required';
         if (!/^[a-zA-Z\s\-']+$/.test(v.trim())) return 'Letters, spaces, and hyphens only';
         if (v.trim().length < 2) return 'Minimum 2 characters';
-        if (v.trim().length > 50) return 'Maximum 50 characters';
+        if (v.trim().length > 40) return 'Maximum 40 characters';
         return '';
     },
 
-    lastName: (v) => {
+    last_name: (v) => {
         if (!v.trim()) return 'Last name is required';
         if (!/^[a-zA-Z\s\-']+$/.test(v.trim())) return 'Letters, spaces, and hyphens only';
         if (v.trim().length < 2) return 'Minimum 2 characters';
-        if (v.trim().length > 50) return 'Maximum 50 characters';
+        if (v.trim().length > 80) return 'Maximum 80 characters';
         return '';
     },
 
@@ -29,7 +32,7 @@ const validate = {
         return '';
     },
 
-    phone: (v) => {
+    mobile: (v) => {
         if (!v.trim()) return 'Phone number is required';
         const digits = v.replace(/\D/g, '');
         if (digits.length < 10) return 'Enter a valid 10-digit US phone number';
@@ -38,27 +41,27 @@ const validate = {
         return '';
     },
 
-    companyName: (v) => {
+    company: (v) => {
         if (!v.trim()) return 'Company name is required';
         if (v.trim().length < 2) return 'Minimum 2 characters';
-        if (v.trim().length > 100) return 'Maximum 100 characters';
+        if (v.trim().length > 40) return 'Maximum 40 characters';
         return '';
     },
 
-    companyType: (v) => (!v ? 'Please select a company type' : ''),
+    [SF_CTYPE]: (v) => (!v ? 'Please select a company type' : ''),
 
-    comments: (v) => (v.length > 500 ? 'Maximum 500 characters' : ''),
+    description: (v) => (v.length > 500 ? 'Maximum 500 characters' : ''),
 };
 
 const validateAll = (data) => ({
-    department: validate.department(data.department),
-    firstName: validate.firstName(data.firstName),
-    lastName: validate.lastName(data.lastName),
+    [SF_DEPT]: validate[SF_DEPT](data[SF_DEPT]),
+    first_name: validate.first_name(data.first_name),
+    last_name: validate.last_name(data.last_name),
     email: validate.email(data.email),
-    phone: validate.phone(data.phone),
-    companyName: validate.companyName(data.companyName),
-    companyType: validate.companyType(data.companyType),
-    comments: validate.comments(data.comments),
+    mobile: validate.mobile(data.mobile),
+    company: validate.company(data.company),
+    [SF_CTYPE]: validate[SF_CTYPE](data[SF_CTYPE]),
+    description: validate.description(data.description),
 });
 
 // ── Error message component ──────────────────────────────────────────────────
@@ -74,17 +77,15 @@ const FieldError = ({ msg }) =>
 
 // ── Main component ───────────────────────────────────────────────────────────
 const ContactForm = ({ data }) => {
-    const navigate = useNavigate();
-
     const [formData, setFormData] = useState({
-        department: '',
-        firstName: '',
-        lastName: '',
+        [SF_DEPT]: '',
+        first_name: '',
+        last_name: '',
         email: '',
-        phone: '',
-        companyName: '',
-        companyType: '',
-        comments: '',
+        mobile: '',
+        company: '',
+        [SF_CTYPE]: '',
+        description: '',
         optIn: false,
     });
     const [errors, setErrors] = useState({});
@@ -105,16 +106,15 @@ const ContactForm = ({ data }) => {
     };
 
     const handleSubmit = (e) => {
-        e.preventDefault();
         setSubmitted(true);
         const newErrors = validateAll(formData);
         setErrors(newErrors);
-        if (Object.values(newErrors).every((err) => !err)) {
-            navigate('/thank-you');
+        if (!Object.values(newErrors).every((err) => !err)) {
+            e.preventDefault(); // block native POST only if validation fails
         }
+        // valid → native form POST proceeds to Salesforce
     };
 
-    // Dynamic border: red on error, blue on focus normally
     const borderCls = (field) =>
         errors[field]
             ? 'border-red-400 focus:border-red-400 focus:ring-red-500/10'
@@ -150,17 +150,27 @@ const ContactForm = ({ data }) => {
                         <p className="text-gray-500 text-base md:text-lg font-medium opacity-80">{subtitle}</p>
                     </header>
 
-                    <form onSubmit={handleSubmit} noValidate className="space-y-8">
+                    <form
+                        action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00Dak00000LHFzR"
+                        method="POST"
+                        onSubmit={handleSubmit}
+                        noValidate
+                        className="space-y-8"
+                    >
+                        {/* Salesforce required hidden fields */}
+                        <input type="hidden" name="oid" value="00Dak00000LHFzR" />
+                        <input type="hidden" name="retURL" value="https://buildertek.vercel.app/contact" />
+
                         {/* Department */}
                         <div className="space-y-1.5">
-                            <label htmlFor="department" className={labelBase}>{fields.department.label}</label>
+                            <label htmlFor={SF_DEPT} className={labelBase}>{fields.department.label}</label>
                             <div className="relative group">
                                 <select
-                                    id="department"
-                                    name="department"
-                                    value={formData.department}
+                                    id={SF_DEPT}
+                                    name={SF_DEPT}
+                                    value={formData[SF_DEPT]}
                                     onChange={handleChange}
-                                    className={`${selectBase} ${borderCls('department')} md:text-base`}
+                                    className={`${selectBase} ${borderCls(SF_DEPT)} md:text-base`}
                                 >
                                     <option value="" disabled>{fields.department.placeholder}</option>
                                     {fields.department.options.map((dept) => (
@@ -173,34 +183,36 @@ const ContactForm = ({ data }) => {
                                     </svg>
                                 </div>
                             </div>
-                            <FieldError msg={errors.department} />
+                            <FieldError msg={errors[SF_DEPT]} />
                         </div>
 
                         {/* First & Last Name */}
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                             <div className="space-y-1.5">
-                                <label htmlFor="firstName" className={labelBase}>{fields.firstName.label}</label>
+                                <label htmlFor="first_name" className={labelBase}>{fields.firstName.label}</label>
                                 <input
-                                    id="firstName"
+                                    id="first_name"
                                     type="text"
-                                    name="firstName"
-                                    value={formData.firstName}
+                                    name="first_name"
+                                    maxLength={40}
+                                    value={formData.first_name}
                                     onChange={handleChange}
-                                    className={`${inputBase} ${borderCls('firstName')}`}
+                                    className={`${inputBase} ${borderCls('first_name')}`}
                                 />
-                                <FieldError msg={errors.firstName} />
+                                <FieldError msg={errors.first_name} />
                             </div>
                             <div className="space-y-1.5">
-                                <label htmlFor="lastName" className={labelBase}>{fields.lastName.label}</label>
+                                <label htmlFor="last_name" className={labelBase}>{fields.lastName.label}</label>
                                 <input
-                                    id="lastName"
+                                    id="last_name"
                                     type="text"
-                                    name="lastName"
-                                    value={formData.lastName}
+                                    name="last_name"
+                                    maxLength={80}
+                                    value={formData.last_name}
                                     onChange={handleChange}
-                                    className={`${inputBase} ${borderCls('lastName')}`}
+                                    className={`${inputBase} ${borderCls('last_name')}`}
                                 />
-                                <FieldError msg={errors.lastName} />
+                                <FieldError msg={errors.last_name} />
                             </div>
                         </div>
 
@@ -212,6 +224,7 @@ const ContactForm = ({ data }) => {
                                     id="email"
                                     type="email"
                                     name="email"
+                                    maxLength={80}
                                     value={formData.email}
                                     onChange={handleChange}
                                     className={`${inputBase} ${borderCls('email')}`}
@@ -219,7 +232,7 @@ const ContactForm = ({ data }) => {
                                 <FieldError msg={errors.email} />
                             </div>
                             <div className="space-y-1.5">
-                                <label htmlFor="phone" className={labelBase}>{fields.phone.label}</label>
+                                <label htmlFor="mobile" className={labelBase}>{fields.phone.label}</label>
                                 <div className="flex gap-3 max-w-full">
                                     <div className="flex items-center gap-2 px-2 bg-gray-50/50 border border-gray-200 rounded-[1rem] w-[80px] shrink-0 justify-center text-gray-600 font-bold hover:border-blue-300 transition-colors cursor-pointer group">
                                         <img src="https://flagcdn.com/us.svg" alt="US" className="w-5 h-auto rounded-sm" />
@@ -228,42 +241,44 @@ const ContactForm = ({ data }) => {
                                         </svg>
                                     </div>
                                     <input
-                                        id="phone"
+                                        id="mobile"
                                         type="tel"
-                                        name="phone"
-                                        value={formData.phone}
+                                        name="mobile"
+                                        maxLength={40}
+                                        value={formData.mobile}
                                         onChange={handleChange}
                                         placeholder="(555) 555-5555"
-                                        className={`flex-1 min-w-0 px-2 py-2 bg-gray-50/50 border rounded-[15px] focus:bg-white focus:ring-4 transition-all outline-none text-gray-700 font-semibold ${borderCls('phone')}`}
+                                        className={`flex-1 min-w-0 px-2 py-2 bg-gray-50/50 border rounded-[15px] focus:bg-white focus:ring-4 transition-all outline-none text-gray-700 font-semibold ${borderCls('mobile')}`}
                                     />
                                 </div>
-                                <FieldError msg={errors.phone} />
+                                <FieldError msg={errors.mobile} />
                             </div>
                         </div>
 
                         {/* Company Name & Type */}
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                             <div className="space-y-1.5">
-                                <label htmlFor="companyName" className={labelBase}>{fields.companyName.label}</label>
+                                <label htmlFor="company" className={labelBase}>{fields.companyName.label}</label>
                                 <input
-                                    id="companyName"
+                                    id="company"
                                     type="text"
-                                    name="companyName"
-                                    value={formData.companyName}
+                                    name="company"
+                                    maxLength={40}
+                                    value={formData.company}
                                     onChange={handleChange}
-                                    className={`${inputBase} ${borderCls('companyName')}`}
+                                    className={`${inputBase} ${borderCls('company')}`}
                                 />
-                                <FieldError msg={errors.companyName} />
+                                <FieldError msg={errors.company} />
                             </div>
                             <div className="space-y-1.5">
-                                <label htmlFor="companyType" className={labelBase}>{fields.companyType.label}</label>
+                                <label htmlFor={SF_CTYPE} className={labelBase}>{fields.companyType.label}</label>
                                 <div className="relative group">
                                     <select
-                                        id="companyType"
-                                        name="companyType"
-                                        value={formData.companyType}
+                                        id={SF_CTYPE}
+                                        name={SF_CTYPE}
+                                        value={formData[SF_CTYPE]}
                                         onChange={handleChange}
-                                        className={`${selectBase} ${borderCls('companyType')}`}
+                                        className={`${selectBase} ${borderCls(SF_CTYPE)}`}
                                     >
                                         <option value="" disabled>{fields.companyType.placeholder}</option>
                                         {fields.companyType.options.map((type) => (
@@ -276,28 +291,28 @@ const ContactForm = ({ data }) => {
                                         </svg>
                                     </div>
                                 </div>
-                                <FieldError msg={errors.companyType} />
+                                <FieldError msg={errors[SF_CTYPE]} />
                             </div>
                         </div>
 
-                        {/* Comments */}
+                        {/* Comments / Description */}
                         <div className="space-y-1.5">
-                            <label htmlFor="comments" className={labelBase}>
+                            <label htmlFor="description" className={labelBase}>
                                 {fields.comments.label}
                                 <span className="ml-2 text-gray-400 font-normal normal-case tracking-normal">
-                                    ({formData.comments.length}/500)
+                                    ({formData.description.length}/500)
                                 </span>
                             </label>
                             <textarea
-                                id="comments"
-                                name="comments"
+                                id="description"
+                                name="description"
                                 placeholder={fields.comments.placeholder}
                                 rows="5"
-                                value={formData.comments}
+                                value={formData.description}
                                 onChange={handleChange}
-                                className={`w-full px-2 py-2 bg-gray-50/50 border rounded-[15px] focus:bg-white focus:ring-4 transition-all outline-none resize-none text-gray-700 font-semibold shadow-inner ${borderCls('comments')}`}
+                                className={`w-full px-2 py-2 bg-gray-50/50 border rounded-[15px] focus:bg-white focus:ring-4 transition-all outline-none resize-none text-gray-700 font-semibold shadow-inner ${borderCls('description')}`}
                             />
-                            <FieldError msg={errors.comments} />
+                            <FieldError msg={errors.description} />
                         </div>
 
                         {/* Opt-in */}
