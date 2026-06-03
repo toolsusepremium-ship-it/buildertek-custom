@@ -66,7 +66,7 @@ export default function Footer() {
 
     {/* BRAND */}
     <div className="w-[280px]" >
-      <img src={brand.logo} alt="BuilderTek" className="h-10 mb-4" />
+      <img src={brand.logo} alt="BuilderTek" className="h-10 w-auto max-w-[220px] object-contain mb-4" />
       <p className="text-sm text-gray-600 mb-4 max-w-sm">
         {brand.description}
       </p>
