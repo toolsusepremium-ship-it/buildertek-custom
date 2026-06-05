@@ -17,6 +17,7 @@ const Developer = () => {
     const { whyChoose } = whoWeServe
     const { section } = whyChoose
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
+    useEffect(() => { document.title = 'Developers - BuilderTek'; }, [])
     useEffect(() => {
         const handleResize = () => {
             setIsMobile(window.innerWidth < 768)

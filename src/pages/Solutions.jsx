@@ -12,12 +12,19 @@ import FaqSection from '../components/reusable/FaqSection'
 import PageTransition from '../components/reusable/PageTransition'
 import Text from '../components/reusable/Text'
 import { useEffect, useState } from 'react'
+import { useLocation } from 'react-router-dom'
 
 const Solutions = ({ solutionData }) => {
     const { hero, sectionTitle, features, whyChoose, makeSmarter, bringStructure, faq } = solutionData
     const { section } = whyChoose
+      const location = useLocation()
       const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
       const [isTablet, setIsTablet] = useState(window.innerWidth < 1024)
+      useEffect(() => {
+          const pathMap = { rfq: 'RFQ', quote: 'Quote', contract: 'Contract', budgets: 'Budgets', schedule: 'Schedule' }
+          const segment = location.pathname.split('/').pop()
+          document.title = `${pathMap[segment] || segment.charAt(0).toUpperCase() + segment.slice(1)} - BuilderTek`
+      }, [location.pathname])
                 useEffect(() =>{
                     const handleResize = () => {
                         setIsMobile(window.innerWidth < 768)

@@ -18,6 +18,7 @@ const ConstructionManagement = () => {
     const { hero, whyChoose, sharperFinancial, financialControl, build, Financial, bringStructure } = ConstructionManagementData
     const { section } = whyChoose
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
+    useEffect(() => { document.title = 'Construction Management - BuilderTek'; }, [])
     useEffect(() => {
         const handleResize = () => {
             setIsMobile(window.innerWidth < 768)

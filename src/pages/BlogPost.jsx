@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import { motion } from 'motion/react'
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -87,6 +87,9 @@ const BlogPost = () => {
 
   const blog = blogsData.blogs.find(b => b.slug === slug)
   const relatedBlogs = blogsData.blogs.filter(b => b.slug !== slug)
+  useEffect(() => {
+    document.title = blog ? `${blog.title} - BuilderTek` : 'Blog - BuilderTek'
+  }, [blog])
 
   const [leadForm, setLeadForm] = useState({ name: '', email: '', phone: '', message: '' })
   const [leadSubmitted, setLeadSubmitted] = useState(false)

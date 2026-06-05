@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import AboutHero from '../components/about/AboutHero'
 import Data from "../data/About.json"
 import { motion } from 'motion/react'
@@ -7,6 +7,7 @@ import CenteredCtaSection from '../components/reusable/CenteredCtaSection'
 import ServiceFeature from '../components/services/ServiceFeature'
 
 export const About = () => {
+  useEffect(() => { document.title = 'About - BuilderTek'; }, [])
   return (
     <>
       <AboutHero data={Data} />

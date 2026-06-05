@@ -17,6 +17,7 @@ const SpecialtyContractors = () => {
     const { whyChoose } = whoWeServe
     const { section } = whyChoose
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
+    useEffect(() => { document.title = 'Specialty Contractors - BuilderTek'; }, [])
     useEffect(() => {
         const handleResize = () => {
             setIsMobile(window.innerWidth < 768)

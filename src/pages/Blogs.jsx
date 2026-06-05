@@ -1,9 +1,11 @@
+import { useEffect } from "react"
 import { motion } from "motion/react"
 import blogsData from "../data/blogs.json"
 import BlogCard from "../components/blog/BlogCard"
 import Text from "../components/reusable/Text"
 
 const Blogs = () => {
+    useEffect(() => { document.title = 'Blogs - BuilderTek'; }, [])
     return (
         <>
             {/* Header */}

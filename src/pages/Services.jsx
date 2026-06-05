@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import servicesData from '../data/services.json'
 import SolutionsHero from '../components/reusable/Hero'
 import PageTransition from '../components/reusable/PageTransition';
@@ -15,6 +15,7 @@ import FaqSection from '../components/reusable/FaqSection'
 const Services = () => {
     const { hero, whyChoose, sharperFinancial, financialControl, build, Financial } = servicesData
     const { section } = whyChoose
+    useEffect(() => { document.title = 'Services - BuilderTek'; }, [])
     return (
         <PageTransition>
             <div className=''>

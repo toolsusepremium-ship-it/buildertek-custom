@@ -11,6 +11,7 @@ const Contact = () => {
     const { hero, cards, form } = servicesData
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
 const [isTablet, setIsTablet] = useState(window.innerWidth < 1024)
+                useEffect(() => { document.title = 'Contact - BuilderTek'; }, [])
                 useEffect(() =>{
                     const handleResize = () => {
                         setIsMobile(window.innerWidth < 768)

@@ -13,6 +13,7 @@ import IndustriesSectionMobile from '../components/home/IndustriesSectionMobile'
 const Home = () => {
   const { bringStructure } = homeData;
   const [width,setWidth]=useState(window.innerWidth)
+  useEffect(() => { document.title = 'BuilderTek'; }, [])
   useEffect(()=>{
     const handleResize=()=>{
         setWidth(window.innerWidth)

@@ -18,6 +18,7 @@ const General = () => {
     const { whyChoose } = whoWeServe
     const { section } = whyChoose
 const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
+        useEffect(() => { document.title = 'General Contractors - BuilderTek'; }, [])
         useEffect(()=>{
             const handleResize = () => {
                 setIsMobile(window.innerWidth < 768)

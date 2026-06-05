@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react"
 
 const NotFound = () => {
     const particlesRef = useRef([])
+    useEffect(() => { document.title = 'Not Found - BuilderTek'; }, [])
 
     // Generate random particles once
     useEffect(() => {

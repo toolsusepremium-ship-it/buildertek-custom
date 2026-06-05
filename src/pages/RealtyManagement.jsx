@@ -18,6 +18,7 @@ const RealtyManagement = () => {
     const { hero, whyChoose, sharperFinancial, financialControl, build, Financial, bringStructure } = CRMManagementData
     const { section } = whyChoose
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
+    useEffect(() => { document.title = 'Realty Management - BuilderTek'; }, [])
     useEffect(() => {
         const handleResize = () => {
             setIsMobile(window.innerWidth < 768)

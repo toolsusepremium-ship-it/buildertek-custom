@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import PageTransition from '../components/reusable/PageTransition';
@@ -7,6 +7,7 @@ import contactData from '../data/Contact.json';
 
 const ThankYou = () => {
     const { cards } = contactData;
+    useEffect(() => { document.title = 'Thank You - BuilderTek'; }, [])
 
     return (
         <PageTransition>
