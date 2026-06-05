@@ -62,7 +62,7 @@
                 "image": "/assets/solutions/Rfq/Why Choose BuilderTek_03.png"
             },
             {
-                "title": "Salesforce-Native Experience",
+                "title": "BuilderTek-Native Experience",
                 "description": "Work natively inside Salesforce with real-time visibility and security.",
                 "image": "/assets/solutions/Rfq/Why Choose BuilderTek_04.png"
             }
@@ -115,11 +115,11 @@
         "items": [
             {
                 "question": "How does BuilderTek streamline the bidding process for subcontractors and vendors?",
-                "answer": "BuilderTek centralizes the entire RFQ workflow . From creating and sending RFQs to subcontractors, you can collect, compare, and award bids through our RFQ module. It helps with structured pricing, real-time status tracking, and side-by-side comparisons, which eliminates manual follow-ups and reduces bid turnaround time."
+                "answer": "BuilderTek centralizes the entire RFQ workflow. From creating and sending RFQs to subcontractors, you can collect, compare, and award bids through our RFQ module. It helps with structured pricing, real-time status tracking, and side-by-side comparisons, which eliminates manual follow-ups and reduces bid turnaround time."
             },
             {
-                "question": "Do my subcontractors and vendors need a BuilderTek account to submit bids?",
-                "answer": "No. Subcontractors and vendors can submit bids securely through email or shared links without needing a full BuilderTek account."
+                "question": "How does BuilderTek Quotes improve pricing accuracy?",
+                "answer": "BuilderTek Quotes has structured line items, native pricing logic, and version control. The system ensures that every quote is built from consistent, accurate data and reduces manual errors and pricing discrepancies throughout the project lifecycle."
             },
             {
                 "question": "Do I need a separate estimating software after receiving vendor bids?",

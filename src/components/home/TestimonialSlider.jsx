@@ -53,7 +53,7 @@ const TestimonialSlider = ({ data }) => {
                                         : "opacity-40 scale-95"
                                         }`}
                                 >
-                                    <div className="bg-white rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.08)] px-6 md:px-10 py-10 text-center">
+                                    <div className="bg-white rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.08)] px-6 md:px-10 py-10 text-center cursor-pointer">
 
                                         {/* Quote Icon */}
                                         <div className="flex justify-center mb-8">
@@ -65,7 +65,7 @@ const TestimonialSlider = ({ data }) => {
                                         </div>
 
                                         {/* Quote */}
-                                        <p className="text-lg md:text-2xl lg:text-[28px] text-gray-900 leading-relaxed mb-10">
+                                        <p className="text-[13px] md:text-base lg:text-[20px] text-gray-900 leading-relaxed mb-10">
                                             “{item.quote}”
                                         </p>
 

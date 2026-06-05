@@ -3,7 +3,7 @@
     "title": "Build It All With ",
     "subtitle": "Confidence  On ",
     "highlight": "BuilderTek",
-    "description": "BuilderTek Construction keeps your team on task and on target with intuitive systems to organize, manage, mature to optimize, and enhance your business processes.",
+    "description": "BuilderTek Construction keeps your team on task and on target with intuitive systems to organize, manage, optimize, and enhance your business processes.",
     "backgroundImage": "/assets/home/hero/home_banner.jpg",
     "backgroundImage3": "/assets/home/hero/hero.webp",
     "backgroundImage2": "/assets/home/hero/hero-bg.png",
@@ -187,39 +187,69 @@
     "items": [
       {
         "id": 1,
-        "quote": "Perfect balance between cost optimization and robust security measures makes them an invaluable asset.",
-        "name": "Nicolas Chaillan",
-        "role": "Chief Software Officer (CSO)"
+        "quote": "We've worked with the BuilderTek team for several years, and they've consistently been a helpful and reliable partner. BuilderTek supported us in building a customized project management platform that fits our specific workflows. Their team takes the time to listen, offers practical recommendations, and works collaboratively to find solutions that make sense for our operations.",
+        "name": "Evelynne Bayar",
+        "role": ""
       },
       {
         "id": 2,
-        "quote": "BuilderTek has made it much easier for our team to stay aligned with project timelines and scope. It has improved our coordination with general contractors. We can clearly track tasks, changes, and approvals without going back and forth on emails.",
-        "name": "Jason Miller",
-        "role": " Electrical Contractor"
+        "quote": "We've worked with BuilderTek for a little over a year now, and the team at BuilderTek is great. They take time to understand our business and provide us with good recommendations and customize our projects and workflows to suit our needs. Very responsive and helpful team. Would recommend them as a software provider.",
+        "name": "Brent Stodolak",
+        "role": ""
       },
       {
         "id": 3,
-        "quote": "As a developer managing multiple residential projects, visibility is everything. BuilderTek gives us real-time insight into budgets, schedules, and approvals in one place. It gives better control across our portfolio.",
-        "name": "Michael Thompson",
-        "role": "Residential Developer"
+        "quote": "It's been almost 2 years that we've been working together, and we are loving our product. We run 5 different types of construction and you can pretty much customize this thing any way you need it. They are very responsive to questions and issues. If you run any type of construction, this will work for you.",
+        "name": "Nickaletta Muscatello",
+        "role": ""
       },
       {
         "id": 4,
-        "quote": "We use BuilderTek for managing construction projects across multiple locations, and the platform has brought much-needed structure and transparency. It helped us maintain accountability and streamline reporting for stakeholders.",
-        "name": "David Rodriguez",
-        "role": "Program & Construction Manager"
+        "quote": "Buildertek has been great for our business. As a Design and Build shop looking to scale our practice, the solution has truly helped us streamline our systems and processes. Mixed in with Salesforce's world-class CRM, you can't go wrong. Don't even waste time with incomplete solutions that provide just the construction management piece.",
+        "name": "Julian Rocco",
+        "role": ""
       },
       {
         "id": 5,
-        "quote": "BuilderTek has simplified how we manage property workflows, from listings to transaction tracking and final handovers. Everything is centralized, keeping our documentation and communication organized.",
-        "name": "Sarah Collins",
-        "role": "Realty Operations Manager"
+        "quote": "We were in need of a Salesforce solution for our new venture of single-family new construction. BuilderTek checks all of the boxes for a well-rounded Construction CRM. Its out of the box. The BT Team has been supportive in customizing. With Salesforce + BuilderTek, the sky is the limit.",
+        "name": "Sara Unser",
+        "role": ""
       },
       {
         "id": 6,
-        "quote": "We can track change orders and keep clients informed with clear documentation with BuilderTek. It has made our processes more consistent and reduced misunderstandings.",
-        "name": "Denny Carter",
-        "role": "Remodeling Contractor"
+        "quote": "We switched to BuilderTek 3 years ago as we were trying to piece together a bunch of software. BuilderTek has allowed us to keep all of our field employees in one app.",
+        "name": "Sean Davies",
+        "role": ""
+      },
+      {
+        "id": 7,
+        "quote": "BuilderTek is a great application we use for our construction division. User-friendly and many options to fit your business needs. BuilderTek's support and response have a quick turnaround.",
+        "name": "Krista Grazhdani",
+        "role": ""
+      },
+      {
+        "id": 8,
+        "quote": "Buildertek has been a great addition to our business.",
+        "name": "Shaun McMurry",
+        "role": ""
+      },
+      {
+        "id": 9,
+        "quote": "This is a great database for contractors, customized for their needs. Simple to use, easy to search by customer name, address, or telephone. The team is very responsive when we need changes made and is affordable for a small contractor. Would highly recommend BuilderTek.",
+        "name": "Greg Nelson",
+        "role": ""
+      },
+      {
+        "id": 10,
+        "quote": "BuilderTek tools track our construction projects and client satisfaction. I have been so pleased with the type of service we receive from the folks at BuilderTek. They are willing to guide you in the process. We are pleased with our choice of BuilderTek.",
+        "name": "Christyanne Gaspar",
+        "role": ""
+      },
+      {
+        "id": 11,
+        "quote": "BuilderTek provides solutions for every aspect of our construction process. It's very intuitive, and the BT HouseTracker team is very responsive and helpful. We would highly recommend this product to anyone in the construction industry.",
+        "name": "Dave Richards",
+        "role": ""
       }
     ]
   },

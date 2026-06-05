@@ -54,7 +54,7 @@
                 "image": "/assets/solutions/Quote/Key Features_01.png"
             },
             {
-                "title": "Buildertek-Native Pricing Logic",
+                "title": "BuilderTek-Native Pricing Logic",
                 "description": "Leverage BuilderTek's powerful data model to apply consistent pricing rules, cost structures, and project data, reducing manual errors and improving pricing accuracy across all quotes.",
                 "image": "/assets/solutions/Quote/Key Features_02.png"
             },
@@ -120,8 +120,8 @@
                 "answer": "BuilderTek Quotes has structured line items, native pricing logic, and version control. The system ensures that every quote is built from consistent, accurate data and reduces manual errors and pricing discrepancies throughout the project lifecycle. Yes. BuilderTek Quotes supports both customer-facing and vendor-related pricing, allowing teams to manage multiple quote types while maintaining consistency and control in one centralized system."
             },
             {
-                "question": "Do my subcontractors and vendors need a BuilderTek account to submit bids?",
-                "answer": "No. Subcontractors and vendors can submit bids securely through email or shared links without needing a full BuilderTek account."
+                "question": "How does BuilderTek Quotes improve pricing accuracy?",
+                "answer": "BuilderTek Quotes has structured line items, native pricing logic, and version control. The system ensures that every quote is built from consistent, accurate data and reduces manual errors and pricing discrepancies throughout the project lifecycle."
             },
             {
                 "question": "Can I manage quote revisions and approvals within BuilderTek?",
