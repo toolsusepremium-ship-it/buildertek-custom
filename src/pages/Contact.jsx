@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { useSEO } from '../hooks/useSEO'
 import servicesData from '../data/Contact.json'
 import SolutionsHero from '../components/reusable/Hero'
 import PageTransition from '../components/reusable/PageTransition';
@@ -11,7 +12,11 @@ const Contact = () => {
     const { hero, cards, form } = servicesData
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
 const [isTablet, setIsTablet] = useState(window.innerWidth < 1024)
-                useEffect(() => { document.title = 'Contact - BuilderTek'; }, [])
+                useSEO({
+    title: 'Contact BuilderTek | Construction Software Experts',
+    description: 'Connect with BuilderTek to learn more about our Salesforce ISV Partner construction management software and schedule a demo.',
+    keywords: 'contact BuilderTek, construction software demo, BuilderTek support, contractor software consultation',
+  })
                 useEffect(() =>{
                     const handleResize = () => {
                         setIsMobile(window.innerWidth < 768)
@@ -100,7 +105,7 @@ const [isTablet, setIsTablet] = useState(window.innerWidth < 1024)
                                 </h2>
 
                                 {/* Description */}
-                                <p className="text-[22px] text-gray-600 text-pre-line mb-10" >
+                                <p className="text-[15px] sm:text-[17px] lg:text-[20px] text-gray-600 text-pre-line mb-10" >
                                     {data.description}
                                 </p>
 

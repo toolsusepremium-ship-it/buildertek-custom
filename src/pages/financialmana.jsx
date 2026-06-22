@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { useSEO } from '../hooks/useSEO'
 import FinancialManagementData from '../data/FinancialManagement.json'
 import SolutionsHero from '../components/reusable/Hero'
 import PageTransition from '../components/reusable/PageTransition';
@@ -17,7 +18,11 @@ const FinancialManagement = () => {
     const { hero, whyChoose, sharperFinancial, financialControl, build, Financial, faq } = FinancialManagementData
     const { section } = whyChoose
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
-    useEffect(() => { document.title = 'Financial Management - BuilderTek'; }, [])
+    useSEO({
+        title: 'Construction Financial Management Software | BuilderTek',
+        description: 'Gain complete financial visibility with BuilderTek financial management software for budgets, invoices, commitments, and funding workflows.',
+        keywords: 'construction financial management software, construction accounting workflows, project financial tracking, contractor financial software',
+    })
     useEffect(() => {
         const handleResize = () => {
             setIsMobile(window.innerWidth < 768)

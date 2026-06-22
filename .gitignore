@@ -30,6 +30,11 @@ changes_v3.md
 src43
 public/assets/Blogs_for_BuilderTek.md
 
+# Environment variables (never commit)
+.env
+.env.local
+.env.*.local
+
 # Personal notes / temp files
 md.xttx
 

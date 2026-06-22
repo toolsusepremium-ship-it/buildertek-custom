@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { useSEO } from '../hooks/useSEO'
 import CRMManagementData from '../data/ResourceManagement.json'
 import SolutionsHero from '../components/reusable/Hero'
 import PageTransition from '../components/reusable/PageTransition';
@@ -18,7 +19,11 @@ const ResourceManagement = () => {
     const { hero, whyChoose, sharperFinancial, financialControl, build, Financial, bringStructure } = CRMManagementData
     const { section } = whyChoose
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
-    useEffect(() => { document.title = 'Resource Management - BuilderTek'; }, [])
+    useSEO({
+        title: 'Construction Resource Management Software | BuilderTek',
+        description: 'Coordinate crews, equipment, schedules, and labor resources with BuilderTek resource management software.',
+        keywords: 'construction resource management software, labor scheduling software, crew management platform, construction workforce management',
+    })
     useEffect(() => {
         const handleResize = () => {
             setIsMobile(window.innerWidth < 768)

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { useSEO } from '../hooks/useSEO'
 import homeData from '../data/home.json'
 import HomeHero from '../components/home/HomeHero'
 // import TrustedSlider from '../components/home/TrustedSlider'
@@ -13,7 +14,11 @@ import IndustriesSectionMobile from '../components/home/IndustriesSectionMobile'
 const Home = () => {
   const { bringStructure } = homeData;
   const [width,setWidth]=useState(window.innerWidth)
-  useEffect(() => { document.title = 'BuilderTek'; }, [])
+  useSEO({
+    title: 'BuilderTek Construction Management Software',
+    description: 'BuilderTek is a Salesforce ISV partner construction management software designed to manage RFQs, budgets, scheduling, CRM, financials, and project workflows in one platform.',
+    keywords: 'construction management software, Salesforce construction software, construction project management platform, contractor software',
+  })
   useEffect(()=>{
     const handleResize=()=>{
         setWidth(window.innerWidth)

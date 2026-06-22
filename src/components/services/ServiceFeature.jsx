@@ -23,7 +23,7 @@ const ServiceFeature = ({ data, reverse ,form}) => {
                         </h2>
 
                         {/* Description */}
-                        <p className="text-[22px] text-gray-600 text-pre-line sm:mb-10" >
+                        <p className="text-[15px] sm:text-[17px] lg:text-[20px] text-gray-600 text-pre-line sm:mb-10" >
                             {data.description}
                         </p>
 

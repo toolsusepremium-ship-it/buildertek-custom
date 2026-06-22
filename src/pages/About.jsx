@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react'
+import React from 'react'
+import { useSEO } from '../hooks/useSEO'
 import AboutHero from '../components/about/AboutHero'
 import Data from "../data/About.json"
 import { motion } from 'motion/react'
@@ -7,7 +8,11 @@ import CenteredCtaSection from '../components/reusable/CenteredCtaSection'
 import ServiceFeature from '../components/services/ServiceFeature'
 
 export const About = () => {
-  useEffect(() => { document.title = 'About - BuilderTek'; }, [])
+  useSEO({
+    title: 'About BuilderTek | Salesforce Construction Platform',
+    description: 'Learn how BuilderTek evolved into a leading construction management platform trusted by construction teams across the USA.',
+    keywords: 'Salesforce construction platform, construction technology company, BuilderTek software, construction workflow platform',
+  })
   return (
     <>
       <AboutHero data={Data} />

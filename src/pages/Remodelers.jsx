@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-
+import { useSEO } from '../hooks/useSEO'
 import whoWeServe from '../data/Remodelers.json'
 
 import SolutionsHero from '../components/reusable/Hero'
@@ -17,7 +17,11 @@ const Remodelers = () => {
     const { whyChoose } = whoWeServe
     const { section } = whyChoose
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
-    useEffect(() => { document.title = 'Remodelers - BuilderTek'; }, [])
+    useSEO({
+        title: 'Remodeling Contractor Software | BuilderTek',
+        description: 'Manage remodeling projects, scope changes, budgets, and schedules with BuilderTek remodeling contractor software.',
+        keywords: 'remodeling contractor software, remodel project management, renovation software, remodeling workflow platform',
+    })
     useEffect(() => {
         const handleResize = () => {
             setIsMobile(window.innerWidth < 768)

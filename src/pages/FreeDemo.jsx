@@ -61,7 +61,7 @@ const FreeDemo = () => {
                             <h2 className="text-3xl lg:text-[54px] font-normal leading-tight mb-6">
                                 See BuilderTek<br />In Action
                             </h2>
-                            <p className="text-lg md:text-[22px] text-gray-600 leading-relaxed">
+                            <p className="text-[15px] sm:text-[17px] lg:text-[20px] text-gray-600 leading-relaxed">
                                 A focused walkthrough of BuilderTek — we'll go deep on the modules that will work best for your team. No commitment.
                             </p>
                         </div>

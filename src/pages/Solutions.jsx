@@ -13,6 +13,7 @@ import PageTransition from '../components/reusable/PageTransition'
 import Text from '../components/reusable/Text'
 import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom'
+import { useSEO } from '../hooks/useSEO'
 
 const Solutions = ({ solutionData }) => {
     const { hero, sectionTitle, features, whyChoose, makeSmarter, bringStructure, faq } = solutionData
@@ -20,11 +21,36 @@ const Solutions = ({ solutionData }) => {
       const location = useLocation()
       const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
       const [isTablet, setIsTablet] = useState(window.innerWidth < 1024)
-      useEffect(() => {
-          const pathMap = { rfq: 'RFQ', quote: 'Quote', contract: 'Contract', budgets: 'Budgets', schedule: 'Schedule' }
-          const segment = location.pathname.split('/').pop()
-          document.title = `${pathMap[segment] || segment.charAt(0).toUpperCase() + segment.slice(1)} - BuilderTek`
-      }, [location.pathname])
+      const segment = location.pathname.split('/').pop()
+      const seoMap = {
+          rfq: {
+              title: 'Construction RFQ Software | BuilderTek',
+              description: 'Simplify vendor bidding with BuilderTek RFQ software. Create, manage, compare, and award RFQs in one connected construction workflow.',
+              keywords: 'construction RFQ software, vendor bidding software, construction procurement software, RFQ management',
+          },
+          quote: {
+              title: 'Construction Quote Management Software | BuilderTek',
+              description: 'Manage pricing, quote comparisons, approvals, and vendor communication with BuilderTek construction quote management software.',
+              keywords: 'quote management software, construction quoting software, vendor quote comparison, construction estimates',
+          },
+          schedule: {
+              title: 'Construction Scheduling Software | BuilderTek',
+              description: 'Plan timelines, track milestones, and manage crews with BuilderTek construction scheduling software built for connected project workflows.',
+              keywords: 'construction scheduling software, project scheduling platform, construction timeline management, Gantt scheduling',
+          },
+          budgets: {
+              title: 'Construction Budget Management Software | BuilderTek',
+              description: 'Track project costs, commitments, forecasts, and financial performance with BuilderTek budget management software.',
+              keywords: 'construction budget management software, project budgeting software, cost tracking platform, construction forecasting',
+          },
+          contract: {
+              title: 'Construction Contract Management | BuilderTek',
+              description: 'Manage construction contracts, approvals, and vendor agreements with BuilderTek contract management software.',
+              keywords: 'construction contract management, contractor contract software, construction agreements',
+          },
+      }
+      const currentSEO = seoMap[segment] || { title: 'BuilderTek', description: '', keywords: '' }
+      useSEO(currentSEO)
                 useEffect(() =>{
                     const handleResize = () => {
                         setIsMobile(window.innerWidth < 768)

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { useSEO } from '../hooks/useSEO'
 import ConstructionManagementData from '../data/ConstructionManagement.json'
 import SolutionsHero from '../components/reusable/Hero'
 import PageTransition from '../components/reusable/PageTransition';
@@ -18,7 +19,11 @@ const ConstructionManagement = () => {
     const { hero, whyChoose, sharperFinancial, financialControl, build, Financial, bringStructure } = ConstructionManagementData
     const { section } = whyChoose
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
-    useEffect(() => { document.title = 'Construction Management - BuilderTek'; }, [])
+    useSEO({
+        title: 'Construction Project Management Software | BuilderTek',
+        description: 'Manage construction projects, schedules, inspections, documents, and collaboration from one connected platform.',
+        keywords: 'construction project management software, project workflow software, contractor management platform, construction operations software',
+    })
     useEffect(() => {
         const handleResize = () => {
             setIsMobile(window.innerWidth < 768)

@@ -317,21 +317,44 @@ body {
 .txt {
   font-family: Inter;
   font-weight: 400;
-  font-style: Regular;
-  font-size: 26px;
-  leading-trim: NONE;
-  line-height: 36px;
-  letter-spacing: -1%;
-  
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
 }
-.txt2{
-  font-family: Inter;
-font-weight: 400;
-font-style: Regular;
-font-size: 28px;
-leading-trim: NONE;
-line-height: 40px;
-letter-spacing: -1%;
-color: #505C7A;
 
+@media (min-width: 640px) {
+  .txt {
+    font-size: 17px;
+    line-height: 27px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .txt {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.txt2 {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #505C7A;
+}
+
+@media (min-width: 640px) {
+  .txt2 {
+    font-size: 17px;
+    line-height: 27px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .txt2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }

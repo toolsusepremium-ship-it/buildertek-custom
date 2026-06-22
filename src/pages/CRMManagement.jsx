@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { useSEO } from '../hooks/useSEO'
 import CRMManagementData from '../data/CRMManagement.json'
 import SolutionsHero from '../components/reusable/Hero'
 import PageTransition from '../components/reusable/PageTransition';
@@ -18,7 +19,11 @@ const CRMManagement = () => {
     const { hero, whyChoose, sharperFinancial, financialControl, build, Financial, bringStructure } = CRMManagementData
     const { section } = whyChoose
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
-    useEffect(() => { document.title = 'CRM Management - BuilderTek'; }, [])
+    useSEO({
+        title: 'Construction CRM Software | BuilderTek',
+        description: 'Manage leads, vendors, customers, and project communication with BuilderTek CRM software built for construction workflows.',
+        keywords: 'construction CRM software, contractor CRM, Salesforce construction CRM, construction sales management',
+    })
     useEffect(() => {
         const handleResize = () => {
             setIsMobile(window.innerWidth < 768)

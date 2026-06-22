@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-
+import { useSEO } from '../hooks/useSEO'
 import whoWeServe from '../data/Developer.json'
 
 import SolutionsHero from '../components/reusable/Hero'
@@ -17,7 +17,11 @@ const Developer = () => {
     const { whyChoose } = whoWeServe
     const { section } = whyChoose
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
-    useEffect(() => { document.title = 'Developers - BuilderTek'; }, [])
+    useSEO({
+        title: 'Construction Software for Developers & Owners | BuilderTek',
+        description: 'Gain portfolio-wide visibility into budgets, schedules, approvals, and project performance with BuilderTek.',
+        keywords: 'construction software for developers, owner project management software, developer construction platform, portfolio management',
+    })
     useEffect(() => {
         const handleResize = () => {
             setIsMobile(window.innerWidth < 768)

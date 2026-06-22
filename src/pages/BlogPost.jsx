@@ -8,6 +8,7 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import blogsData from '../data/blogs.json'
 import Text from '../components/reusable/Text'
+import { getBlogBySlug, getAllBlogs } from '../lib/queries'
 
 const ContentRenderer = ({ content }) => {
   return (
@@ -85,8 +86,24 @@ const BlogPost = () => {
   const { slug } = useParams()
   const navigate = useNavigate()
 
-  const blog = blogsData.blogs.find(b => b.slug === slug)
-  const relatedBlogs = blogsData.blogs.filter(b => b.slug !== slug)
+  const fallbackBlog = blogsData.blogs.find(b => b.slug === slug)
+  const fallbackRelated = blogsData.blogs.filter(b => b.slug !== slug)
+
+  const [blog, setBlog] = useState(fallbackBlog)
+  const [relatedBlogs, setRelatedBlogs] = useState(fallbackRelated)
+  const [loading, setLoading] = useState(!!import.meta.env.VITE_SANITY_PROJECT_ID)
+
+  useEffect(() => {
+    if (!import.meta.env.VITE_SANITY_PROJECT_ID) return
+    Promise.all([getBlogBySlug(slug), getAllBlogs()])
+      .then(([post, all]) => {
+        if (post) setBlog(post)
+        if (all?.length) setRelatedBlogs(all.filter(b => b.slug !== slug))
+      })
+      .catch(() => {})
+      .finally(() => setLoading(false))
+  }, [slug])
+
   useEffect(() => {
     document.title = blog ? `${blog.title} - BuilderTek` : 'Blog - BuilderTek'
   }, [blog])
@@ -95,6 +112,14 @@ const BlogPost = () => {
   const [leadSubmitted, setLeadSubmitted] = useState(false)
   const [commentForm, setCommentForm] = useState({ comment: '', name: '', email: '' })
   const [commentSubmitted, setCommentSubmitted] = useState(false)
+
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="w-10 h-10 border-4 border-[#126DFB] border-t-transparent rounded-full animate-spin" />
+      </div>
+    )
+  }
 
   if (!blog) {
     return (
