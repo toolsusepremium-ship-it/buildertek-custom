@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 import footerData from "../../data/footerData.json";
 import navbarData from "../../data/navbarData.json";
 import { Mail } from "lucide-react";
-
-const SHEETDB_URL = import.meta.env.VITE_SHEETDB_URL;
+import { submitToGoogleSheets } from "../../lib/googleSheets";
 
 export default function Footer() {
   const { brand, links, newsletter, bottom } = footerData;
@@ -15,12 +14,11 @@ export default function Footer() {
     if (!email || !email.includes("@")) return;
     setStatus("loading");
     try {
-      const res = await fetch(SHEETDB_URL, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ data: { email, date: new Date().toISOString() } }),
+      await submitToGoogleSheets({
+        form: "newsletter",
+        email,
+        date: new Date().toISOString(),
       });
-      if (!res.ok) throw new Error();
       setStatus("success");
       setEmail("");
     } catch {
