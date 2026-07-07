@@ -7,7 +7,7 @@ const AboutHero = ({ data }) => {
     const { hero } = data;
 
     return (
-        <section className="relative w-full pt-20 sm:pt-28 pb-10 text-center overflow-visible">
+        <section className="relative w-full pt-20 sm:pt-28 pb-[214px] text-center overflow-visible">
             {/* Background Image */}
             <div
                 className="absolute inset-0 bg-cover bg-center"
@@ -52,14 +52,14 @@ const AboutHero = ({ data }) => {
         
             </div>
 
-            {/* Foreground Image (Overlaps next section) */}
+            {/* Foreground Image (bleeds out of the blue hero, pinned to the section's bottom edge) */}
             <motion.div
-                className="relative w-[90%] sm:flex hidden  h-[12vh] sm:h-[30vh] justify-between  mx-auto mt-12 sm:mt-16 md:mt-20   px-4 z-20   gap-3.5"
+                className="absolute left-[50%] translate-x-[-50%] bottom-0 translate-y-[50%] w-[90%] sm:flex hidden  h-[300px] justify-between  px-4 z-30   gap-3.5"
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.8 }}
             >
-               <img src="/assets/about/hero1.png" className="rounded-2xl sm:w-full w-[95%] h-[50vw] sm:h-[390px]" alt="" />
+               <img src="/assets/about/hero1.png" className="rounded-2xl w-full h-full object-cover" alt="" />
 
             </motion.div>
         </section>
