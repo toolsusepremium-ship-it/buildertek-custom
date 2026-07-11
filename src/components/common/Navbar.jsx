@@ -45,12 +45,14 @@ const Navbar = () => {
                     {/* Desktop CTA + Mobile Menu Button */}
                     <div className="flex items-center gap-3">
                         {/* Desktop CTA Button */}
-                        {<Link
-                            to={navData.cta.path}
+                        {<a
+                            href={navData.cta.path}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="hidden lg:inline-flex px-3 sm:px-4 py-2 rounded-lg sm:rounded-xl text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2] b   text-xs sm:text-sm transition-all duration-300 hover:scale-105"
                         >
                             {navData.cta.label}
-                        </Link>
+                        </a>
                         }
                         {/* Mobile Menu Button */}
                         <button
@@ -102,7 +104,8 @@ const Navbar = () => {
                                 {/* Mobile CTA Button */}
                                 <a
                                     target="_blank"
-                                    href="https://buildertek3-dev-ed.develop.my.site.com/CaseManagement/login"
+                                    rel="noopener noreferrer"
+                                    href={navData.cta.path}
                                     className="inline-flex items-center justify-center px-4 py-2 rounded-xl text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2]    text-sm mt-4 w-full transition-all duration-300 hover:scale-105"
                                     onClick={() => setIsMobileMenuOpen(false)}
                                 >
