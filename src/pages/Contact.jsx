@@ -9,7 +9,7 @@ import { motion } from 'motion/react'
 import Text from '../components/reusable/Text';
 
 const Contact = () => {
-    const { hero, cards, form } = servicesData
+    const { hero, financialControl, cards, form } = servicesData
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
 const [isTablet, setIsTablet] = useState(window.innerWidth < 1024)
                 useSEO({
@@ -27,7 +27,7 @@ const [isTablet, setIsTablet] = useState(window.innerWidth < 1024)
                         window.removeEventListener('resize', handleResize)
                     }
                 },[])
-    const data = hero
+    const data = financialControl
     return (
         <PageTransition>
             <div className=''>
