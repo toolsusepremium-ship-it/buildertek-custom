@@ -3,8 +3,8 @@
         "title": "Contract Management \n Streamlined With \n BuilderTek",
         "description": "Design, manage, amend, and approve contracts while staying compliant. Simplify contract management during your construction project with all-around visibility in one place. ",
         "badge": " Reduce Risk. Maintain\n Control. Stay Compliant.",
-        "backgroundImage2": "/assets/solutions/hero/hero-bg.png",
-        "backgroundImage": "/assets/solutions/Request/hero-image.png"
+        "backgroundImage2": "/assets/solutions/hero/hero-bg.webp",
+        "backgroundImage": "/assets/solutions/Request/hero-image.webp"
     },
     "sectionTitle": {
         "title": "Streamlined Contract Management \n for Construction Complexity",
@@ -15,28 +15,28 @@
             "tag": "CENTRALIZED STORAGE",
             "title": "Create & Store Contracts Centrally",
             "description": "Maintain all contracts, revisions, and supporting documents in one secure, searchable location.",
-            "image": "/assets/solutions/bring-structure-one/B01_Create & Store Contracts Centrally.png",
+            "image": "/assets/solutions/bring-structure-one/B01_Create & Store Contracts Centrally.webp",
             "imagePosition": "right"
         },
         {
             "tag": "CLEAR CHANGE ORDERS",
             "title": "Manage Change Orders with Clarity",
             "description": "Track contract amendments with full version history, approval status, and documented changes. ",
-            "image": "/assets/solutions/bring-structure-one/B02_Create & Store Contracts Centrally.png",
+            "image": "/assets/solutions/bring-structure-one/B02_Create & Store Contracts Centrally.webp",
             "imagePosition": "left"
         },
         {
             "tag": "AUDIT READY, ALWAYS",
             "title": "Ensure Compliance & Audit Readiness",
             "description": "Automatically capture approval trails, timestamps, and user actions. Create complete, audit-ready records. ",
-            "image": "/assets/solutions/bring-structure-one/B03_Create & Store Contracts Centrally.png",
+            "image": "/assets/solutions/bring-structure-one/B03_Create & Store Contracts Centrally.webp",
             "imagePosition": "right"
         },
         {
             "tag": "CONTRACTS MEET FINANCIALS",
             "title": "Connect Contracts to Financials",
             "description": "Seamlessly link contracts to budgets, billing, and job costs. Provides real-time visibility into contractual commitments and project performance.",
-            "image": "/assets/solutions/bring-structure-one/B04_Create & Store Contracts Centrally.png",
+            "image": "/assets/solutions/bring-structure-one/B04_Create & Store Contracts Centrally.webp",
             "imagePosition": "left"
         }
     ],
@@ -49,22 +49,22 @@
             {
                 "title": "Automated Billing",
                 "description": "Generate accurate billing directly from contract terms and approved change orders.",
-                "image": "/assets/solutions/bring-structure-one/C1_Automated Billing.png"
+                "image": "/assets/solutions/bring-structure-one/C1_Automated Billing.webp"
             },
             {
                 "title": " Time-Saving Workflows",
                 "description": "Automated, role-based workflows streamline reviews, approvals, and updates. ",
-                "image": "/assets/solutions/bring-structure-one/C2_Automated Billing.png"
+                "image": "/assets/solutions/bring-structure-one/C2_Automated Billing.webp"
             },
             {
                 "title": "Change Order Tracking",
                 "description": "Track all contract changes with clear version history, approvals, and impact visibility.",
-                "image": "/assets/solutions/bring-structure-one/C3_Automated Billing.png"
+                "image": "/assets/solutions/bring-structure-one/C3_Automated Billing.webp"
             },
             {
                 "title": "Centralized Record Management",
                 "description": "Store all contracts, revisions, attachments, and correspondence in one secure, searchable system.",
-                "image": "/assets/solutions/bring-structure-one/C4_Automated Billing.png"
+                "image": "/assets/solutions/bring-structure-one/C4_Automated Billing.webp"
             }
         ]
     },
@@ -106,7 +106,7 @@
                 "label": "Schedule a Demo",
                 "link": "/contact"
             },
-            "image": "/assets/solutions/bring-structure-one/image.png"
+            "image": "/assets/solutions/bring-structure-one/image.webp"
         }
     },
     "faq": {

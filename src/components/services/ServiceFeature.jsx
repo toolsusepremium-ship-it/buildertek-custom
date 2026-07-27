@@ -32,7 +32,7 @@ const ServiceFeature = ({ data, reverse ,form}) => {
                             {data.features.map((item, index) => (
                                 <li key={index} className="flex items-start gap-3 text-gray-800">
                                    
-                                        <img src="/assets/who-we-are/why-general/tick.svg" className="mt-1" alt="" />
+                                        <img loading="lazy" decoding="async" src="/assets/who-we-are/why-general/tick.svg" className="mt-1" alt="" />
                                     
                                     <span className="text-base">
                                         {item}
@@ -45,7 +45,7 @@ const ServiceFeature = ({ data, reverse ,form}) => {
                     {/* RIGHT IMAGE */}
                 {data?.image&&    <div className={`flex max-w-xl justify-center ${reverse ? "lg:order-1" : "lg:order-2"}`}>
                         <div className="w-full rounded-2xl p-0">
-                            <img
+                            <img loading="lazy" decoding="async"
                                 src={data.image}
                                 alt={data.title}
                                 className="rounded-xl w-full h-auto object-contain"

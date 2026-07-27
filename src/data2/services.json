@@ -4,8 +4,8 @@
         "description": "Streamline cost tracking, commitments, and financial workflows made easy within a Salesforce-powered construction platform.",
         "topBadge": "Financial Management",
         "badge": "Strengthen Cost Control.\nAward with Confidence.",
-        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.png",
-        "backgroundImage": "/assets/services/hero/service-hero.png"
+        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.webp",
+        "backgroundImage": "/assets/services/hero/service-hero.webp"
     },
     "financialControl": {
         "badge": "FINANCIAL CONTROL",
@@ -17,7 +17,7 @@
             "Reduce data blind spots",
             "Centralize financial visibility"
         ],
-        "image": "/assets/services/financial-control/dashboard.png"
+        "image": "/assets/services/financial-control/dashboard.webp"
     },
     "whyChoose": {
         "section": {
@@ -28,32 +28,32 @@
             {
                 "title": "Real-Time Cost Tracking",
                 "description": "Track budgets, commitments, and actuals in one place—with up-to-the-minute accuracy.",
-                "icon": "/assets/services/financial/financial-one.png"
+                "icon": "/assets/services/financial/financial-one.webp"
             },
             {
                 "title": "Automated Billing & Invoicing",
                 "description": "Generate invoices directly from contract terms and change orders with minimal effort.",
-                "icon": "/assets/services/financial/financial-two.png"
+                "icon": "/assets/services/financial/financial-two.webp"
             },
             {
                 "title": "Change Order Financial Impact",
                 "description": "Monitor how every change order affects the bottom line with full approval history.",
-                "icon": "/assets/services/financial/financial-three.png"
+                "icon": "/assets/services/financial/financial-three.webp"
             },
             {
                 "title": "Cash Flow & Forecasting",
                 "description": "Project cash needs and identify cost pressures before they become problems.",
-                "icon": "/assets/services/financial/financial-four.png"
+                "icon": "/assets/services/financial/financial-four.webp"
             },
             {
                 "title": "Purchase Order Alignment",
                 "description": "Link POs back to budgets and contracts to eliminate disconnects.",
-                "icon": "/assets/services/financial/financial-five.png"
+                "icon": "/assets/services/financial/financial-five.webp"
             },
             {
                 "title": "Audit-Ready Recordkeeping",
                 "description": "Capture every financial action with timestamps, user history, and searchable logs.",
-                "icon": "/assets/services/financial/financial-six.png"
+                "icon": "/assets/services/financial/financial-six.webp"
             }
         ]
     },
@@ -95,7 +95,7 @@
                 "description": "Compare planned vs. actual spending in real time."
             },
             {
-                "icon": "/assets/services/financial-control/Vector2.png",
+                "icon": "/assets/services/financial-control/Vector2.webp",
                 "title": "Multi-Project Financial Views"
             },
             {
@@ -111,7 +111,7 @@
                 "title": "Integrated Cost Codes"
             }
         ],
-        "image": "/assets/services/financial-control/Group3.png"
+        "image": "/assets/services/financial-control/Group3.webp"
     },
     "Financial": {
         "title": "How It Works – Financial Workflow",

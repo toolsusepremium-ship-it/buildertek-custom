@@ -3,8 +3,8 @@
         "title": "Vendor Bidding\n Simplified With\n BuilderTek",
         "description": "Manage every stage of the Request for Quote/Bidding process directly within BuilderTek. Find a new project partner, manage the budget, simplify every step, and stay connected for the whole project with one unified dashboard.",
         "badge": "Strengthen Cost Control.\nAward with Confidence.",
-        "backgroundImage2": "/assets/solutions/hero/hero-bg.png",
-        "backgroundImage": "/assets/solutions/Rfq/hero-image.png"
+        "backgroundImage2": "/assets/solutions/hero/hero-bg.webp",
+        "backgroundImage": "/assets/solutions/Rfq/hero-image.webp"
     },
     "sectionTitle": {
         "title": "Centralized RFQ Management\nFor Construction Teams",
@@ -15,28 +15,28 @@
             "tag": "CREATE RFQS IN SECONDS",
             "title": "Generate Fully Structured RFQs In Just A Few Clicks",
             "description": "Generate RFQs directly from any project. Define scope, line items, quantities, pricing units, and due dates, then attach drawings and specifications so vendors receive complete, consistent information.",
-            "image": "/assets/solutions/Rfq/About BuilderTek RFQ_01.png",
+            "image": "/assets/solutions/Rfq/About BuilderTek RFQ_01.webp",
             "imagePosition": "right"
         },
         {
             "tag": "INVITE THE RIGHT VENDORS",
             "title": "Send Secure And Trackable Invitations",
             "description": "Send RFQs to one or multiple vendors with secure, email-based links—no portals or extra logins required. Track when RFQs are sent, viewed, and responded to in real time.",
-            "image": "/assets/solutions/Rfq/About BuilderTek RFQ_02.png",
+            "image": "/assets/solutions/Rfq/About BuilderTek RFQ_02.webp",
             "imagePosition": "left"
         },
         {
             "tag": "COLLECT STRUCTURED QUOTES",
             "title": "Consistent, Standardized Format For Clear Comparisons",
             "description": "Ensure all vendor responses follow the same structure, making it easy to compare pricing, scope, and compliance side by side.",
-            "image": "/assets/solutions/Rfq/About BuilderTek RFQ_03.png",
+            "image": "/assets/solutions/Rfq/About BuilderTek RFQ_03.webp",
             "imagePosition": "right"
         },
         {
             "tag": "Award with Confidence",
             "title": "Complete Pricing Visibility And Seamless Handoff",
             "description": "Finalize awards directly from the RFQ and seamlessly convert approved quotes into purchase orders or contracts.",
-            "image": "/assets/solutions/Rfq/About BuilderTek RFQ_04.png",
+            "image": "/assets/solutions/Rfq/About BuilderTek RFQ_04.webp",
             "imagePosition": "left"
         }
     ],
@@ -49,22 +49,22 @@
             {
                 "title": "Multi-Recipient Vendor Emails",
                 "description": "Include multiple contacts per vendor to ensure whole team stays aligned. ",
-                "image": "/assets/solutions/Rfq/Why Choose BuilderTek_01.png"
+                "image": "/assets/solutions/Rfq/Why Choose BuilderTek_01.webp"
             },
             {
                 "title": "Side-by-Side Quote Comparison",
                 "description": "Instantly evaluate vendors on price, scope, and completeness.",
-                "image": "/assets/solutions/Rfq/Why Choose BuilderTek_02.png"
+                "image": "/assets/solutions/Rfq/Why Choose BuilderTek_02.webp"
             },
             {
                 "title": "Audit-Ready Tracking",
                 "description": "Timestamped records of every action, change, and response.",
-                "image": "/assets/solutions/Rfq/Why Choose BuilderTek_03.png"
+                "image": "/assets/solutions/Rfq/Why Choose BuilderTek_03.webp"
             },
             {
                 "title": "BuilderTek-Native Experience",
                 "description": "Work natively inside Salesforce with real-time visibility and security.",
-                "image": "/assets/solutions/Rfq/Why Choose BuilderTek_04.png"
+                "image": "/assets/solutions/Rfq/Why Choose BuilderTek_04.webp"
             }
         ]
     },
@@ -106,7 +106,7 @@
                 "label": "Schedule a Demo",
                 "link": "/contact"
             },
-            "image": "/assets/solutions/bring-structure-one/image.png"
+            "image": "/assets/solutions/bring-structure-one/image.webp"
         }
     },
     "faq": {

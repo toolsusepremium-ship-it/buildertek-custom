@@ -3,8 +3,8 @@
         "title": "Simplify Realty Management\n With Best-In-Class Tools\n In BuilderTek",
         "description": "Manage listings, inspections, transactions, and closings, connected directly to construction workflows.",
         "summaryLine": "END-TO-END REALTY CONTROL",
-        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.png",
-        "backgroundImage": "/assets/services/hero/service-hero4.png"
+        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.webp",
+        "backgroundImage": "/assets/services/hero/service-hero4.webp"
     },
     "financialControl": {
         "title": " BuilderTek Real Estate Management: Built for Construction-Driven Projects",
@@ -13,7 +13,7 @@
             "BuilderTek Realty Management tool is designed for teams managing properties alongside construction or development projects. ",
             "Centralizes listings, inspections, offers, documentation, and contacts in BuilderTek. Get seamless coordination between development, sales, and operations teams without disconnected systems. "
         ],
-        "image": "/assets/services/re/B_About BuilderTek Realty.png"
+        "image": "/assets/services/re/B_About BuilderTek Realty.webp"
     },
     "whyChoose": {
         "section": {
@@ -89,37 +89,37 @@
                 "icon": "/assets/services/financial-control/Group copy.svg",
                 "title": "Unified Property Records",
                 "description": "Secure, scalable, and configurable",
-                "image": "/assets/services/re/E01_Salesforce-Native Property Records.png"
+                "image": "/assets/services/re/E01_Salesforce-Native Property Records.webp"
             },
             {
                 "icon": "/assets/services/financial-control/tabler_checklist.svg",
                 "title": "Inspection & Checklist Tracking",
                 "description": "Ensure compliance and readiness",
-                "image": "/assets/services/re/E02_Inspection & Checklist Tracking.png"
+                "image": "/assets/services/re/E02_Inspection & Checklist Tracking.webp"
             },
             {
                 "icon": "/assets/services/financial-control/Vector (4).svg",
                 "title": "Transaction Stage Visibility",
                 "description": "Clear progress from listing to close",
-                "image": "/assets/services/re/E03_Transaction Stage Visibility.png"
+                "image": "/assets/services/re/E03_Transaction Stage Visibility.webp"
             },
             {
                 "icon": "/assets/services/financial-control/Group (2) copy.svg",
                 "title": "Document & Photo Management",
                 "description": "Store agreements, reports, and visuals centrally",
-                "image": "/assets/services/re/E04_Document & Photo Management.png"
+                "image": "/assets/services/re/E04_Document & Photo Management.webp"
             },
             {
                 "icon": "/assets/services/financial-control/Group (3).svg",
                 "title": "CRM Integration",
                 "description": "Link properties to contacts, accounts, and opportunities",
-                "image": "/assets/services/re/E05_CRM Integration.png"
+                "image": "/assets/services/re/E05_CRM Integration.webp"
             },
             {
                 "icon": "/assets/services/financial-control/material-symbols_dashboard-outline-rounded.svg",
                 "title": "Reporting & Dashboards",
                 "description": "Track portfolio performance in real time",
-                "image": "/assets/services/re/E06_Reporting & Dashboards.png"
+                "image": "/assets/services/re/E06_Reporting & Dashboards.webp"
             }
         ]
     },
@@ -157,7 +157,7 @@
                 "label": "Schedule a Demo",
                 "link": "/contact"
             },
-            "image": "/assets/solutions/bring-structure-one/image.png"
+            "image": "/assets/solutions/bring-structure-one/image.webp"
         }
     },
     "faq": {

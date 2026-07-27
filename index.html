@@ -1,19 +1,45 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HDZ80GYJTR"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-HDZ80GYJTR');
-    </script>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/assets/favicon/Favicon-180x180.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BuilderTek</title>
+
+    <!-- Fonts: preconnect + non-render-blocking load -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap"
+      />
+    </noscript>
+
+    <!-- LCP hero assets -->
+    <link rel="preload" as="image" href="/UI_02.webp" media="(min-width: 769px)" fetchpriority="high" />
+    <link rel="preload" as="image" href="/assets/home/hero/Frame%2039269.svg" media="(min-width: 769px)" fetchpriority="high" />
+    <link rel="preload" as="image" href="/Frame%2039268%20(2).svg" media="(max-width: 768px)" fetchpriority="high" />
+
+    <!-- Analytics: deferred until after first paint -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-HDZ80GYJTR');
+      window.addEventListener('load', function () {
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-HDZ80GYJTR';
+        document.head.appendChild(s);
+      });
+    </script>
   </head>
   <body>
     <div id="root"></div>

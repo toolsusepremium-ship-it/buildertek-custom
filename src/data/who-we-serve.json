@@ -4,8 +4,8 @@
         "description": "One platform for General Contractors to manage bids, budgets, schedules, and contracts in one connected Salesforce workflow.",
         "topBadge": "General Contractors",
         "badge": "Strengthen Cost Control.\nAward with Confidence.",
-        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.png",
-        "backgroundImage": "/assets/who-we-are/hero/who-we-are.png"
+        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.webp",
+        "backgroundImage": "/assets/who-we-are/hero/who-we-are.webp"
     },
     "simplifyConstruction": {
         "title": "Simplify Construction Projects for General Contractors",
@@ -17,7 +17,7 @@
                 "title": "Centralized ",
                 "title2": "Project Control",
                 "description": "Manage RFQs, quotes, contracts, budgets, and schedules from one unified Salesforce-based platform.",
-                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.png"
+                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.webp"
             },
             {
                 "name": "Structured Procurement Workflows",
@@ -25,7 +25,7 @@
                 "title": "Structured ",
                 "title2": "Procurement Workflows",
                 "description": "Standardize procurement processes with clear approvals, vendor management, and complete audit trails.",
-                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.png"
+                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.webp"
             },
             {
                 "name": "Real-Time Financial Tracking",
@@ -33,7 +33,7 @@
                 "title": "Real-Time ",
                 "title2": "Financial Tracking",
                 "description": "Track budgets, costs, and forecasts in real time to maintain complete financial visibility.",
-                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.png"
+                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.webp"
             },
             {
                 "name": "Integrated Change Management",
@@ -41,7 +41,7 @@
                 "title": "Integrated ",
                 "title2": "Change Management",
                 "description": "Manage change orders seamlessly with full cost, schedule, and approval impact tracking.",
-                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.png"
+                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.webp"
             },
             {
                 "name": "Role-Based Collaboration",
@@ -49,7 +49,7 @@
                 "title": "Role-Based ",
                 "title2": "Collaboration",
                 "description": "Enable secure collaboration across teams with role-specific access and responsibilities.",
-                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.png"
+                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.webp"
             },
             {
                 "name": "Enterprise-Ready Reporting",
@@ -57,7 +57,7 @@
                 "title": "Enterprise-Ready ",
                 "title2": "Reporting",
                 "description": "Leverage enterprise-grade reporting and dashboards for actionable project insights.",
-                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.png"
+                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.webp"
             }
         ]
     },
@@ -112,7 +112,7 @@
                 "BuilderTek is a true Salesforce construction platform with enterprise scalability, real-time reporting, and seamless integrations.",
                 "A future-ready general contractor software designed to support both growth and governance."
             ],
-            "image": "/assets/who-we-are/why-general/why-general.png",
+            "image": "/assets/who-we-are/why-general/why-general.webp",
             "badge": ""
         }
     },
@@ -125,7 +125,7 @@
                 "label": "Schedule a Demo",
                 "link": "/contact"
             },
-            "image": "/assets/solutions/bring-structure-one/image.png"
+            "image": "/assets/solutions/bring-structure-one/image.webp"
         }
     },
     "faq": {

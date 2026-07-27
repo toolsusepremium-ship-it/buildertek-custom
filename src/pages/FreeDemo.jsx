@@ -24,11 +24,11 @@ const FreeDemo = () => {
         <PageTransition>
             {/* Compact hero — 40% shorter than standard (709px → 425px) */}
             <section className="relative w-full h-[240px] sm:h-[300px] lg:h-[425px] overflow-hidden">
-                <motion.img
+                <motion.img loading="lazy" decoding="async"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 1 }}
-                    src="/assets/contact/Free%20Demo.png"
+                    src="/assets/contact/Free%20Demo.webp"
                     alt="Schedule A Demo With Us"
                     className="absolute inset-0 w-full h-full object-cover"
                 />

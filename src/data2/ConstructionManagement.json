@@ -4,8 +4,8 @@
         "description": "Plan smarter, coordinate better, and deliver projects on time; all from a single platform.\n\nBuilderTek Construction Management empowers end-to-end construction management- schedules, inspections, documents, and project tracking into a single, connected system.",
         "topBadge": "Designed for real-world construction workflows.",
         "badge": "Strengthen Cost Control.\nAward with Confidence.",
-        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.png",
-        "backgroundImage": "/assets/services/hero/service-hero2.png"
+        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.webp",
+        "backgroundImage": "/assets/services/hero/service-hero2.webp"
     },
     "financialControl": {
         "title": "End-to-End Project Control, Built for Construction Management.",
@@ -14,7 +14,7 @@
             "BuilderTek Construction Management eliminates fragmented tools and manual coordination by centralizing core project operations into one intuitive platform. It connects in-field and office teams with real-time project data. ",
             "BuilderTek Construction Management Software ensures schedules, inspections, documents, and progress tracking stay aligned from kickoff through closeout."
         ],
-        "image": "/assets/services/co/B_AboutBuilderTek.png"
+        "image": "/assets/services/co/B_AboutBuilderTek.webp"
     },
     "whyChoose": {
         "section": {
@@ -93,38 +93,38 @@
                 "icon": "/assets/services/financial-control/Group (1).svg",
                 "title": "Gantt Chart & Timeline Views",
                 "description": "Visualize schedules, dependencies, and progress clearly",
-                "image":"/assets/services/co/E01_Gantt Chart & Timeline Views.png"
+                "image":"/assets/services/co/E01_Gantt Chart & Timeline Views.webp"
             },
             {
                 "icon": "/assets/services/financial-control/Vector3.svg",
                 "title": "Task & Milestone Tracking",
                 "description": "Monitor critical phases and deliverables",
-                "image":"/assets/services/co/E02_Gantt Chart & Timeline Views.png"
+                "image":"/assets/services/co/E02_Gantt Chart & Timeline Views.webp"
             },
             {
                 "icon": "/assets/services/financial-control/Group.svg",
                 "title": "Document Version Control",
                 "description": "Ensure teams work from the latest files",
-                "image":"/assets/services/co/E03_Gantt Chart & Timeline Views.png"
+                "image":"/assets/services/co/E03_Gantt Chart & Timeline Views.webp"
             },
             {
                 "icon": "/assets/services/financial-control/Group(1).svg",
                 "title": "Mobile-Friendly Access",
                 "description": "Support field teams on the go",
-                "image":"/assets/services/co/E04_Gantt Chart & Timeline Views.png"
+                "image":"/assets/services/co/E04_Gantt Chart & Timeline Views.webp"
             },
             {
                 "icon": "/assets/services/financial-control/Group(1).svg",
                 "title": "BuilderTek Native Reporting",
                 "description": "Use dashboards to track project performance",
-                "image":"/assets/services/co/E05_Gantt Chart & Timeline Views.png"
+                "image":"/assets/services/co/E05_Gantt Chart & Timeline Views.webp"
             },
             {
                 "icon": "/assets/services/financial-control/Group(1).svg",
                 "title": "Multi-Project Oversight",
                 "description": "Manage multiple jobs from a single platform",
                 
-                "image":"/assets/services/co/E06_Gantt Chart & Timeline Views.png"
+                "image":"/assets/services/co/E06_Gantt Chart & Timeline Views.webp"
             }
         ]
     },
@@ -162,7 +162,7 @@
                 "label": "Schedule a Demo",
                 "link": "/contact"
             },
-            "image": "/assets/solutions/bring-structure-one/image.png"
+            "image": "/assets/solutions/bring-structure-one/image.webp"
         }
     },
     "faq": {

@@ -25,7 +25,7 @@ const GridCard = ({ feature }) => {
           </div>
             {/* Image */}
             <div className="mt-6 bg-gray-100 rounded-lg overflow-hidden max-h-[300px] flex-center">
-                <img
+                <img loading="lazy" decoding="async"
                     src={feature.image}
                     alt={feature.title}
                     className="img-cover"

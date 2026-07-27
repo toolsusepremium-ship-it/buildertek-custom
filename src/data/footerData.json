@@ -1,6 +1,6 @@
 {
     "brand": {
-        "logo": "/assets/logos/builder-logo.png",
+        "logo": "/assets/logos/builder-logo.webp",
         "description": "The #1 Construction Software App On the Salesforce® platform. BuilderTek has been an exclusive ISV Partner of Salesforce® for over 15 years!",
         "address": "605 SW US HWY 40, P.O Box 452 Blue Springs, MO. 64014",
         "email": "sales@buildertek.com",
@@ -49,7 +49,7 @@
             "address": "500 SW South AVE, P.O Box 1975 Blue Springs, MO. 64014",
             "email": "sales@buildertek.com",
             "phone": "1-844-547-7225 Ext. 700",
-            "logo": "/assets/logos/builder-logo.png"
+            "logo": "/assets/logos/builder-logo.webp"
         },
         "links": {
             "quickLinks": {

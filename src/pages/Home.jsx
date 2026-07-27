@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { lazy, Suspense, useEffect, useState } from 'react'
 import { useSEO } from '../hooks/useSEO'
 import homeData from '../data/home.json'
 import HomeHero from '../components/home/HomeHero'
@@ -9,7 +9,8 @@ import { motion } from 'motion/react'
 import IndustriesSection from '../components/home/IndustriesSection'
 import ConnectedOperations from '../components/home/ConnectedOperations'
 import SmartFeatures from '../components/home/SmartFeatures'
-import TestimonialSlider from '../components/home/TestimonialSlider'
+// Below-the-fold and drags in Swiper — split so it never blocks first paint.
+const TestimonialSlider = lazy(() => import('../components/home/TestimonialSlider'))
 import IndustriesSectionMobile from '../components/home/IndustriesSectionMobile'
 const Home = () => {
   const { bringStructure } = homeData;
@@ -37,7 +38,9 @@ const Home = () => {
        {width>768 ? <IndustriesSection data={homeData} /> : <IndustriesSectionMobile data={homeData} />}
         <ConnectedOperations data={homeData} />
         <SmartFeatures data={homeData} />
-        <TestimonialSlider data={homeData} />
+        <Suspense fallback={<div className="min-h-[40vh]" />}>
+          <TestimonialSlider data={homeData} />
+        </Suspense>
       </section>
 
       <motion.div

@@ -53,7 +53,7 @@ const ConnectedOperations = ({ data }) => {
                                 transition={{ duration: 0.5, delay: index * 0.2 + 0.5 }}
                                 viewport={{ once: true }}
                             >
-                                <motion.img
+                                <motion.img loading="lazy" decoding="async"
                                     src={item.image}
                                     alt=""
                                     className="w-full max-w-[420px] mx-auto object-contain"
@@ -105,7 +105,7 @@ const ConnectedOperations = ({ data }) => {
                                 transition={{ duration: 0.5, delay: index * 0.1 + 0.7 }}
                                 viewport={{ once: true }}
                             >
-                                <motion.img
+                                <motion.img loading="lazy" decoding="async"
                                     src={item.image}
                                     alt=""
                                     className="w-full max-w-[420px] mx-auto object-contain"

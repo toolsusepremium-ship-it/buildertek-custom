@@ -89,7 +89,7 @@ const ResidentialBuilders = () => {
                                     >
                                         {/* Icon */}
                                         <div className="w-14 h-14 mb-6 rounded-xl flex items-center justify-center">
-                                            <img
+                                            <img loading="lazy" decoding="async"
                                                 src={feature.icon}
                                                 alt={feature.title}
                                                 className="w-full h-full"

@@ -80,7 +80,7 @@ const FeatureCard = ({ feature, index, className = "" }) => {
             whileHover={{ y: -8, shadow: "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)" }}
         >
             <motion.div className="flex-grow flex items-center justify-center">
-                <motion.img
+                <motion.img loading="lazy" decoding="async"
                     src={feature.image}
                     alt={feature.title}
                     className="w-full h-auto max-h-[380px] sm:max-h-[280px] object-contain"

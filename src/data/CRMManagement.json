@@ -3,8 +3,8 @@
         "title": "Build Stronger\n Relationships Across\n Every Project With\n BuilderTek CRM",
         "description": "BuilderTek CRM Management gives construction teams a single, connected interface for tracking leads and opportunities for project-linked communication. CRM Management Software ensures nothing gets lost as projects move from preconstruction through closeout.",
         "topBadge": "CONNECTED CLIENT MANAGEMENT",
-        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.png",
-        "backgroundImage": "/assets/services/hero/service-hero3.png"
+        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.webp",
+        "backgroundImage": "/assets/services/hero/service-hero3.webp"
     },
     "financialControl": {
         "title": "Construction-Focused CRM Built to Streamline Lead and Prospect Management.",
@@ -13,7 +13,7 @@
             "BuilderTek extends Salesforce's CRM capabilities with construction-specific workflows.",
             "Give teams complete visibility into every relationship while reducing manual data entry and disconnected communication."
         ],
-        "image": "/assets/services/cms/B_About BuilderTek CRM.png"
+        "image": "/assets/services/cms/B_About BuilderTek CRM.webp"
     },
     "whyChoose": {
         "section": {
@@ -89,31 +89,31 @@
                 "icon": "/assets/services/financial-control/Group copy.svg",
                 "title": "Compelling CRM Framework",
                 "description": "Leverage the world’s most powerful CRM foundation.",
-                "image":"/assets/services/cms/E01_Salesforce-Native CRM Framework.png"
+                "image":"/assets/services/cms/E01_Salesforce-Native CRM Framework.webp"
             },
             {
                 "icon": "/assets/services/financial-control/Group (1).svg",
                 "title": "Pipeline & Forecast Views",
                 "description": "Track opportunities and expected revenue.",
-                "image":"/assets/services/cms/E02_Pipeline & Forecast Views.png"
+                "image":"/assets/services/cms/E02_Pipeline & Forecast Views.webp"
             },
             {
                 "icon": "/assets/services/financial-control/entypo_email.svg",
                 "title": "Integrated Email Communication",
                 "description": "Send branded emails without leaving the dashboard.",
-                "image":"/assets/services/cms/E03_Integrated Email Communication.png"
+                "image":"/assets/services/cms/E03_Integrated Email Communication.webp"
             },
             {
                 "icon": "/assets/services/financial-control/Group.svg",
                 "title": "Manage Proposal and Contacts",
                 "description": "See every interaction in one timeline.",
-                "image":"/assets/services/cms/E04_Manage Proposal and Contacts.png"
+                "image":"/assets/services/cms/E04_Manage Proposal and Contacts.webp"
             },
             {
                 "icon": "/assets/services/financial-control/Group (2).svg",
                 "title": "Project-to-CRM Linking",
                 "description": "Maintain continuity from sales to execution",
-                "image":"/assets/services/cms/E05_Project-to-CRM Linking.png"
+                "image":"/assets/services/cms/E05_Project-to-CRM Linking.webp"
             }
         ]
     },
@@ -151,7 +151,7 @@
                 "label": "Schedule a Demo",
                 "link": "/contact"
             },
-            "image": "/assets/solutions/bring-structure-one/image.png"
+            "image": "/assets/solutions/bring-structure-one/image.webp"
         }
     },
     "faq": {

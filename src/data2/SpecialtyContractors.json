@@ -2,9 +2,9 @@
     "hero": {
         "title": "Stay Aligned on\n Construction Projects\n with BuilderTek",
         "description": "Built for specialty contractors coordinating across multiple projects and schedules, BuilderTek gives specialty contractors the visibility and structure needed to manage bids, schedules, scope, and billing—without reliance on disconnected emails and spreadsheets.",
-        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person2.png",
-        "isBg": "/assets/who-we-are/hero/Vector.png",
-        "backgroundImage": "/assets/who-we-are/hero/who-we-are.png"
+        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person2.webp",
+        "isBg": "/assets/who-we-are/hero/Vector.webp",
+        "backgroundImage": "/assets/who-we-are/hero/who-we-are.webp"
     },
     "simplifyConstruction": {
         "title": "Get Clarity for Trade-Specific Construction Workflows",
@@ -15,42 +15,42 @@
                 "title": "Get Clear Scope ",
                 "title2": "Access",
                 "description": "View assigned tasks, drawings, and milestones in one place, ensuring crews always know what work is included and when it’s required.",
-                "image": "/assets/who-we-are/simplify-construction/B01_Get Clear Scope Access.png"
+                "image": "/assets/who-we-are/simplify-construction/B01_Get Clear Scope Access.webp"
             },
             {
                 "name": "Standardize RFQs & Quotes",
                 "title": "Standardize RFQs ",
                 "title2": "& Quotes",
                 "description": "Respond to consistent, clearly defined pricing requests that reduce ambiguity and speed up bid preparation.",
-                "image": "/assets/who-we-are/simplify-construction/B02_Get Clear Scope Access.png"
+                "image": "/assets/who-we-are/simplify-construction/B02_Get Clear Scope Access.webp"
             },
             {
                 "name": "Manage Contract & Change Tracking",
                 "title": "Manage Contract ",
                 "title2": "& Change Tracking",
                 "description": "Track scope changes with documented approvals and cost visibility, minimizing disputes and rework.",
-                "image": "/assets/who-we-are/simplify-construction/B03_Get Clear Scope Access.png"
+                "image": "/assets/who-we-are/simplify-construction/B03_Get Clear Scope Access.webp"
             },
             {
                 "name": "Update Billing Alignment",
                 "title": "Update Billing ",
                 "title2": "Alignment",
                 "description": "Link work completion directly to approvals and contract terms, ensuring billing reflects the actual work performed.",
-                "image": "/assets/who-we-are/simplify-construction/B04_Get Clear Scope Access.png"
+                "image": "/assets/who-we-are/simplify-construction/B04_Get Clear Scope Access.webp"
             },
             {
                 "name": "Manage Resource Planning",
                 "title": "Manage Resource ",
                 "title2": "Planning",
                 "description": "Coordinate crews efficiently across projects by aligning assignments with schedules and availability.",
-                "image": "/assets/who-we-are/simplify-construction/B05_Get Clear Scope Access.png"
+                "image": "/assets/who-we-are/simplify-construction/B05_Get Clear Scope Access.webp"
             },
             {
                 "name": "Centralize Project Communication",
                 "title": "Centralize Project ",
                 "title2": "Communication",
                 "description": "Keep updates, notes, and approvals in one shared system, reducing missed information across teams.",
-                "image": "/assets/who-we-are/simplify-construction/B06_Get Clear Scope Access.png"
+                "image": "/assets/who-we-are/simplify-construction/B06_Get Clear Scope Access.webp"
             }
         ]
     },
@@ -105,7 +105,7 @@
                 "BuilderTek is a top construction platform delivering structured workflows, real-time visibility, and seamless coordination across every job site.",
                 "A future-ready specialty contractor software designed to support operational efficiency, clearer scope management, faster billing cycles, and long-term business growth."
             ],
-            "image": "/assets/who-we-are/simplify-construction/D_Why Specialty Contractors Choose BuilderTek.png",
+            "image": "/assets/who-we-are/simplify-construction/D_Why Specialty Contractors Choose BuilderTek.webp",
             "badge": ""
         }
     },
@@ -118,7 +118,7 @@
                 "label": "Book a demo",
                 "link": "/contact"
             },
-            "image": "/assets/solutions/bring-structure-one/image.png"
+            "image": "/assets/solutions/bring-structure-one/image.webp"
         }
     },
     "faq": {

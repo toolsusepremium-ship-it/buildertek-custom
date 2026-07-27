@@ -64,7 +64,7 @@ export default function Footer() {
 
     {/* BRAND */}
     <div className="w-[280px]" >
-      <img src={brand.logo} alt="BuilderTek" className="h-10 w-auto max-w-[220px] object-contain mb-4" />
+      <img loading="lazy" decoding="async" src={brand.logo} alt="BuilderTek" className="h-10 w-auto max-w-[220px] object-contain mb-4" />
       <p className="text-sm text-gray-600 mb-4 max-w-sm">
         {brand.description}
       </p>
@@ -93,10 +93,10 @@ export default function Footer() {
   <div className="md:hidden w-1/2">
     <div className=" flex flex-col  gap-5 justify-start items-start sm:gap-5">
 
-  <img src="/Frame 39319.svg" width={70} height={40} alt="" />
+  <img loading="lazy" decoding="async" src="/Frame 39319.svg" width={70} height={40} alt="" />
  <a href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000009wK46EAE"  target="_blank">
                        
-  <img src="/Frame 39320.svg" width={80} height={40} alt="" />
+  <img loading="lazy" decoding="async" src="/Frame 39320.svg" width={80} height={40} alt="" />
   </a>
  </div>
   </div>
@@ -154,24 +154,24 @@ export default function Footer() {
 <div className="flex pt-4 sm:pt-5  gap-10 justify-center sm:justify-start sm:gap-5">
  
   <a href="#" className="hover:opacity-80">
-  <img src="/Group.svg" alt="" />
+  <img loading="lazy" decoding="async" src="/Group.svg" alt="" />
   </a>
  <a href="https://www.facebook.com/buildertek" target="_blank" className="hover:opacity-80">
-  <img src="/Group (1).svg" alt="" />
+  <img loading="lazy" decoding="async" src="/Group (1).svg" alt="" />
   </a>
  <a href="https://x.com/buildertek" target="_blank" className="hover:opacity-80">
-  <img src="/Group (2).svg" alt="" />
+  <img loading="lazy" decoding="async" src="/Group (2).svg" alt="" />
   </a>
  <a href="#" className="hover:opacity-80">
-  <img src="/SVG.svg" alt="" />
+  <img loading="lazy" decoding="async" src="/SVG.svg" alt="" />
   </a>
  </div>
 <div className=" hidden md:flex pt-5 sm:pt-5  gap-10 justify-center sm:justify-start sm:gap-5">
 
-  <img src="/Frame 39319.svg" width={80} height={60} alt="" />
+  <img loading="lazy" decoding="async" src="/Frame 39319.svg" width={80} height={60} alt="" />
  <a href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000009wK46EAE"  target="_blank">
  
-  <img src="/Frame 39320.svg" width={100} height={60} alt="" />
+  <img loading="lazy" decoding="async" src="/Frame 39320.svg" width={100} height={60} alt="" />
  </a> 
  </div>
 </div>
@@ -251,7 +251,7 @@ function FooterColumn({ title, items }) {
         
 //         {/* BRAND */}
 //         <div>
-//           <img src={brand.logo} alt="BuilderTek" className="h-10 mb-4" />
+//           <img loading="lazy" decoding="async" src={brand.logo} alt="BuilderTek" className="h-10 mb-4" />
 //           <p className="text-sm text-gray-600 mb-4">{brand.description}</p>
 
 //           <div className="text-sm text-gray-700 space-y-1">
@@ -344,7 +344,7 @@ function FooterColumn({ title, items }) {
 
 //         {/* Brand Info */}
 //         <div className="lg:col-span-2 space-y-4 max-w-xs">
-//           <img src={brand.logo} alt={brand.name} className="h-10" />
+//           <img loading="lazy" decoding="async" src={brand.logo} alt={brand.name} className="h-10" />
 
 //           <p className="text-gray-600 text-sm whitespace-pre-line">
 //             {brand.tagline}

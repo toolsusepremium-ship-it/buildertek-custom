@@ -5,8 +5,8 @@
         "title3": "BuilderTek",
         "description": "BuilderTek Quote Management centralizes pricing, revisions, approvals, and documentation. Reduce time at every stage, maintain consistency, and protect margins throughout the project lifecycle",
         "badge": "Improve accuracy, respond faster, and close winning quotes in minutes.",
-        "backgroundImage2": "/assets/solutions/hero/hero-bg.png",
-        "backgroundImage": "/assets/solutions/Quote/hero-image.png"
+        "backgroundImage2": "/assets/solutions/hero/hero-bg.webp",
+        "backgroundImage": "/assets/solutions/Quote/hero-image.webp"
     },
     "sectionTitle": {
         "title": "An All-In-One Platform To Manage Quotes for Construction Projects",
@@ -17,28 +17,28 @@
             "tag": "CREATE QUOTES IN SECONDS",
             "title": "Create Quotes with Confidence",
             "description": "Build detailed quotes using structured line items, pricing rules, and cost data pulled directly from your project.",
-            "image": "/assets/solutions/Quote/About BuilderTek Quotes_01.png",
+            "image": "/assets/solutions/Quote/About BuilderTek Quotes_01.webp",
             "imagePosition": "right"
         },
         {
             "tag": "MANAGE REVISIONS",
             "title": "Manage Revisions with Control",
             "description": "Track revisions automatically with clear version history and approval status.",
-            "image": "/assets/solutions/Quote/About BuilderTek Quotes_02.png",
+            "image": "/assets/solutions/Quote/About BuilderTek Quotes_02.webp",
             "imagePosition": "left"
         },
         {
             "tag": "QUICK PROFESSIONAL QUOTES",
             "title": "Send Professional Quotes",
             "description": "Deliver branded, professional quotes directly from BuilderTek with complete documentation.",
-            "image": "/assets/solutions/Quote/About BuilderTek Quotes_03.png",
+            "image": "/assets/solutions/Quote/About BuilderTek Quotes_03.webp",
             "imagePosition": "right"
         },
         {
             "tag": "CONVERT QUOTES",
             "title": "Convert Quotes Seamlessly",
             "description": "Turn approved quotes into contracts, budgets, or jobs without re-entering data.",
-            "image": "/assets/solutions/Quote/About BuilderTek Quotes_04.png",
+            "image": "/assets/solutions/Quote/About BuilderTek Quotes_04.webp",
             "imagePosition": "left"
         }
     ],
@@ -51,22 +51,22 @@
             {
                 "title": "Version-Controlled Quotes",
                 "description": "Every quote revision is automatically tracked, ensuring your team always works from the latest version while maintaining a complete history of changes for reference, compliance, and accountability.",
-                "image": "/assets/solutions/Quote/Key Features_01.png"
+                "image": "/assets/solutions/Quote/Key Features_01.webp"
             },
             {
                 "title": "Native Pricing Logic",
                 "description": "Leverage BuilderTek's powerful data model to apply consistent pricing rules, cost structures, and project data, reducing manual errors and improving pricing accuracy across all quotes.",
-                "image": "/assets/solutions/Quote/Key Features_02.png"
+                "image": "/assets/solutions/Quote/Key Features_02.webp"
             },
             {
                 "title": "Real-Time Status Tracking",
                 "description": "Instantly see where each quote stands- draft, sent, revised, approved, or awarded, so teams can prioritize follow-ups and respond quickly to opportunities.",
-                "image": "/assets/solutions/Quote/Key Features_03.png"
+                "image": "/assets/solutions/Quote/Key Features_03.webp"
             },
             {
                 "title": "Built-In Approval Workflows",
                 "description": "Route quotes through configurable approval processes before they are shared or finalized. Maintain internal controls while eliminating delays caused by disconnected review cycles.",
-                "image": "/assets/solutions/Quote/Key Features_04.png"
+                "image": "/assets/solutions/Quote/Key Features_04.webp"
             }
         ]
     },
@@ -108,7 +108,7 @@
                 "label": "Schedule a Demo",
                 "link": "/contact"
             },
-            "image": "/assets/solutions/bring-structure-one/image.png"
+            "image": "/assets/solutions/bring-structure-one/image.webp"
         }
     },
     "faq": {

@@ -2,19 +2,19 @@
   "hero": {
     "title": "Construction Management Software \n  Built for Real-World Results",
     "description": "Trusted by builders, teams, and project leaders for complete project control.",
-    "backgroundImage": "/assets/home/hero/home_banner.jpg",
+    "backgroundImage": "/assets/home/hero/home_banner.webp",
     "backgroundImage3": "/assets/home/hero/hero.webp",
-    "backgroundImage2": "/assets/home/hero/hero-bg.png",
+    "backgroundImage2": "/assets/home/hero/hero-bg.webp",
     "cta": {
       "label": "Schedule a Demo",
       "link": "/contact"
     },
-    "image": "/assets/home/hero/hero-forground.png",
+    "image": "/assets/home/hero/hero-forground.webp",
     "imageAlt": "BuilderTek construction dashboard preview"
   },
   "trustedLogos": {
     "title": "Today, BuilderTek is dominating in the construction Landscape with:",
-    "image": "/assets/about/dominating.jpg"
+    "image": "/assets/about/dominating.webp"
   },
   "platformSection": {
     "title": "BuilderTek: Built for Construction",
@@ -23,12 +23,12 @@
       {
         "title": "BuilderTek began as a passion project of our Founder & CEO in a small one-room apartment with a clear objective: to solve real-world construction challenges with a connected, real-time platform. What began as a focused initiative to streamline day-to-day construction workflows has evolved over more than two decades into one of the leading construction management platforms in the United States.",
         "description": "Since its inception in 2005, BuilderTek has addressed fragmented processes by connecting field and office teams, centralizing communication, and maintaining structured transaction records between project managers, vendors, and stakeholders. The platform was built to replace disconnected systems with one unified environment designed specifically for construction.",
-        "image": "/assets/about/Frame 39270.png"
+        "image": "/assets/about/Frame 39270.webp"
       },
       {
         "title": "As BuilderTek expanded across projects nationwide, its quality, reliability, and architectural strength gained industry recognition. This foundation led to an early partnership with Salesforce, establishing BuilderTek as a trusted ISV partner. ",
         "description": "For over 15 years, BuilderTek has remained a leading construction platform, supporting businesses of all sizes with performance, transparency, and scalable growth.",
-        "image": "/assets/about/Placeholder Image copy.png"
+        "image": "/assets/about/Placeholder Image copy.webp"
       }
     ]
   },
@@ -47,7 +47,7 @@
           "Bring strategic initiatives to life",
           "Detect and mitigate project risks"
         ],
-        "image": "/assets/industries-section/screenshot.png"
+        "image": "/assets/industries-section/screenshot.webp"
       },
       {
         "name": "Home Builders & Residential Contractors",
@@ -59,7 +59,7 @@
           "Manage teams and vendors",
           "Control project timelines"
         ],
-        "image": "/assets/industries-section/screenshot.png"
+        "image": "/assets/industries-section/screenshot.webp"
       },
       {
         "name": "Specialty Contractors",
@@ -71,7 +71,7 @@
           "Improve job costing",
           "Reduce delays"
         ],
-        "image": "/assets/industries-section/screenshot.png"
+        "image": "/assets/industries-section/screenshot.webp"
       },
       {
         "name": "Real Estate & Property Developers",
@@ -83,7 +83,7 @@
           "Financial forecasting",
           "Project visibility"
         ],
-        "image": "/assets/industries-section/screenshot.png"
+        "image": "/assets/industries-section/screenshot.webp"
       }
     ]
   },
@@ -92,7 +92,7 @@
     "title": "Proven at Scale;\n Trusted by Thousands Worldwide",
     "description": "An Exclusive Salesforce Partnership: Reinforcing deep integration and platform reliability.\n\nPreferred by Government & NGO Projects: BuilderTek’s robust, auditable workflows made it a recognized software partner for government, nonprofit, and public-sector construction programs.\n\nThis combination of depth and scale reflects real-world confidence from teams that demand clarity, compliance, and control.",
     "features": [],
-    "image": "/assets/about/Placeholder Image copy 2.png"
+    "image": "/assets/about/Placeholder Image copy 2.webp"
   },
   "financialControl2": {
     "badge": "Why Choose BuilderTek",
@@ -104,7 +104,7 @@
       "Scales from small builders to enterprise portfolios",
       "Offers audit-ready controls for governance and compliance"
     ],
-    "image": "/assets/about/Placeholder Image copy 3.png"
+    "image": "/assets/about/Placeholder Image copy 3.webp"
   },
   "Results": {
     "badge": "Our Commitment",
@@ -122,7 +122,7 @@
         "label": "Schedule a Demo",
         "link": "/contact"
       },
-      "image": "/assets/solutions/bring-structure-one/image.png"
+      "image": "/assets/solutions/bring-structure-one/image.webp"
     }
   }
 }

@@ -3,8 +3,8 @@
         "title": "Contract Management \n Streamlined With \n BuilderTek",
         "description": "Design, manage, amend, and approve contracts while staying compliant. Simplify contract management during your construction project with all-around visibility in one place. ",
         "badge": " Reduce Risk. Maintain\n Control. Stay Compliant.",
-        "backgroundImage2": "/assets/solutions/hero/hero-bg.png",
-        "backgroundImage": "/assets/solutions/Request/hero-image.png"
+        "backgroundImage2": "/assets/solutions/hero/hero-bg.webp",
+        "backgroundImage": "/assets/solutions/Request/hero-image.webp"
     },
     "sectionTitle": {
         "title": "Streamlined Contract Management \n for Construction Complexity",
@@ -14,25 +14,25 @@
         {
             "title": "Create & Store Contracts Centrally",
             "description": "Maintain all contracts, revisions, and supporting documents in one secure, searchable location.",
-            "image": "/assets/solutions/features/feature-img.png",
+            "image": "/assets/solutions/features/feature-img.webp",
             "imagePosition": "right"
         },
         {
             "title": "Manage Change Orders with Clarity",
             "description": "Track contract amendments with full version history, approval status, and documented changes. ",
-            "image": "/assets/solutions/features/feature-img.png",
+            "image": "/assets/solutions/features/feature-img.webp",
             "imagePosition": "left"
         },
         {
             "title": "Ensure Compliance & Audit Readiness",
             "description": "Automatically capture approval trails, timestamps, and user actions. Create complete, audit-ready records. ",
-            "image": "/assets/solutions/features/feature-img.png",
+            "image": "/assets/solutions/features/feature-img.webp",
             "imagePosition": "right"
         },
         {
             "title": "Connect Contracts to Financials",
             "description": "Seamlessly link contracts to budgets, billing, and job costs. Provides real-time visibility into contractual commitments and project performance.",
-            "image": "/assets/solutions/features/feature-img.png",
+            "image": "/assets/solutions/features/feature-img.webp",
             "imagePosition": "left"
         }
     ],
@@ -45,22 +45,22 @@
             {
                 "title": "Automated Billing",
                 "description": "Generate accurate billing directly from contract terms and approved change orders.",
-                "image": "/assets/solutions/why-choose/why-choose.png"
+                "image": "/assets/solutions/why-choose/why-choose.webp"
             },
             {
                 "title": " Time-Saving Workflows",
                 "description": "Automated, role-based workflows streamline reviews, approvals, and updates. ",
-                "image": "/assets/solutions/why-choose/why-choose.png"
+                "image": "/assets/solutions/why-choose/why-choose.webp"
             },
             {
                 "title": "Change Order Tracking",
                 "description": "Track all contract changes with clear version history, approvals, and impact visibility.",
-                "image": "/assets/solutions/why-choose/why-choose.png"
+                "image": "/assets/solutions/why-choose/why-choose.webp"
             },
             {
                 "title": "Centralized Record Management",
                 "description": "Store all contracts, revisions, attachments, and correspondence in one secure, searchable system.",
-                "image": "/assets/solutions/why-choose/why-choose.png"
+                "image": "/assets/solutions/why-choose/why-choose.webp"
             }
         ]
     },
@@ -102,7 +102,7 @@
                 "label": "Schedule a Demo",
                 "link": "/contact"
             },
-            "image": "/assets/solutions/bring-structure-one/image.png"
+            "image": "/assets/solutions/bring-structure-one/image.webp"
         }
     },
     "faq": {

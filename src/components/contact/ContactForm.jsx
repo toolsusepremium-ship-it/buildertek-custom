@@ -233,7 +233,7 @@ const ContactForm = ({ data }) => {
                                 <label htmlFor="mobile" className={labelBase}>{fields.phone.label}</label>
                                 <div className="flex gap-3 max-w-full">
                                     <div className="flex items-center gap-2 px-2 bg-gray-50/50 border border-gray-200 rounded-[1rem] w-[80px] shrink-0 justify-center text-gray-600 font-bold hover:border-blue-300 transition-colors cursor-pointer group">
-                                        <img src="https://flagcdn.com/us.svg" alt="US" className="w-5 h-auto rounded-sm" />
+                                        <img loading="lazy" decoding="async" src="https://flagcdn.com/us.svg" alt="US" className="w-5 h-auto rounded-sm" />
                                         <svg className="w-3 h-3 group-hover:text-blue-500 transition-colors shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
                                         </svg>

@@ -40,14 +40,14 @@ const WhyGeneral = ({ data }) => {
 
                     {/* LEFT – Image */}
                     <div className="relative">
-                        <img
+                        <img loading="lazy" decoding="async"
                             src={content.image}
                             alt="BuilderTek Platform"
                             className="w-full rounded-xl shadow-lg"
                         />
 
                         {/* Salesforce Badge */}
-                        {/* <img
+                        {/* <img loading="lazy" decoding="async"
                             src={content.badge}
                             alt="Salesforce"
                             className="absolute -top-6 right-10 w-28"
@@ -69,7 +69,7 @@ const WhyGeneral = ({ data }) => {
                                 <li key={index} className="flex items-start justify-start gap-x-2 gap-y-4">
                                     {/* <span className="mt-1 text-blue-600 text-xl">✔</span> */}
                                     {/* Image instead of tick text */}
-                                    <img src={content.tick} alt="tick" className="w-8 h-8 mt-1" />
+                                    <img loading="lazy" decoding="async" src={content.tick} alt="tick" className="w-8 h-8 mt-1" />
                                     <p className="text-lg lg:text-xl text-[#5A6582] font-normal leading-relaxed">
                                         {point}
                                     </p>
@@ -150,7 +150,7 @@ export default WhyGeneral;
 
 //                         {/* Image Left */}
 //                         <AnimatePresence mode="wait">
-//                             <motion.img
+//                             <motion.img loading="lazy" decoding="async"
 //                                 key={active}
 //                                 src={tab.image}
 //                                 alt={tab.title}

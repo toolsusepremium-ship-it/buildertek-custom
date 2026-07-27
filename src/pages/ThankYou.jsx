@@ -22,8 +22,8 @@ const ThankYou = () => {
                         transition={{ duration: 0.6, ease: "easeOut" }}
                         className="mb-10 flex justify-center"
                     >
-                        <img
-                            src="/assets/contact/Thank%20You.png"
+                        <img loading="lazy" decoding="async"
+                            src="/assets/contact/Thank%20You.webp"
                             alt="Thank You"
                             className="w-[352px] sm:w-[448px] md:w-[512px] object-contain"
                         />

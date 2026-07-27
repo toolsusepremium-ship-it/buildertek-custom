@@ -9,6 +9,7 @@ import 'swiper/css/navigation'
 import blogsData from '../data/blogs.json'
 import Text from '../components/reusable/Text'
 import { getBlogBySlug, getAllBlogs } from '../lib/queries'
+import { cdnImage } from '../lib/imageUrl'
 
 const ContentRenderer = ({ content }) => {
   return (
@@ -63,8 +64,8 @@ const RelatedBlogCard = ({ blog }) => (
   <Link to={`/blog/${blog.slug}`} className="block group">
     <div className="rounded-xl overflow-hidden border border-gray-100 hover:shadow-md transition duration-300 bg-white h-full">
       <div className="relative overflow-hidden">
-        <img
-          src={blog.image}
+        <img loading="lazy" decoding="async"
+          src={cdnImage(blog.image, 480)}
           alt={blog.title}
           className="w-full h-[180px] object-cover group-hover:scale-105 transition-transform duration-500"
         />
@@ -241,8 +242,10 @@ const BlogPost = () => {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <img
-                src={blog.image}
+              <img loading="eager" fetchPriority="high" decoding="async"
+                src={cdnImage(blog.image, 1200)}
+                srcSet={`${cdnImage(blog.image, 800)} 800w, ${cdnImage(blog.image, 1200)} 1200w, ${cdnImage(blog.image, 1600)} 1600w`}
+                sizes="(max-width: 1024px) 100vw, 900px"
                 alt={blog.title}
                 className="w-full max-h-[480px] object-cover"
               />

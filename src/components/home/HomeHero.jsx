@@ -46,7 +46,7 @@ const HomeHero = ({ data }) => {
                     {/* Option B: Or continue with Tailwind overrides */}
                     {/* <h1 className="text-3xl lg:text-4xl font-semibold text-[#032D60] leading-tight">
                     {hero.title}{" "}
-   List.png                 <span className="text-[#126DFB]">{hero.highlight}</span>
+   List.webp                 <span className="text-[#126DFB]">{hero.highlight}</span>
                 </h1> */}
 
                     <motion.p
@@ -69,7 +69,7 @@ const HomeHero = ({ data }) => {
                             to={hero.cta.link}
                             className="inline-flex items-center justify-center text-base sm:text-lg lg:text-xl px-6 sm:px-8 py-3 rounded-2xl font-bold  text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2]   hover:opacity-90 hover:scale-105 transition-all duration-300"
                         >
-                            {hero.cta.label} <img src={hero.cta.icon} className="ml-2 max-w-6" alt="" />
+                            {hero.cta.label} <img src={hero.cta.icon} decoding="async" width={24} height={24} className="ml-2 max-w-6" alt="" />
                         </Link>
                     </motion.div>
                     <motion.div
@@ -79,8 +79,8 @@ const HomeHero = ({ data }) => {
                         transition={{ duration: 0.8, delay: 0.6 }}
                     >
                         <a href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000009wK46EAE" className="flex sm:flex-row  w-fit sm:gap-x-[10px] gap-x-[5px]  rounded-[5px] p-[1px] py-[2px] " target="_blank">
-                        <img src={hero.image1} className= "w-[140px] sm:w-full  cursor-pointer" alt="" />
-                        <img src={hero.image2} className="w-[140px] sm:w-full  cursor-pointer" alt="" />
+                        <img src={hero.image1} decoding="async" className= "w-[140px] sm:w-full  cursor-pointer" alt="" />
+                        <img src={hero.image2} decoding="async" className="w-[140px] sm:w-full  cursor-pointer" alt="" />
                         </a>
                     </motion.div>
                 </div>
@@ -90,15 +90,18 @@ const HomeHero = ({ data }) => {
                     <div className={`relative w-[90%] sm:w-[70%] lg:w-[85%] max-w-lg`}>
                         {/* Second Image (Base) */}
                        {width>768 ?
-                            <>  <img src={hero.sideimage.image1} className={`w-full h-auto object-contain relative z-0 `} alt="" />
+                            <>  <img src={hero.sideimage.image1} loading="eager" fetchPriority="high" decoding="async" className={`w-full h-auto object-contain relative z-0 `} alt="" />
 
                                 <img
                                     src={hero.sideimage.image2}
+                                    loading="eager"
+                                    fetchPriority="high"
+                                    decoding="async"
                                     className="absolute top-[10%] left-[-40%] w-[100%] h-auto object-contain z-10 drop-shadow-2xl"
                                     alt=""
                                 />
                         </>:
-                            <img src='/Frame 39268 (2).svg' className={`w-full h-auto -mt-10 object-contain relative z-0 `} alt="" />
+                            <img src='/Frame 39268 (2).svg' loading="eager" fetchPriority="high" decoding="async" className={`w-full h-auto -mt-10 object-contain relative z-0 `} alt="" />
                         }
                     </div>
                 </div>

@@ -40,7 +40,7 @@ const CenteredCtaSection = ({ data }) => {
 
                 {data.image &&
                     <div className="mt-1 hidden  shadow-lg p-4 max-w-[995px] bg-[#E9E9EA]">
-                        <img
+                        <img loading="lazy" decoding="async"
                             src={data.image}
                             alt="RFQ Preview"
                             className="w-full h-full rounded-l-xl rounded-r-xl"

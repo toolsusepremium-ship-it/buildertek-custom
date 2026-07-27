@@ -2,9 +2,9 @@
     "hero": {
         "title": "BuilderTek Construction\n Software for Complex\n Construction Projects",
         "description": "One platform for General Contractors to manage bids, budgets, schedules, and contracts in one connected  workflow.",
-        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.png",
-        "isBg": "/assets/who-we-are/hero/Vector.png",
-        "backgroundImage": "/assets/who-we-are/hero/who-we-are.png"
+        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.webp",
+        "isBg": "/assets/who-we-are/hero/Vector.webp",
+        "backgroundImage": "/assets/who-we-are/hero/who-we-are.webp"
     },
     "simplifyConstruction": {
         "title": "Simplify Construction Projects for General Contractors",
@@ -16,7 +16,7 @@
                 "title": "Centralized ",
                 "title2": "Project Control",
                 "description": "Manage RFQs, quotes, contracts, budgets, and schedules from one unified  platform.",
-                "image": "/assets/who-we-are/specialty-contractors/Whyuse BuilderTek_01.png"
+                "image": "/assets/who-we-are/specialty-contractors/Whyuse BuilderTek_01.webp"
             },
             {
                 "name": "Structured Procurement Workflows",
@@ -24,7 +24,7 @@
                 "title": "Structured ",
                 "title2": "Procurement Workflows",
                 "description": "Standardize vendor bidding, comparisons, and awards with repeatable, auditable processes.",
-                "image": "/assets/who-we-are/specialty-contractors/Whyuse BuilderTek_01.png"
+                "image": "/assets/who-we-are/specialty-contractors/Whyuse BuilderTek_01.webp"
             },
             {
                 "name": "Real-Time Financial Tracking",
@@ -32,7 +32,7 @@
                 "title": "Real-Time ",
                 "title2": "Financial Tracking",
                 "description": "Track budgets, commitments, and actuals together for complete cost transparency- at every level. ",
-                "image": "/assets/who-we-are/specialty-contractors/Why use BuilderTek_02.png"
+                "image": "/assets/who-we-are/specialty-contractors/Why use BuilderTek_02.webp"
             },
             {
                 "name": "Integrated Change Management",
@@ -40,7 +40,7 @@
                 "title": "Integrated ",
                 "title2": "Change Management",
                 "description": "Capture change orders with full visibility into cost, scope, and approvals.",
-                "image": "/assets/who-we-are/specialty-contractors/Why use BuilderTek_03.png"
+                "image": "/assets/who-we-are/specialty-contractors/Why use BuilderTek_03.webp"
             },
             {
                 "name": "Role-Based Collaboration",
@@ -48,7 +48,7 @@
                 "title": "Role-Based ",
                 "title2": "Collaboration",
                 "description": "Ensure project managers, estimators, and finance teams have access to the same data, without confusion, both online and offline. ",
-                "image": "/assets/who-we-are/specialty-contractors/Why use BuilderTek_04.png"
+                "image": "/assets/who-we-are/specialty-contractors/Why use BuilderTek_04.webp"
             },
             {
                 "name": "Enterprise-Ready Reporting",
@@ -56,7 +56,7 @@
                 "title": "Enterprise-Ready ",
                 "title2": "Reporting",
                 "description": "Leverage BuilderTek native dashboards for accurate, real-time project insights.",
-                "image": "/assets/who-we-are/specialty-contractors/Why use BuilderTek_06.png"
+                "image": "/assets/who-we-are/specialty-contractors/Why use BuilderTek_06.webp"
             }
         ]
     },
@@ -111,7 +111,7 @@
                 "BuilderTek is the best constrution platform with enterprise scalability, real-time reporting, and seamless integrations.",
                 "A future-ready general contractor software designed to support both growth and governance."
             ],
-            "image": "/assets/who-we-are/specialty-contractors/Platform Advantage.png",
+            "image": "/assets/who-we-are/specialty-contractors/Platform Advantage.webp",
             "badge": ""
         }
     },
@@ -124,7 +124,7 @@
                 "label": "Schedule a Demo",
                 "link": "/contact"
             },
-            "image": "/assets/solutions/bring-structure-one/image.png"
+            "image": "/assets/solutions/bring-structure-one/image.webp"
         }
     },
     "faq": {

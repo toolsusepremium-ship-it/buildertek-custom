@@ -21,6 +21,11 @@ const Navbar = () => {
                         <img
                             src={navData.logo.src}
                             alt={navData.logo.alt}
+                            width={293}
+                            height={43}
+                            loading="eager"
+                            decoding="async"
+                            fetchPriority="high"
                             className="h-[30px] w-[200px] sm:h-[35px] sm:w-[240px] lg:h-[43px] lg:w-[293px]"
                         />
                     </Link>

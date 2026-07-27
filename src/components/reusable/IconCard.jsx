@@ -20,7 +20,7 @@ const IconCard = ({ card }) => {
             {/* ICON OR IMAGE */}
             <div className="space-element">
                 {card.useImage ? (
-                    <img
+                    <img loading="lazy" decoding="async"
                         src={card.image}
                         alt={card.title}
                         className="icon-large"

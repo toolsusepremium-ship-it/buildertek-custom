@@ -3,8 +3,8 @@
         "title": "Optimize Crews\n and Resources with\n BuilderTek Resource\n Management",
         "description": "Plan smarter, reduce downtime, and keep every project properly staffed without the guesswork with BuilderTek resource management.",
         "topBadge": "SMARTER CREW DEPLOYMENT",
-        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.png",
-        "backgroundImage": "/assets/services/hero/service-hero5.png"
+        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.webp",
+        "backgroundImage": "/assets/services/hero/service-hero5.webp"
     },
     "financialControl": {
         "title": "Seamless Construction Resource Planning Across Teams",
@@ -13,7 +13,7 @@
             "BuilderTek Resource Management tool replaces reactive scheduling and disconnected tracking with a centralized, real-time view of workforce and equipment utilization.",
             " Designed specifically for construction workflows, it connects schedules, tasks, and project timelines, so resource decisions are based on accurate data, not assumptions. "
         ],
-        "image": "/assets/services/ro/B_ About BuilderTek Resource.png"
+        "image": "/assets/services/ro/B_ About BuilderTek Resource.webp"
     },
     "whyChoose": {
         "section": {
@@ -86,43 +86,43 @@
         "title": "Keep Track of Resource Allocation With BuilderTek Resource Management",
         "features": [
             {
-                "icon": "/assets/services/financial-control/material-symbols_dashboard-outline-rounded.png",
+                "icon": "/assets/services/financial-control/material-symbols_dashboard-outline-rounded.webp",
                 "title": "Centralized Resource Dashboard",
                 "description": "View crews and assets across all projects",
                 
-        "image": "/assets/services/ro/E01_Centralized Resource Dashboard.png"
+        "image": "/assets/services/ro/E01_Centralized Resource Dashboard.webp"
             },
             {
                 "icon": "/assets/services/financial-control/mdi_error-outline.svg",
                 "title": "Conflict Detection",
                 "description": "Identify scheduling overlaps before they cause delays",
-        "image": "/assets/services/ro/E02_Conflict Detection.png"
+        "image": "/assets/services/ro/E02_Conflict Detection.webp"
             },
             {
                 "icon": "/assets/services/financial-control/uil_lock-access.svg",
                 "title": "Role-Based Access",
                 "description": "Ensure teams see only the resources they manage",
-        "image": "/assets/services/ro/E03_Role-Based Access.png"
+        "image": "/assets/services/ro/E03_Role-Based Access.webp"
             },
             {
                 "icon": "/assets/services/financial-control/Group copy.svg",
                 "title": "Real-time Reporting",
                 "description": " Analyze utilization and productivity trends",
-        "image": "/assets/services/ro/E04_Salesforce-Native Reporting.png"
+        "image": "/assets/services/ro/E04_Salesforce-Native Reporting.webp"
             },
             {
                 "icon": "/assets/services/financial-control/Group (1).svg",
                 "title": "Multi-Project Planning",
                 "description": " Balance demand across active jobs",
                 
-                "image": "/assets/services/ro/E05_Multi-Project Planning.png"
+                "image": "/assets/services/ro/E05_Multi-Project Planning.webp"
             },
             {
                 "icon": "/assets/services/financial-control/Group (2).svg",
                 "title": "Mobile-Friendly Views",
                 "description": "Support field and operations teams on the go",
             
-                "image": "/assets/services/ro/E06_Mobile-Friendly Views.png"
+                "image": "/assets/services/ro/E06_Mobile-Friendly Views.webp"
             }
         ]
     },
@@ -160,7 +160,7 @@
                 "label": "Schedule a Demo",
                 "link": "/contact"
             },
-            "image": "/assets/solutions/bring-structure-one/image.png"
+            "image": "/assets/solutions/bring-structure-one/image.webp"
         }
     },
     "faq": {

@@ -34,7 +34,7 @@ export const Build = ({ data }) => {
                                 }`}
                         >
                             <div className="flex items-center gap-4">
-                                <img
+                                <img loading="lazy" decoding="async"
                                     src={feature.icon}
                                     alt=""
                                     className={`w-6 h-6 object-contain ${activeIndex === index ? 'opacity-100' : 'opacity-70 '}`}
@@ -56,7 +56,7 @@ export const Build = ({ data }) => {
                 {/* Right Column - Image */}
                 <div className="relative h-full sm:min-h-[400px] min-h-[300px] rounded-3xl  flex items-center justify-center">
                     {data.features[activeIndex].image ? (
-                        <img
+                        <img loading="lazy" decoding="async"
                             src={data.features[activeIndex].image}
                             alt={data.features[activeIndex].title}
                             className="w-full h-3/4 sm:h-full object-contain rounded-2xl shadow-lg "

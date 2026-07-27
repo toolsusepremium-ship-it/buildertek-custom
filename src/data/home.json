@@ -4,9 +4,9 @@
     "subtitle": "Confidence  On ",
     "highlight": "BuilderTek",
     "description": "BuilderTek Construction keeps your team on task and on target with intuitive systems to organize, manage, optimize, and enhance your business processes.",
-    "backgroundImage": "/assets/home/hero/home_banner.jpg",
+    "backgroundImage": "/assets/home/hero/home_banner.webp",
     "backgroundImage3": "/assets/home/hero/hero.webp",
-    "backgroundImage2": "/assets/home/hero/hero-bg.png",
+    "backgroundImage2": "/assets/home/hero/hero-bg.webp",
     "cta": {
       "label": "Schedule a Demo",
       "link": "/contact",
@@ -15,10 +15,10 @@
     "image1": "/assets/home/hero/image 62.svg",
     "image2": "/assets/home/hero/image 44.svg",
     "sideimage": {
-      "image1": "/UI_02.png",
+      "image1": "/UI_02.webp",
       "image2": "/assets/home/hero/Frame 39269.svg"
     },
-    "image": "/assets/home/hero/hero-forground.png",
+    "image": "/assets/home/hero/hero-forground.webp",
     "imageAlt": "BuilderTek construction dashboard preview"
   },
   "trustedLogos": {
@@ -43,28 +43,28 @@
       "title": "Salesforce-",
       "subtitle": "Native Power",
       "description": "Run your entire project on the world’s most secure and scalable cloud platform-Salesforce.",
-      "image": "/assets/home/platform-section/image-lapotp-full.png"
+      "image": "/assets/home/platform-section/image-lapotp-full.webp"
     },
     "mainFeature": {
       "circleImage": "/assets/home/platform-section/clip-path-group.svg",
       "tagImage": "/assets/home/platform-section/salesforce.svg",
       "badgeImage": "",
-      "cloudImage": "/assets/home/platform-section/bg-image.png",
+      "cloudImage": "/assets/home/platform-section/bg-image.webp",
       "title": "Salesforce-",
       "subtitle": "Native Power",
       "description": "Run your entire project on the world’s most secure and scalable cloud platform-Salesforce.",
-      "image": "/assets/home/platform-section/Salesforce Native Power home page 1.png"
+      "image": "/assets/home/platform-section/Salesforce Native Power home page 1.webp"
     },
     "features": [
       {
         "title": "End-to-End Project Visibility",
         "description": "Track budgets, schedules, resources, and documents in real time- everything on one reliable platform.",
-        "image": "/assets/home/platform-section/image 12.png"
+        "image": "/assets/home/platform-section/image 12.webp"
       },
       {
         "title": "Accurate Project Execution",
         "description": "Automate tasks, eliminate duplicate work, and improve decision-making with centralized project insights and built-in reporting.",
-        "image": "/assets/home/platform-section/image 73.png"
+        "image": "/assets/home/platform-section/image 73.webp"
       }
     ]
   },
@@ -82,7 +82,7 @@
           "Bring strategic initiatives to life",
           "Detect and mitigate project risks"
         ],
-        "image": "/assets/home/sw/Commercial Contractors.png"
+        "image": "/assets/home/sw/Commercial Contractors.webp"
       },
       {
         "name": "Home Builders & Residential Contractors",
@@ -94,7 +94,7 @@
           "Manage teams and vendors",
           "Control project timelines"
         ],
-        "image": "/assets/home/sw/Home Builders & Residential Contractors.png"
+        "image": "/assets/home/sw/Home Builders & Residential Contractors.webp"
       },
       {
         "name": "Specialty Contractors",
@@ -106,7 +106,7 @@
           "Improve job costing",
           "Reduce delays"
         ],
-        "image": "/assets/home/sw/Specialty Contractors.png"
+        "image": "/assets/home/sw/Specialty Contractors.webp"
       },
       {
         "name": "Real Estate & Property Developers",
@@ -118,7 +118,7 @@
           "Financial forecasting",
           "Project visibility"
         ],
-        "image": "/assets/home/sw/Real Estate & Property Developers.png"
+        "image": "/assets/home/sw/Real Estate & Property Developers.webp"
       }
     ]
   },
@@ -156,7 +156,7 @@
   "featuresSection": {
     "title": "Smart Features To Elevate\nConstruction Workflow",
     "description": "Every tool is built for accuracy, real-time updates, and seamless collaboration across your construction team.",
-    "rightSideImage": "/assets/home/features-section/right image.png",
+    "rightSideImage": "/assets/home/features-section/right image.webp",
     "features": [
       {
         "id": 1,
@@ -183,7 +183,7 @@
   },
   "testimonials": {
     "title": "Trusted By Industry leaders",
-    "quoteImage": "/assets/home/testimonials/quote.png",
+    "quoteImage": "/assets/home/testimonials/quote.webp",
     "items": [
       {
         "id": 1,
@@ -264,7 +264,7 @@
         "label": "Schedule a Demo",
         "link": "/contact"
       },
-      "image": "/assets/solutions/bring-structure-one/image.png"
+      "image": "/assets/solutions/bring-structure-one/image.webp"
     }
   }
 }

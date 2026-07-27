@@ -57,7 +57,7 @@ const TestimonialSlider = ({ data }) => {
 
                                         {/* Quote Icon */}
                                         <div className="flex justify-center mb-8">
-                                            <img
+                                            <img loading="lazy" decoding="async"
                                                 src={quoteImage}
                                                 alt="Quote"
                                                 className="w-14 h-14 md:w-20 md:h-20 opacity-40"
@@ -175,7 +175,7 @@ export default TestimonialSlider;
 
 //                                         {/* Quote Icon */}
 //                                         <div className="flex justify-center mb-8">
-//                                             <img
+//                                             <img loading="lazy" decoding="async"
 //                                                 src={quoteImage}
 //                                                 alt="Quote"
 //                                                 className="w-14 h-14 md:w-20 md:h-20 opacity-40"
@@ -341,7 +341,7 @@ export default TestimonialSlider;
 
 //                                             {/* Quote Icon */}
 //                                             <div className="flex justify-center mb-8">
-//                                                 <img
+//                                                 <img loading="lazy" decoding="async"
 //                                                     src={quoteImage}
 //                                                     alt="Quote"
 //                                                     className="w-20 h-20 opacity-40"
@@ -544,7 +544,7 @@ export default TestimonialSlider;
 //                                     >
 //                                         {/* Quote Icon */}
 //                                         <div className="flex justify-center mb-8">
-//                                             <img
+//                                             <img loading="lazy" decoding="async"
 //                                                 src={quoteImage}
 //                                                 alt="Quote"
 //                                                 className="w-14 h-14 md:w-20 md:h-20 opacity-40"
@@ -723,7 +723,7 @@ export default TestimonialSlider;
 
 //                                         {/* Quote Icon */}
 //                                         <div className="flex justify-center mb-6 md:mb-8">
-//                                             <img
+//                                             <img loading="lazy" decoding="async"
 //                                                 src={quoteImage}
 //                                                 alt="Quote"
 //                                                 className="w-14 h-14 md:w-20 md:h-20 opacity-40"

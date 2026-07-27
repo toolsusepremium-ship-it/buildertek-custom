@@ -19,7 +19,7 @@ export const About = () => {
       <section className="pt-[14vw] sm:pt-[14vw] md:pt-[12vw] lg:pt-[10vw]">
 
 <div className='block sm:hidden py-5 px-5'>
-  <img src="/Rectangle 8877.png" className="rounded-2xl pt-10  sm:w-full w-[95%] h-[58vw] sm:h-[390px]" alt="" />
+  <img loading="lazy" decoding="async" src="/Rectangle 8877.webp" className="rounded-2xl pt-10  sm:w-full w-[95%] h-[58vw] sm:h-[390px]" alt="" />
 
 
 </div>
@@ -30,7 +30,7 @@ export const About = () => {
           viewport={{ once: true }}
           className='relative w-[90%] mx-auto rounded-2xl overflow-hidden mt-10 md:h-[450px] h-[100vh] mx-auto text-white text-center p-4 py-10'
         >
-          <img src={Data.trustedLogos.image} className='absolute top-0 left-0 w-full h-full object-cover' alt="" />
+          <img loading="lazy" decoding="async" src={Data.trustedLogos.image} className='absolute top-0 left-0 w-full h-full object-cover' alt="" />
           <div className='absolute top-0 left-0 w-full h-full ' style={{ background: "linear-gradient(180deg, rgba(1, 26, 56, 0.6) 0%, #011A38 88.46%)" }} />
           <div className=' w-[80%] h-[80%] flex flex-col  justify-between absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]  '>
             <motion.h2
@@ -109,7 +109,7 @@ export const About = () => {
           w-full ${index == 1 ? "h-[50vh]" : index == 0 ? "h-[80vh]" : "h-[70vh]"}
         `}
               >
-                <img
+                <img loading="lazy" decoding="async"
                   src={feature.image}
                   className="w-full h-full object-cover rounded-2xl bg-gray-200"
                   alt=""

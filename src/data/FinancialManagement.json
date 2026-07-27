@@ -4,8 +4,8 @@
         "description": "Streamline cost tracking, commitments, and financial workflows made easy within the best construction platform.",
         "topBadge": "Financial Management",
         "badge": "Strengthen Cost Control.\nAward with Confidence.",
-        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.png",
-        "backgroundImage": "/assets/services/hero/service-hero.png"
+        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.webp",
+        "backgroundImage": "/assets/services/hero/service-hero.webp"
     },
     "financialControl": {
         "badge": "",
@@ -17,7 +17,7 @@
             "Reduce data blind spots",
             "Centralize financial visibility"
         ],
-        "image": "/assets/about/B_Financial Control.png"
+        "image": "/assets/about/B_Financial Control.webp"
     },
     "whyChoose": {
         "section": {
@@ -53,7 +53,7 @@
             {
                 "title": "Audit-Ready Recordkeeping",
                 "description": "Capture every financial action with timestamps, user history, and searchable logs.",
-                "icon": "/assets/services/financial/Group 39235 copy 3.png"
+                "icon": "/assets/services/financial/Group 39235 copy 3.webp"
             }
         ]
     },
@@ -94,31 +94,31 @@
                 "icon": "/assets/services/financial-control/Vector1.svg",
                 "title": "Budget vs. Actual Variance Reports",
                 "description": "Compare planned vs. actual spending in real time.",
-                "image":"/assets/services/fi/E1_Budget vs. Actual Variance Reports.png"    
+                "image":"/assets/services/fi/E1_Budget vs. Actual Variance Reports.webp"    
             },
             {
                 "icon": "/assets/services/financial-control/Group (1).svg",
                 "title": "Multi-Project Financial Views",
                 "description":" See costs across portfolios, not just individual jobs.",
-                  "image":"/assets/services/fi/E2_Budget vs. Actual Variance Reports.png"   
+                  "image":"/assets/services/fi/E2_Budget vs. Actual Variance Reports.webp"   
             },
             {
                 "icon": "/assets/services/financial-control/Vector3.svg",
                 "title": "Consolidated Reporting Tools",
                 "description":"Leverage dashboards and custom analytics.",
-                  "image":"/assets/services/fi/E3_Budget vs. Actual Variance Reports.png"   
+                  "image":"/assets/services/fi/E3_Budget vs. Actual Variance Reports.webp"   
             },
             {
                 "icon": "/assets/services/financial-control/Group.svg",
                 "title": "Automated Approvals",
                 "description":"Built-in workflows to reduce billing and PO recall delays.",
-                  "image":"/assets/services/fi/E4_Budget vs. Actual Variance Reports.png"   
+                  "image":"/assets/services/fi/E4_Budget vs. Actual Variance Reports.webp"   
             },
             {
                 "icon": "/assets/services/financial-control/Group(1).svg",
                 "title": "Integrated Cost Codes",
                 "description":"Standardize cost tracking across teams and projects.",
-                  "image":"/assets/services/fi/E5_Budget vs. Actual Variance Reports.png"   
+                  "image":"/assets/services/fi/E5_Budget vs. Actual Variance Reports.webp"   
             }
         ]
     },

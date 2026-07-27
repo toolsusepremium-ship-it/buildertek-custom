@@ -2,9 +2,9 @@
     "hero": {
         "title": " Build Better Homes\n with BuilderTek\n Construction\n Software",
         "description": "One platform built for Residential Contractors to manage bids, budgets, schedules, and client expectations, without the chaos.\n\nBecome effective in construction with the best Residential Contractor Software. Designed for teams balancing fast timelines, tight budgets, and frequent changes. Centralize RFQs, budgets, schedules, and contracts to keep projects moving smoothly while maintaining transparency with homeowners- from start to finish.",
-        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person1.png",
-        "isBg": "/assets/who-we-are/hero/Vector.png",
-        "backgroundImage": "/assets/who-we-are/hero/who-we-are.png"
+        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person1.webp",
+        "isBg": "/assets/who-we-are/hero/Vector.webp",
+        "backgroundImage": "/assets/who-we-are/hero/who-we-are.webp"
     },
     "simplifyConstruction": {
         "title": "Simplify Residential Construction Management",
@@ -15,42 +15,42 @@
                 "title": "Centralized Project",
                 "title2": "Visibility",
                 "description": "Manage schedules, budgets, documents, and tasks in one unified system, so everyone works from the same up-to-date information throughout the project lifecycle.",
-                "image": "/assets/who-we-are/residential-builders/WhyUseBuilderTek_01.png"
+                "image": "/assets/who-we-are/residential-builders/WhyUseBuilderTek_01.webp"
             },
             {
                 "name": " Faster Scheduling & Execution",
                 "title": "Faster Scheduling & ",
                 "title2": "Execution",
                 "description": "Connected timelines and task tracking help teams respond quickly to changes, reduce delays, and keep residential projects moving on schedule.",
-                "image": "/assets/who-we-are/residential-builders/WhyUseBuilderTek_02.png"
+                "image": "/assets/who-we-are/residential-builders/WhyUseBuilderTek_02.webp"
             },
             {
                 "name": " Real-Time Cost Awareness",
                 "title": "Real-Time ",
                 "title2": "Cost Awareness ",
                 "description": "Track commitments, actuals, and homeowner changes as they happen, giving you early visibility into budget impacts before margins are affected.",
-                "image": "/assets/who-we-are/residential-builders/WhyUseBuilderTek_03.png"
+                "image": "/assets/who-we-are/residential-builders/WhyUseBuilderTek_03.webp"
             },
             {
                 "name": "Clear Change Order Management",
                 "title": "Clear Change",
                 "title2": " Order Management",
                 "description": "Capture scope changes with pricing and approvals in one place, reducing confusion and helping maintain transparency with homeowners.",
-                "image": "/assets/who-we-are/residential-builders/WhyUseBuilderTek_04.png"
+                "image": "/assets/who-we-are/residential-builders/WhyUseBuilderTek_04.webp"
             },
             {
                 "name": " Improved Team Coordination- On-site and On-ground",
                 "title": " Improved Team",
                 "title2": "Coordination- On-site\n and On-ground",
                 "description": "Keep office staff, field teams, and subcontractors aligned through shared access, reducing miscommunication and rework. ",
-                "image": "/assets/who-we-are/residential-builders/WhyUseBuilderTek_05.png"
+                "image": "/assets/who-we-are/residential-builders/WhyUseBuilderTek_05.webp"
             },
             {
                 "name": "Consistent & Repeatable Workflows",
                 "title": "Consistent,Repeatable ",
                 "title2": " Workflows",
                 "description": "Standardized processes reduce manual effort and make it easier to scale residential operations without losing control.",
-                "image": "/assets/who-we-are/residential-builders/WhyUseBuilderTek_06.png"
+                "image": "/assets/who-we-are/residential-builders/WhyUseBuilderTek_06.webp"
             }
         ]
     },
@@ -105,7 +105,7 @@
                 "BuilderTek residential contractor software offers secure data, real-time reporting, and flexibility as residential operations grow. ",
                 "From small builders to regional firms, BuilderTek supports consistent execution without sacrificing control."
             ],
-            "image": "/assets/who-we-are/residential-builders/Platform Advantage.png",
+            "image": "/assets/who-we-are/residential-builders/Platform Advantage.webp",
             "badge": ""
         }
     },
@@ -118,7 +118,7 @@
                 "label": "Schedule a Demo",
                 "link": "/contact"
             },
-            "image": "/assets/solutions/bring-structure-one/image.png"
+            "image": "/assets/solutions/bring-structure-one/image.webp"
         }
     },
     "faq": {

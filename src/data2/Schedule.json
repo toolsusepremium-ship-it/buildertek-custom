@@ -3,8 +3,8 @@
         "title": "Keep Construction\n Project on Track\n With BuilderTek",
         "description": "Keep your project in full control with BuilderTek Scheduling Solutions- the project command center for timelines. Give teams a clear, shared view of tasks, resources, and progress from kickoff to closeout. ",
         "badge": "  Plan Smarter. Communicate\n Better. Deliver On Time.",
-        "backgroundImage2": "/assets/solutions/hero/hero-bg.png",
-        "backgroundImage": "/assets/solutions/Schedule/hero-image.png"
+        "backgroundImage2": "/assets/solutions/hero/hero-bg.webp",
+        "backgroundImage": "/assets/solutions/Schedule/hero-image.webp"
     },
     "sectionTitle": {
         "title": "Keep Your Project Streamlined with The \nCentral Command Center for Project Timelines",
@@ -14,25 +14,25 @@
         {
             "title": "Visual Scheduling Views",
             "description": "Plan and manage timelines using intuitive Gantt charts and timeline views that clearly display task dependencies and milestones.",
-            "image": "/assets/solutions/Schedule/B01_Visual Scheduling Views.png",
+            "image": "/assets/solutions/Schedule/B01_Visual Scheduling Views.webp",
             "imagePosition": "right"
         },
         {
             "title": "Resource & Crew Coordination",
             "description": "Assign labor and resources efficiently to avoid conflicts, delays, and downtime.",
-            "image": "/assets/solutions/Schedule/B02_Visual Scheduling Views.png",
+            "image": "/assets/solutions/Schedule/B02_Visual Scheduling Views.webp",
             "imagePosition": "left"
         },
         {
             "title": "Real-Time Updates",
             "description": "Track task completion percentages and milestone progress as work happens.",
-            "image": "/assets/solutions/Schedule/B03_Visual Scheduling Views.png",
+            "image": "/assets/solutions/Schedule/B03_Visual Scheduling Views.webp",
             "imagePosition": "right"
         },
         {
             "title": "Collaborative Access",
             "description": "Multiple users can view and update schedules, ensuring everyone works from the same plan.",
-            "image": "/assets/solutions/Schedule/B04_Visual Scheduling Views.png",
+            "image": "/assets/solutions/Schedule/B04_Visual Scheduling Views.webp",
             "imagePosition": "left"
         }
     ],
@@ -45,22 +45,22 @@
             {
                 "title": "Gantt Chart Scheduling",
                 "description": "Visualize timelines, dependencies, and progress in an easy-to-understand format.",
-                "image": "/assets/solutions/Schedule/C01_Gantt Chart Scheduling.png"
+                "image": "/assets/solutions/Schedule/C01_Gantt Chart Scheduling.webp"
             },
             {
                 "title": "Milestone Tracking",
                 "description": "Monitor critical milestones to ensure key project phases stay on track. ",
-                "image": "/assets/solutions/Schedule/C02_Gantt Chart Scheduling.png"
+                "image": "/assets/solutions/Schedule/C02_Gantt Chart Scheduling.webp"
             },
             {
                 "title": "Resource Management",
                 "description": "Align crews and resources to project needs while minimizing inefficiencies.",
-                "image": "/assets/solutions/Schedule/C03_Gantt Chart Scheduling.png"
+                "image": "/assets/solutions/Schedule/C03_Gantt Chart Scheduling.webp"
             },
             {
                 "title": "Real-Time Progress Updates",
                 "description": "Instant updates ensure teams always know the current project status.",
-                "image": "/assets/solutions/Schedule/C04_Gantt Chart Scheduling.png"
+                "image": "/assets/solutions/Schedule/C04_Gantt Chart Scheduling.webp"
             }
         ]
     },
@@ -102,7 +102,7 @@
                 "label": "Schedule a Demo",
                 "link": "/contact"
             },
-            "image": "/assets/solutions/bring-structure-one/image.png"
+            "image": "/assets/solutions/bring-structure-one/image.webp"
         }
     },
     "faq": {

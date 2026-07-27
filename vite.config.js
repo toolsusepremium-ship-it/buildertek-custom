@@ -12,4 +12,21 @@ export default defineConfig({
     }),
     tailwindcss(),
   ],
+  build: {
+    target: 'es2020',
+    cssCodeSplit: true,
+    assetsInlineLimit: 4096,
+    reportCompressedSize: false,
+    rollupOptions: {
+      output: {
+        // Long-lived vendor code in its own hash-stable chunks, so a content
+        // edit does not invalidate the whole bundle for returning visitors.
+        manualChunks: {
+          react: ['react', 'react-dom', 'react-router-dom'],
+          motion: ['motion'],
+          swiper: ['swiper'],
+        },
+      },
+    },
+  },
 })

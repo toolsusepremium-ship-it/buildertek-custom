@@ -43,3 +43,6 @@ public2/
 
 # Internal dev reference docs
 UTILITY_CLASSES.md
+
+# Pre-optimization image originals (kept locally, not deployed)
+_original-assets/

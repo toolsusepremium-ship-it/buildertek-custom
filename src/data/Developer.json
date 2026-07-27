@@ -2,9 +2,9 @@
     "hero": {
         "title": "Gain Complete\n Project Oversight\n with BuilderTek",
         "description": "Built for developers and owners managing complex construction portfolios, BuilderTek gives developers and owners real-time visibility into budgets, schedules, approvals, and risks without getting buried in day-to-day operations.",
-        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person3.png",
-        "isBg": "/assets/who-we-are/hero/Vector.png",
-        "backgroundImage": "/assets/who-we-are/hero/who-we-are.png"
+        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person3.webp",
+        "isBg": "/assets/who-we-are/hero/Vector.webp",
+        "backgroundImage": "/assets/who-we-are/hero/who-we-are.webp"
     },
     "simplifyConstruction": {
         "title": " Stay in Control of Every Project Without Operational Overload",
@@ -15,42 +15,42 @@
                 "title": "Real-Time Financial ",
                 "title2": "Insight",
                 "description": "Track budgets, commitments, and forecasts as they evolve, giving early visibility into cost risks and financial exposure.",
-                "image": "/assets/who-we-are/developers/B01_Real-Time Financial Insight.png"
+                "image": "/assets/who-we-are/developers/B01_Real-Time Financial Insight.webp"
             },
             {
                 "name": "Structured Approvals",
                 "title": "Structured ",
                 "title2": "Approvals",
                 "description": "Standardized approval workflows accelerate decisions while maintaining clear authority, controls, and documentation.",
-                "image": "/assets/who-we-are/developers/B02_Real-Time Financial Insight.png"
+                "image": "/assets/who-we-are/developers/B02_Real-Time Financial Insight.webp"
             },
             {
                 "name": "Consistent Reporting",
                 "title": "Consistent ",
                 "title2": "Reporting",
                 "description": "Standardized dashboards ensure all stakeholders see the same metrics, eliminating conflicting reports and assumptions.",
-                "image": "/assets/who-we-are/developers/B03_Real-Time Financial Insight.png"
+                "image": "/assets/who-we-are/developers/B03_Real-Time Financial Insight.webp"
             },
             {
                 "name": "Audit-Ready Records",
                 "title": "Audit-Ready ",
                 "title2": "Records",
                 "description": "Automatically maintained approval trails and change histories reduce compliance risk and simplify audits.",
-                "image": "/assets/who-we-are/developers/B04_Real-Time Financial Insight.png"
+                "image": "/assets/who-we-are/developers/B04_Real-Time Financial Insight.webp"
             },
             {
                 "name": "Cross-Team Transparency",
                 "title": "Cross-Team ",
                 "title2": "Transparency",
                 "description": "Provide developers, project managers, finance teams, and partners access to the same trusted data.",
-                "image": "/assets/who-we-are/developers/B05_Real-Time Financial Insight.png"
+                "image": "/assets/who-we-are/developers/B05_Real-Time Financial Insight.webp"
             },
             {
                 "name": "Portfolio-Level Governance",
                 "title": "Portfolio-Level ",
                 "title2": "Governance",
                 "description": "Apply consistent controls, reporting standards, and workflows across all projects—without managing each one individually.",
-                "image": "/assets/who-we-are/developers/B06_Real-Time Financial Insight.png"
+                "image": "/assets/who-we-are/developers/B06_Real-Time Financial Insight.webp"
             }
         ]
     },
@@ -104,7 +104,7 @@
             "points": [
                 "BuilderTek is designed for enterprise governance. Its scalable architecture, real-time analytics, and secure data model support growing portfolios while maintaining strict controls, compliance readiness, and long-term operational resilience."
             ],
-            "image": "/assets/who-we-are/developers/D_Why Specialty Contractors Choose BuilderTek.png",
+            "image": "/assets/who-we-are/developers/D_Why Specialty Contractors Choose BuilderTek.webp",
             "badge": ""
         }
     },
@@ -117,7 +117,7 @@
                 "label": "Schedule a demo",
                 "link": "/contact"
             },
-            "image": "/assets/solutions/bring-structure-one/image.png"
+            "image": "/assets/solutions/bring-structure-one/image.webp"
         }
     },
     "faq": {

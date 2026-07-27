@@ -76,7 +76,7 @@ const Mobilesimplify = ({ data }) => {
                         viewport={{ once: true }}
                         whileHover={{ y: -5 }}
                     >    <AnimatePresence mode="wait">
-                            <motion.img
+                            <motion.img loading="lazy" decoding="async"
                                 key={active}
                                 src={tab.image}
                                 alt={tab.title}

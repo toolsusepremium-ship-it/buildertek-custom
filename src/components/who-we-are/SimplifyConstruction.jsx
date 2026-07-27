@@ -89,7 +89,7 @@ const SimplifyConstruction = ({ data }) => {
 
                         {/* Image Left */}
                         <AnimatePresence mode="wait">
-                            <motion.img
+                            <motion.img loading="lazy" decoding="async"
                                 key={active}
                                 src={tab.image}
                                 alt={tab.title}

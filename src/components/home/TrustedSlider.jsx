@@ -34,7 +34,7 @@ const TrustedSlider = ({ data }) => {
                 >
                     <div className="flex w-max gap-16 pr-16 animate-[scroll_25s_linear_infinite]">
                         {logos.map((logo, index) => (
-                            <motion.img
+                            <motion.img loading="lazy" decoding="async"
                                 key={index}
                                 src={logo}
                                 alt="brand"

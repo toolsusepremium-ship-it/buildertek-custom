@@ -62,7 +62,7 @@ const ImageTextCard = ({ feature, index = 0 }) => {
                     viewport={{ once: true }}
                     className={`${isImageRight ? "" : "lg:order-first"}`}
                 >
-                    <img
+                    <img loading="lazy" decoding="async"
                         src={feature.image}
                         alt={feature.title}
                         className="img-rounded"

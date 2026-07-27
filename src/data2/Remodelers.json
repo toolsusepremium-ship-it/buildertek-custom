@@ -2,9 +2,9 @@
     "hero": {
         "title": "Take Control of\n Remodeling Projects\n with BuilderTek",
         "description": "BuilderTek remodeling software is built to manage scope changes, client requests, and cost adjustments without losing control. From centralized schedules to budgets, documents, and approvals- keep remodeling projects organized. ",
-        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person4.png",
-        "isBg": "/assets/who-we-are/hero/Vector.png",
-        "backgroundImage": "/assets/who-we-are/hero/who-we-are.png"
+        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person4.webp",
+        "isBg": "/assets/who-we-are/hero/Vector.webp",
+        "backgroundImage": "/assets/who-we-are/hero/who-we-are.webp"
     },
     "simplifyConstruction": {
         "title": " Remodel with confidence with BuilderTek",
@@ -15,42 +15,42 @@
                 "title": "Centralized Tracking ",
                 "title2": "",
                 "description": "Capture every scope adjustment with clear approvals, pricing, and revision history, ensuring changes are documented and agreed upon before work proceeds.",
-                "image": "/assets/who-we-are/remodelers/B01_Centralized Tracking.png"
+                "image": "/assets/who-we-are/remodelers/B01_Centralized Tracking.webp"
             },
             {
                 "name": "Live Budget Updates",
                 "title": "Live Budget ",
                 "title2": "Updates",
                 "description": "Instantly see how changes impact project costs, allowing remodelers to address overruns early and maintain tighter budget control.",
-                "image": "/assets/who-we-are/remodelers/B02_Centralized Tracking.png"
+                "image": "/assets/who-we-are/remodelers/B02_Centralized Tracking.webp"
             },
             {
                 "name": "Integrated Documentation",
                 "title": "Integrated ",
                 "title2": "Documentation",
                 "description": "Store photos, notes, drawings, and reports in one place, making it easy to reference decisions and site conditions at any time.",
-                "image": "/assets/who-we-are/remodelers/B03_Centralized Tracking.png"
+                "image": "/assets/who-we-are/remodelers/B03_Centralized Tracking.webp"
             },
             {
                 "name": "Vendor Pricing Consistency",
                 "title": "Vendor Pricing ",
                 "title2": "Consistency",
                 "description": "Collect structured, standardized quotes from trade partners to reduce pricing discrepancies and improve bid comparisons.",
-                "image": "/assets/who-we-are/remodelers/B04_Centralized Tracking.png"
+                "image": "/assets/who-we-are/remodelers/B04_Centralized Tracking.webp"
             },
             {
                 "name": "Full Project History",
                 "title": "Full Project ",
                 "title2": "History",
                 "description": "Maintain a complete record of changes, approvals, and communications for client reference, warranty needs, and future work.",
-                "image": "/assets/who-we-are/remodelers/B05_Centralized Tracking.png"
+                "image": "/assets/who-we-are/remodelers/B05_Centralized Tracking.webp"
             },
             {
                 "name": "Simplified Team Coordination",
                 "title": "Simplified Team ",
                 "title2": "Coordination",
                 "description": "Keep office staff, field crews, and vendors aligned through shared access to schedules, updates, and documentation",
-                "image": "/assets/who-we-are/remodelers/B06_Centralized Tracking.png"
+                "image": "/assets/who-we-are/remodelers/B06_Centralized Tracking.webp"
             }
         ]
     },
@@ -104,7 +104,7 @@
             "points": [
                 "BuilderTek’s foundation provides remodelers with reliability, audit-ready records, and flexibility, ensuring control even when conditions change."
             ],
-            "image": "/assets/who-we-are/remodelers/C_Why Remodelers Choose BuilderTek.png",
+            "image": "/assets/who-we-are/remodelers/C_Why Remodelers Choose BuilderTek.webp",
             "badge": ""
         }
     },
@@ -117,7 +117,7 @@
                 "label": "Schedule a Demo",
                 "link": "/contact"
             },
-            "image": "/assets/solutions/bring-structure-one/image.png"
+            "image": "/assets/solutions/bring-structure-one/image.webp"
         }
     },
     "faq": {

@@ -3,8 +3,8 @@
         "title": "Complete Control\n On Project Budgets\n With BuilderTek ",
         "description": "BuilderTek Budgets gives construction teams real-time visibility into costs, commitments, and forecasts, so financial decisions stay aligned with project realities from start to finish.",
         "badge": "Plan Accurately. Track \nContinuously. Protect Margins.",
-        "backgroundImage2": "/assets/solutions/hero/hero-bg.png",
-        "backgroundImage": "/assets/solutions/Budgets/hero-image.png"
+        "backgroundImage2": "/assets/solutions/hero/hero-bg.webp",
+        "backgroundImage": "/assets/solutions/Budgets/hero-image.webp"
     },
     "sectionTitle": {
         "title": "Experience Real-Time Budget\n Management for Construction Projects",
@@ -14,25 +14,25 @@
         {
             "title": "Build Accurate Budgets",
             "description": "Create detailed budget structures aligned to project scope, cost codes, and phases, ensuring financial plans reflect how work is actually executed.",
-            "image": "/assets/solutions/Budgets/B01_Build Accurate Budgets.png",
+            "image": "/assets/solutions/Budgets/B01_Build Accurate Budgets.webp",
             "imagePosition": "right"
         },
         {
             "title": "Track Commitments & Actuals",
             "description": "Monitor purchase orders, contracts, and invoices against budget in real time to understand committed and actual costs at every stage. ",
-            "image": "/assets/solutions/Budgets/B02_Build Accurate Budgets.png",
+            "image": "/assets/solutions/Budgets/B02_Build Accurate Budgets.webp",
             "imagePosition": "left"
         },
         {
             "title": "Forecast with Confidence",
             "description": "Identify projected variances early by comparing planned, committed, and actual costs—helping teams take corrective action before issues escalate.",
-            "image": "/assets/solutions/Budgets/B03_Build Accurate Budgets.png",
+            "image": "/assets/solutions/Budgets/B03_Build Accurate Budgets.webp",
             "imagePosition": "right"
         },
         {
             "title": "Stay Connected Across Teams",
             "description": " Finance, operations, and project teams work from the same real-time data, improving coordination and reducing misalignment.",
-            "image": "/assets/solutions/Budgets/B04_Build Accurate Budgets.png",
+            "image": "/assets/solutions/Budgets/B04_Build Accurate Budgets.webp",
             "imagePosition": "left"
         }
     ],
@@ -45,22 +45,22 @@
             {
                 "title": "Accurate & Real-Time Tracking",
                 "description": "Instant visibility into budget status. Always know where costs stand, without waiting for manual reports.",
-                "image": "/assets/solutions/Budgets/C01_Accurate & Real-Time Tracking.png"
+                "image": "/assets/solutions/Budgets/C01_Accurate & Real-Time Tracking.webp"
             },
             {
                 "title": "Commitment Management",
                 "description": "Track financial commitments as they happen, giving teams a clear picture of future spend alongside current costs.",
-                "image": "/assets/solutions/Budgets/C02_Accurate & Real-Time Tracking.png"
+                "image": "/assets/solutions/Budgets/C02_Accurate & Real-Time Tracking.webp"
             },
             {
                 "title": "Forecasting Tools",
                 "description": "Built-in forecasting highlights potential overruns early, supporting proactive financial decision-making.",
-                "image": "/assets/solutions/Budgets/C03_Accurate & Real-Time Tracking.png"
+                "image": "/assets/solutions/Budgets/C03_Accurate & Real-Time Tracking.webp"
             },
             {
                 "title": "Real Time  Reporting",
                 "description": "Leverage the BuildetTek budget dashboard to analyze performance across projects with accuracy and speed.",
-                "image": "/assets/solutions/Budgets/C04_Accurate & Real-Time Tracking.png"
+                "image": "/assets/solutions/Budgets/C04_Accurate & Real-Time Tracking.webp"
             }
         ]
     },
@@ -102,7 +102,7 @@
                 "label": "Schedule a Demo",
                 "link": "/contact"
             },
-            "image": "/assets/solutions/bring-structure-one/image.png"
+            "image": "/assets/solutions/bring-structure-one/image.webp"
         }
     },
     "faq": {

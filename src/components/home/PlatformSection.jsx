@@ -44,7 +44,7 @@ const PlatformSection = ({ data }) => {
                 >
 
                     {/* Cloud Background */}
-                    <img
+                    <img loading="lazy" decoding="async"
                         src={main.cloudImage}
                         alt=""
                         className="absolute inset-0 w-full h-full object-cover bg-center opacity-70"
@@ -61,12 +61,12 @@ const PlatformSection = ({ data }) => {
                             viewport={{ once: true }}
                         >
                             <div className="flex items-center gap-2 mb-4">
-                                <img
+                                <img loading="lazy" decoding="async"
                                     src={main.circleImage}
                                     alt=""
                                     className="h-5 w-auto"
                                 />
-                                <img
+                                <img loading="lazy" decoding="async"
                                     src={main.tagImage}
                                     alt=""
                                     className="h-4 w-auto"
@@ -92,7 +92,7 @@ const PlatformSection = ({ data }) => {
                             transition={{ duration: 0.8, delay: 0.7 }}
                             viewport={{ once: true }}
                         >
-                            <motion.img
+                            <motion.img loading="lazy" decoding="async"
                                 src={main.image}
                                 alt=""
                                 className="w-full relative z-10"
@@ -101,7 +101,7 @@ const PlatformSection = ({ data }) => {
                             />
 
                             {/* Salesforce Badge */}
-                            <motion.img
+                            <motion.img loading="lazy" decoding="async"
                                 src={main.badgeImage}
                                 alt=""
                                 className="absolute -top-5 right-10 w-24 z-20"
@@ -144,7 +144,7 @@ const PlatformSection = ({ data }) => {
 
                             {/* Image */}
                             <div className="w-full mt-6 h-fit md:h-[280px] flex items-end justify-center">
-                                <motion.img
+                                <motion.img loading="lazy" decoding="async"
                                     src={item.image}
                                     alt=""
                                     className="max-w-full h-full object-contain object-bottom"
