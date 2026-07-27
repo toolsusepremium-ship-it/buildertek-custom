@@ -59,7 +59,7 @@ const AboutHero = ({ data }) => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.8 }}
             >
-               <img loading="eager" fetchPriority="high" decoding="async" src="/assets/about/hero1.webp" className="rounded-2xl w-full h-full object-cover" alt="" />
+               <img width={1278} height={390} loading="eager" fetchPriority="high" decoding="async" src="/assets/about/hero1.webp" className="rounded-2xl w-full h-full object-cover" alt="" />
 
             </motion.div>
         </section>

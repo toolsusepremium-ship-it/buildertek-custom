@@ -93,10 +93,10 @@ export default function Footer() {
   <div className="md:hidden w-1/2">
     <div className=" flex flex-col  gap-5 justify-start items-start sm:gap-5">
 
-  <img loading="lazy" decoding="async" src="/Frame 39319.svg" width={70} height={40} alt="" />
- <a href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000009wK46EAE"  target="_blank">
-                       
-  <img loading="lazy" decoding="async" src="/Frame 39320.svg" width={80} height={40} alt="" />
+  <img loading="lazy" decoding="async" src="/Frame 39319.svg" width={70} height={40} alt="Salesforce Partner since 2011" />
+ <a href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000009wK46EAE" aria-label="View BuilderTek on the Salesforce AppExchange" target="_blank" rel="noopener noreferrer">
+
+  <img loading="lazy" decoding="async" src="/Frame 39320.svg" width={80} height={40} alt="Available on Salesforce AppExchange" />
   </a>
  </div>
   </div>
@@ -110,9 +110,9 @@ export default function Footer() {
       <div className="sm:w-[400px]">
       <div className="bg-[#F4F4F4] rounded-2xl p-8 h-full flex flex-col justify-between">
         <div>
-          <h4 className="text-lg  text-center lg:text-xl font-semibold mb-2">
+          <h3 className="text-lg  text-center lg:text-xl font-semibold mb-2">
             {newsletter.title}
-          </h4>
+          </h3>
           <p className="text-base font-normal text-[#696A75] mb-6">
             {newsletter.subtitle}
           </p>
@@ -153,25 +153,25 @@ export default function Footer() {
 
 <div className="flex pt-4 sm:pt-5  gap-10 justify-center sm:justify-start sm:gap-5">
  
-  <a href="#" className="hover:opacity-80">
-  <img loading="lazy" decoding="async" src="/Group.svg" alt="" />
+  <a href="#" aria-label="BuilderTek social profile" className="hover:opacity-80 inline-flex items-center justify-center min-w-[44px] min-h-[44px]">
+  <img loading="lazy" decoding="async" src="/Group.svg" width={25} height={25} alt="" />
   </a>
- <a href="https://www.facebook.com/buildertek" target="_blank" className="hover:opacity-80">
-  <img loading="lazy" decoding="async" src="/Group (1).svg" alt="" />
+ <a href="https://www.facebook.com/buildertek" aria-label="BuilderTek on Facebook" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 inline-flex items-center justify-center min-w-[44px] min-h-[44px]">
+  <img loading="lazy" decoding="async" src="/Group (1).svg" width={25} height={25} alt="" />
   </a>
- <a href="https://x.com/buildertek" target="_blank" className="hover:opacity-80">
-  <img loading="lazy" decoding="async" src="/Group (2).svg" alt="" />
+ <a href="https://x.com/buildertek" aria-label="BuilderTek on X" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 inline-flex items-center justify-center min-w-[44px] min-h-[44px]">
+  <img loading="lazy" decoding="async" src="/Group (2).svg" width={25} height={25} alt="" />
   </a>
- <a href="#" className="hover:opacity-80">
-  <img loading="lazy" decoding="async" src="/SVG.svg" alt="" />
+ <a href="#" aria-label="BuilderTek social profile" className="hover:opacity-80 inline-flex items-center justify-center min-w-[44px] min-h-[44px]">
+  <img loading="lazy" decoding="async" src="/SVG.svg" width={25} height={25} alt="" />
   </a>
  </div>
 <div className=" hidden md:flex pt-5 sm:pt-5  gap-10 justify-center sm:justify-start sm:gap-5">
 
-  <img loading="lazy" decoding="async" src="/Frame 39319.svg" width={80} height={60} alt="" />
- <a href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000009wK46EAE"  target="_blank">
- 
-  <img loading="lazy" decoding="async" src="/Frame 39320.svg" width={100} height={60} alt="" />
+  <img loading="lazy" decoding="async" src="/Frame 39319.svg" width={80} height={60} alt="Salesforce Partner since 2011" />
+ <a href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000009wK46EAE" aria-label="View BuilderTek on the Salesforce AppExchange" target="_blank" rel="noopener noreferrer">
+
+  <img loading="lazy" decoding="async" src="/Frame 39320.svg" width={100} height={60} alt="Available on Salesforce AppExchange" />
  </a> 
  </div>
 </div>
@@ -201,9 +201,9 @@ export default function Footer() {
 function FooterColumn({ title, items }) {
   return (
     <div className="w-full">
-      <h4 className="font-semibold mb-5 text-gray-900">
+      <h3 className="font-semibold mb-5 text-gray-900">
         {title}
-      </h4>
+      </h3>
 
       <ul className="space-y-3 text-sm text-gray-600">
         {items.map((item, i) => (
@@ -273,7 +273,7 @@ function FooterColumn({ title, items }) {
 //         {/* NEWSLETTER */}
 //         <div className="bg-[#F4F4F4] rounded-2xl p-6 flex flex-col justify-between">
 //           <div>
-//             <h4 className="text-lg font-semibold mb-2">{newsletter.title}</h4>
+//             <h3 className="text-lg font-semibold mb-2">{newsletter.title}</h3>
 //             <p className="text-sm text-gray-600 mb-4">
 //               {newsletter.subtitle}
 //             </p>
@@ -315,7 +315,7 @@ function FooterColumn({ title, items }) {
 // function FooterColumn({ title, items }) {
 //   return (
 //     <div>
-//       <h4 className="font-semibold mb-4">{title}</h4>
+//       <h3 className="font-semibold mb-4">{title}</h3>
 //       <ul className="space-y-2 text-sm text-gray-600">
 //         {items.map((item, i) => (
 //           <li key={i} className="hover:text-blue-600 cursor-pointer">
@@ -360,9 +360,9 @@ function FooterColumn({ title, items }) {
 //         {/* Links */}
 //         {Object.values(links).map((section, index) => (
 //           <div key={index}>
-//             <h4 className="font-semibold text-gray-900 mb-4">
+//             <h3 className="font-semibold text-gray-900 mb-4">
 //               {section.title}
-//             </h4>
+//             </h3>
 //             <ul className="space-y-2 text-sm text-gray-600">
 //               {section.items.map((item, i) => (
 //                 <li key={i} className="hover:text-blue-600 cursor-pointer">
@@ -375,9 +375,9 @@ function FooterColumn({ title, items }) {
 
 //         {/* Newsletter */}
 //         <div className="bg-gray-50 rounded-2xl p-6">
-//           <h4 className="font-semibold text-gray-900">
+//           <h3 className="font-semibold text-gray-900">
 //             {newsletter.title}
-//           </h4>
+//           </h3>
 //           <p className="text-sm text-gray-600 mt-2">
 //             {newsletter.subtitle}
 //           </p>
@@ -517,7 +517,7 @@ function FooterColumn({ title, items }) {
 //               transition={{ duration: 0.5, delay: index * 0.1 }}
 //               viewport={{ once: true }}
 //             >
-//               <h4 className="text-lg font-semibold mb-4">{section.title}</h4>
+//               <h3 className="text-lg font-semibold mb-4">{section.title}</h3>
 //               <ul className="space-y-2">
 //                 {section.links.map((link) => (
 //                   <li key={link.name}>

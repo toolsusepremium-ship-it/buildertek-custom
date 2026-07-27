@@ -1,21 +1,13 @@
-import React, { useEffect, useState } from "react";
+;
+import { useIsDesktop } from '../../hooks/useMediaQuery'
 import { Link } from "react-router-dom";
 import { motion } from "motion/react";
 import TrustedSlider from "./TrustedSlider";
 
 const HomeHero = ({ data }) => {
     const { hero } = data;
-    const [width, setWidth] = useState(window.innerWidth)
-    useEffect(() => {
-        const handleResize = () => {
-            setWidth(window.innerWidth)
-        }
-        window.addEventListener('resize', handleResize)
-        return () => {
-            window.removeEventListener('resize', handleResize)
-        }
-    }, [])
-    return (
+    const isDesktop = useIsDesktop()
+return (
         <section className="relative w-full pt-10 sm:pt-28 pb-10 text-center overflow-visible">
             {/* Background Image */}
 
@@ -78,18 +70,18 @@ const HomeHero = ({ data }) => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.6 }}
                     >
-                        <a href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000009wK46EAE" className="flex sm:flex-row  w-fit sm:gap-x-[10px] gap-x-[5px]  rounded-[5px] p-[1px] py-[2px] " target="_blank">
-                        <img src={hero.image1} decoding="async" className= "w-[140px] sm:w-full  cursor-pointer" alt="" />
-                        <img src={hero.image2} decoding="async" className="w-[140px] sm:w-full  cursor-pointer" alt="" />
+                        <a href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000009wK46EAE" aria-label="View BuilderTek on the Salesforce AppExchange" className="flex sm:flex-row  w-fit sm:gap-x-[10px] gap-x-[5px]  rounded-[5px] p-[1px] py-[2px] " target="_blank" rel="noopener noreferrer">
+                        <img src={hero.image1} decoding="async" className= "w-[140px] sm:w-full  cursor-pointer" alt="Available on Salesforce AppExchange" />
+                        <img src={hero.image2} decoding="async" className="w-[140px] sm:w-full  cursor-pointer" alt="Salesforce Partner since 2011" />
                         </a>
                     </motion.div>
                 </div>
 
                 {/* Right side Images */}
-                <div className={`relative w-full lg:w-[45%] flex items-center ${width>768 ? "justify-end" : "justify-start"}  mt-12 lg:mt-0`}>
+                <div className={`relative w-full lg:w-[45%] flex items-center ${isDesktop ? "justify-end" : "justify-start"}  mt-12 lg:mt-0`}>
                     <div className={`relative w-[90%] sm:w-[70%] lg:w-[85%] max-w-lg`}>
                         {/* Second Image (Base) */}
-                       {width>768 ?
+                       {isDesktop ?
                             <>  <img src={hero.sideimage.image1} loading="eager" fetchPriority="high" decoding="async" className={`w-full h-auto object-contain relative z-0 `} alt="" />
 
                                 <img
@@ -101,7 +93,7 @@ const HomeHero = ({ data }) => {
                                     alt=""
                                 />
                         </>:
-                            <img src='/Frame 39268 (2).svg' loading="eager" fetchPriority="high" decoding="async" className={`w-full h-auto -mt-10 object-contain relative z-0 `} alt="" />
+                            <img width={342} height={191} src='/Frame 39268 (2).svg' loading="eager" fetchPriority="high" decoding="async" className={`w-full h-auto -mt-10 object-contain relative z-0 `} alt="" />
                         }
                     </div>
                 </div>

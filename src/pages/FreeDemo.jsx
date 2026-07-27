@@ -24,7 +24,7 @@ const FreeDemo = () => {
         <PageTransition>
             {/* Compact hero — 40% shorter than standard (709px → 425px) */}
             <section className="relative w-full h-[240px] sm:h-[300px] lg:h-[425px] overflow-hidden">
-                <motion.img loading="lazy" decoding="async"
+                <motion.img width={1537} height={1023} loading="lazy" decoding="async"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 1 }}

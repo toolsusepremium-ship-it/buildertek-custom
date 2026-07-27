@@ -1,44 +1,38 @@
-import React, { lazy, Suspense, useEffect, useState } from 'react'
+import { lazy, Suspense } from 'react'
+import { useIsDesktop } from '../hooks/useMediaQuery'
 import { useSEO } from '../hooks/useSEO'
 import homeData from '../data/home.json'
 import HomeHero from '../components/home/HomeHero'
-// import TrustedSlider from '../components/home/TrustedSlider'
 import PlatformSection from '../components/home/PlatformSection'
-import CenteredCtaSection from '../components/reusable/CenteredCtaSection'
 import { motion } from 'motion/react'
-import IndustriesSection from '../components/home/IndustriesSection'
-import ConnectedOperations from '../components/home/ConnectedOperations'
-import SmartFeatures from '../components/home/SmartFeatures'
-// Below-the-fold and drags in Swiper — split so it never blocks first paint.
+
+// Everything below the fold loads as its own chunk, so the landing route ships
+// only the hero + first section on the critical path.
+const IndustriesSection = lazy(() => import('../components/home/IndustriesSection'))
+const IndustriesSectionMobile = lazy(() => import('../components/home/IndustriesSectionMobile'))
+const ConnectedOperations = lazy(() => import('../components/home/ConnectedOperations'))
+const SmartFeatures = lazy(() => import('../components/home/SmartFeatures'))
 const TestimonialSlider = lazy(() => import('../components/home/TestimonialSlider'))
-import IndustriesSectionMobile from '../components/home/IndustriesSectionMobile'
+const CenteredCtaSection = lazy(() => import('../components/reusable/CenteredCtaSection'))
+
 const Home = () => {
   const { bringStructure } = homeData;
-  const [width,setWidth]=useState(window.innerWidth)
+  const isDesktop = useIsDesktop()
   useSEO({
     title: 'BuilderTek Construction Management Software',
     description: 'BuilderTek is a Salesforce ISV partner construction management software designed to manage RFQs, budgets, scheduling, CRM, financials, and project workflows in one platform.',
     keywords: 'construction management software, Salesforce construction software, construction project management platform, contractor software',
   })
-  useEffect(()=>{
-    const handleResize=()=>{
-        setWidth(window.innerWidth)
-    }
-    window.addEventListener('resize',handleResize)
-    return()=>{
-        window.removeEventListener('resize',handleResize)
-    }
-},[])
   return (
     <div>
       <HomeHero data={homeData} />
       <section className="pt-[16vw] sm:pt-[14vw] md:pt-[12vw] lg:pt-[10vw]">
-       
+
         <PlatformSection data={homeData} />
-       {width>768 ? <IndustriesSection data={homeData} /> : <IndustriesSectionMobile data={homeData} />}
-        <ConnectedOperations data={homeData} />
-        <SmartFeatures data={homeData} />
-        <Suspense fallback={<div className="min-h-[40vh]" />}>
+        <Suspense fallback={<div className="min-h-[60vh]" />}>
+          {isDesktop ? <IndustriesSection data={homeData} /> : <IndustriesSectionMobile data={homeData} />}
+          <ConnectedOperations data={homeData} />
+          <SmartFeatures data={homeData} />
           <TestimonialSlider data={homeData} />
         </Suspense>
       </section>
@@ -49,7 +43,9 @@ const Home = () => {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        <CenteredCtaSection data={bringStructure.section} />
+        <Suspense fallback={<div className="min-h-[30vh]" />}>
+          <CenteredCtaSection data={bringStructure.section} />
+        </Suspense>
       </motion.div>
 
     </div>

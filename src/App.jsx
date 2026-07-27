@@ -46,7 +46,7 @@ const App = () => {
     <div className=''>
       <ScrollToTop />
       <Navbar />
-      <div className="">
+      <main id="main-content">
         <Suspense fallback={<div className="min-h-[60vh]" />}>
           <Routes>
             <Route path='/about' element={<About />} />
@@ -75,7 +75,7 @@ const App = () => {
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>
-      </div>
+      </main>
       <Footer data={footerData} />
 
     </div>

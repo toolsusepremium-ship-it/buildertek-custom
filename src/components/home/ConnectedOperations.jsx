@@ -70,9 +70,9 @@ const ConnectedOperations = ({ data }) => {
                                 transition={{ duration: 0.5, delay: index * 0.2 + 0.7 }}
                                 viewport={{ once: true }}
                             >
-                                <h4 className="text-xl lg:text-2xl font-normal mb-2">
+                                <h3 className="text-xl lg:text-2xl font-normal mb-2">
                                     {item.title}
-                                </h4>
+                                </h3>
                                 <p className="text-base font-normal opacity-100 text-[#6B7280] max-w-md mx-auto">
                                     {item.desc}
                                 </p>
@@ -122,9 +122,9 @@ const ConnectedOperations = ({ data }) => {
                                 transition={{ duration: 0.5, delay: index * 0.1 + 0.9 }}
                                 viewport={{ once: true }}
                             >
-                                <h4 className="text-xl lg:text-2xl font-normal mb-2">
+                                <h3 className="text-xl lg:text-2xl font-normal mb-2">
                                     {item.title}
-                                </h4>
+                                </h3>
                                 <p className="text-base font-normal opacity-100 text-[#6B7280]">
                                     {item.desc}
                                 </p>

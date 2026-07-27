@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useIsMobile } from '../hooks/useMediaQuery'
 import { useSEO } from '../hooks/useSEO'
 import whoWeServe from '../data/General_Contractors.json'
 
@@ -17,22 +17,13 @@ const General = () => {
 
     const { whyChoose } = whoWeServe
     const { section } = whyChoose
-const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
+const isMobile = useIsMobile()
         useSEO({
             title: 'General Contractor Software | BuilderTek',
             description: 'Manage RFQs, budgets, schedules, contracts, and vendors with BuilderTek software built for general contractors.',
             keywords: 'general contractor software, commercial construction software, GC project management, contractor workflow software',
         })
-        useEffect(()=>{
-            const handleResize = () => {
-                setIsMobile(window.innerWidth < 768)
-            }
-            window.addEventListener('resize', handleResize)
-            return () => {
-                window.removeEventListener('resize', handleResize)
-            }
-        },[])
-    return (
+return (
         <div>
             <SolutionsHero hero={whoWeServe.hero} bgImage={isMobile} h={isMobile}   badge={false} person={true} />
 

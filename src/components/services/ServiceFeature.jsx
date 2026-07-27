@@ -32,7 +32,7 @@ const ServiceFeature = ({ data, reverse ,form}) => {
                             {data.features.map((item, index) => (
                                 <li key={index} className="flex items-start gap-3 text-gray-800">
                                    
-                                        <img loading="lazy" decoding="async" src="/assets/who-we-are/why-general/tick.svg" className="mt-1" alt="" />
+                                        <img width={24} height={24} loading="lazy" decoding="async" src="/assets/who-we-are/why-general/tick.svg" className="mt-1" alt="" />
                                     
                                     <span className="text-base">
                                         {item}

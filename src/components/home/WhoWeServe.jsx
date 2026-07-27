@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useIsMobile } from '../../hooks/useMediaQuery'
 
 import whoWeServe from '../../data/who-we-serve.json'
 
@@ -15,18 +15,8 @@ const WhoWeServe = () => {
 
     const { whyChoose } = whoWeServe
     const { section } = whyChoose
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
-    useEffect(()=>{
-        const handleResize = () => {
-            setIsMobile(window.innerWidth < 768)
-        }
-        window.addEventListener('resize', handleResize)
-        return () => {
-            window.removeEventListener('resize', handleResize)
-        }
-    },[])
-
-    return (
+    const isMobile = useIsMobile()
+return (
         <div>
             <SolutionsHero hero={whoWeServe.hero} bgImage={isMobile} h={isMobile} badge={false} person={true} />
 

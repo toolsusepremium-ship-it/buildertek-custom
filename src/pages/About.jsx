@@ -19,7 +19,7 @@ export const About = () => {
       <section className="pt-[14vw] sm:pt-[14vw] md:pt-[12vw] lg:pt-[10vw]">
 
 <div className='block sm:hidden py-5 px-5'>
-  <img loading="lazy" decoding="async" src="/Rectangle 8877.webp" className="rounded-2xl pt-10  sm:w-full w-[95%] h-[58vw] sm:h-[390px]" alt="" />
+  <img width={342} height={214} loading="lazy" decoding="async" src="/Rectangle 8877.webp" className="rounded-2xl pt-10  sm:w-full w-[95%] h-[58vw] sm:h-[390px]" alt="" />
 
 
 </div>

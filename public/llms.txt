@@ -1,0 +1,42 @@
+# BuilderTek
+
+> BuilderTek is a Salesforce ISV partner construction management platform that unifies RFQs, quotes, contracts, budgets, scheduling, CRM, financials, and resource management in one system.
+
+BuilderTek serves general contractors, residential builders, remodelers, specialty contractors, and developers. The platform is built natively on Salesforce and is listed on the Salesforce AppExchange.
+
+## Solutions
+
+- [Request for Quote](https://buildertek.com/solutions/rfq): Create, send, and track RFQs to subcontractors and suppliers.
+- [Quotes](https://buildertek.com/solutions/quote): Compare vendor quotes and convert the winning bid into a contract.
+- [Contracts](https://buildertek.com/solutions/contract): Generate and manage subcontractor and client contracts.
+- [Budgets](https://buildertek.com/solutions/budgets): Track committed cost, actuals, and variance against the project budget.
+- [Schedule](https://buildertek.com/solutions/schedule): Build project schedules with Gantt views and dependency tracking.
+
+## Services
+
+- [Financial Management](https://buildertek.com/services/finance): Job costing, invoicing, change orders, and financial reporting.
+- [Construction Management](https://buildertek.com/services/construction): Daily logs, submittals, RFIs, and field-to-office workflows.
+- [CRM Management](https://buildertek.com/services/crm-management): Lead, opportunity, and client pipeline management on Salesforce.
+- [Realty Management](https://buildertek.com/services/realty-management): Property, lot, and unit tracking across developments.
+- [Resource Management](https://buildertek.com/services/resource-management): Crew, equipment, and material allocation across projects.
+- [All Services](https://buildertek.com/services): Overview of the full BuilderTek service set.
+
+## Who We Serve
+
+- [Who We Serve](https://buildertek.com/who-we-serve): Overview of supported construction business types.
+- [General Contractors](https://buildertek.com/serve/general-contractors): Multi-trade project coordination and subcontractor management.
+- [Residential Builders](https://buildertek.com/serve/residential-builders): Production and custom home building workflows.
+- [Remodelers](https://buildertek.com/serve/remodelers): Change-order-heavy renovation project management.
+- [Specialty Contractors](https://buildertek.com/serve/specialty-contractors): Trade-specific scheduling, bidding, and field reporting.
+- [Developers](https://buildertek.com/serve/developers): Multi-project portfolio, budget, and realty oversight.
+
+## Company
+
+- [Home](https://buildertek.com/): Product overview and platform capabilities.
+- [About BuilderTek](https://buildertek.com/about): Company background and Salesforce ISV partnership.
+- [Contact](https://buildertek.com/contact): Request a demo or reach the sales team at sales@buildertek.com.
+
+## Optional
+
+- [Blog](https://buildertek.com/blogs): Articles on construction management, project delivery, and software adoption.
+- [Salesforce AppExchange listing](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000009wK46EAE): BuilderTek on the Salesforce AppExchange.

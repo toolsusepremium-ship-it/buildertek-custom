@@ -76,7 +76,7 @@ const IndustriesSection = ({ data }) => {
                 >
                     <div className="grid relative md:grid-cols-2 gap-10 items-center">
    {
-                            location.pathname=="/"&&<img loading="lazy" decoding="async" className="w-full absolute  z-0" src={tab.image} width={100} height={100}/>
+                            location.pathname=="/"&&<img loading="lazy" decoding="async" className="w-full absolute  z-0" src={tab.image} alt="" aria-hidden="true" width={1280} height={540}/>
                         }
                         {/* Left Content */}
                         <AnimatePresence  mode="wait">

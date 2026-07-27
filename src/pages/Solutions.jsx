@@ -1,4 +1,5 @@
 import { motion } from 'motion/react'
+import { useIsMobile, useIsTablet } from '../hooks/useMediaQuery'
 // import solutionData from '../data/solutions-one.json'
 import SolutionsHero from '../components/reusable/Hero'
 import CenteredTitle from '../components/reusable/CenteredTitle'
@@ -19,8 +20,8 @@ const Solutions = ({ solutionData }) => {
     const { hero, sectionTitle, features, whyChoose, makeSmarter, bringStructure, faq } = solutionData
     const { section } = whyChoose
       const location = useLocation()
-      const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
-      const [isTablet, setIsTablet] = useState(window.innerWidth < 1024)
+      const isMobile = useIsMobile()
+      const isTablet = useIsTablet()
       const segment = location.pathname.split('/').pop()
       const seoMap = {
           rfq: {
@@ -51,18 +52,7 @@ const Solutions = ({ solutionData }) => {
       }
       const currentSEO = seoMap[segment] || { title: 'BuilderTek', description: '', keywords: '' }
       useSEO(currentSEO)
-                useEffect(() =>{
-                    const handleResize = () => {
-                        setIsMobile(window.innerWidth < 768)
-                        setIsTablet(window.innerWidth < 1024)
-                    }
-                    window.addEventListener('resize', handleResize)
-                    return () => {
-                        window.removeEventListener('resize', handleResize)
-                    }
-                },[])
-                
-    return (
+return (
         <PageTransition>
             <SolutionsHero hero={hero} showTheme={!isTablet}  hmax={true}  badge={hero.badge} />
             {isTablet   && 

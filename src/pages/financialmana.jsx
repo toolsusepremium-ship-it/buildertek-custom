@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useIsMobile } from '../hooks/useMediaQuery'
 import { useSEO } from '../hooks/useSEO'
 import FinancialManagementData from '../data/FinancialManagement.json'
 import SolutionsHero from '../components/reusable/Hero'
@@ -17,22 +17,13 @@ import FaqSection from '../components/reusable/FaqSection';
 const FinancialManagement = () => {
     const { hero, whyChoose, sharperFinancial, financialControl, build, Financial, faq } = FinancialManagementData
     const { section } = whyChoose
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
+    const isMobile = useIsMobile()
     useSEO({
         title: 'Construction Financial Management Software | BuilderTek',
         description: 'Gain complete financial visibility with BuilderTek financial management software for budgets, invoices, commitments, and funding workflows.',
         keywords: 'construction financial management software, construction accounting workflows, project financial tracking, contractor financial software',
     })
-    useEffect(() => {
-        const handleResize = () => {
-            setIsMobile(window.innerWidth < 768)
-        }
-        window.addEventListener('resize', handleResize)
-        return () => {
-            window.removeEventListener('resize', handleResize)
-        }
-    }, [])
-    return (
+return (
         <PageTransition>
             <div className=''>
                 <SolutionsHero hero={hero} showTheme={!isMobile} hmax={true} badge={false} />

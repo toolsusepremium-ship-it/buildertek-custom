@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useIsMobile, useIsTablet } from '../hooks/useMediaQuery'
 import { useSEO } from '../hooks/useSEO'
 import servicesData from '../data/Contact.json'
 import SolutionsHero from '../components/reusable/Hero'
@@ -10,24 +10,14 @@ import Text from '../components/reusable/Text';
 
 const Contact = () => {
     const { hero, financialControl, cards, form } = servicesData
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
-const [isTablet, setIsTablet] = useState(window.innerWidth < 1024)
+    const isMobile = useIsMobile()
+const isTablet = useIsTablet()
                 useSEO({
     title: 'Contact BuilderTek | Construction Software Experts',
     description: 'Connect with BuilderTek to learn more about our Salesforce ISV Partner construction management software and schedule a demo.',
     keywords: 'contact BuilderTek, construction software demo, BuilderTek support, contractor software consultation',
   })
-                useEffect(() =>{
-                    const handleResize = () => {
-                        setIsMobile(window.innerWidth < 768)
-                        setIsTablet(window.innerWidth < 1024)
-                    }
-                    window.addEventListener('resize', handleResize)
-                    return () => {
-                        window.removeEventListener('resize', handleResize)
-                    }
-                },[])
-    const data = financialControl
+const data = financialControl
     return (
         <PageTransition>
             <div className=''>

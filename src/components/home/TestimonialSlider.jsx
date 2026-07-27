@@ -70,9 +70,9 @@ const TestimonialSlider = ({ data }) => {
                                         </p>
 
                                         {/* Author */}
-                                        <h4 className="text-base md:text-lg text-gray-900">
+                                        <h3 className="text-base md:text-lg text-gray-900">
                                             {item.name}
-                                        </h4>
+                                        </h3>
                                         <p className="text-sm text-gray-500 mt-1">
                                             {item.role}
                                         </p>
@@ -188,9 +188,9 @@ export default TestimonialSlider;
 //                                         </p>
 
 //                                         {/* Author */}
-//                                         <h4 className="text-base md:text-lg text-gray-900">
+//                                         <h3 className="text-base md:text-lg text-gray-900">
 //                                             {item.name}
-//                                         </h4>
+//                                         </h3>
 //                                         <p className="text-sm text-gray-500 mt-1">
 //                                             {item.role}
 //                                         </p>
@@ -354,9 +354,9 @@ export default TestimonialSlider;
 //                                             </p>
 
 //                                             {/* Author */}
-//                                             <h4 className="text-lg text-gray-900">
+//                                             <h3 className="text-lg text-gray-900">
 //                                                 {item.name}
-//                                             </h4>
+//                                             </h3>
 //                                             <p className="text-sm text-gray-500 mt-1">
 //                                                 {item.role}
 //                                             </p>
@@ -557,9 +557,9 @@ export default TestimonialSlider;
 //                                         </p>
 
 //                                         {/* Author */}
-//                                         <h4 className="text-base md:text-lg text-gray-900">
+//                                         <h3 className="text-base md:text-lg text-gray-900">
 //                                             {item.name}
-//                                         </h4>
+//                                         </h3>
 //                                         <p className="text-sm text-gray-500 mt-1">
 //                                             {item.role}
 //                                         </p>
@@ -736,9 +736,9 @@ export default TestimonialSlider;
 //                                         </p>
 
 //                                         {/* Author */}
-//                                         <h4 className="font-normal text-gray-900 text-base md:text-lg">
+//                                         <h3 className="font-normal text-gray-900 text-base md:text-lg">
 //                                             {item.name}
-//                                         </h4>
+//                                         </h3>
 //                                         <p className="text-sm font-normal text-gray-500 mt-1">
 //                                             {item.role}
 //                                         </p>

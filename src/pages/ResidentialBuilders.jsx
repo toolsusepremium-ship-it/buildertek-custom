@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useIsMobile, useIsTablet } from '../hooks/useMediaQuery'
 import { useSEO } from '../hooks/useSEO'
 import whoWeServe from '../data/residentialBuilders.json'
 
@@ -17,25 +17,14 @@ const ResidentialBuilders = () => {
     const { whyChoose } = whoWeServe
     const { section } = whyChoose
 
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
-    const [isTablet, setIsTablet] = useState(window.innerWidth < 1024)
+    const isMobile = useIsMobile()
+    const isTablet = useIsTablet()
     useSEO({
         title: 'Residential Construction Management Software | BuilderTek',
         description: 'Simplify residential project workflows with BuilderTek software for budgets, scheduling, communication, and project tracking.',
         keywords: 'residential construction software, home builder software, residential contractor software, home construction management',
     })
-    useEffect(() => {
-        const handleResize = () => {
-            setIsMobile(window.innerWidth < 768)
-            setIsTablet(window.innerWidth < 1024)
-        }
-        window.addEventListener('resize', handleResize)
-        return () => {
-            window.removeEventListener('resize', handleResize)
-        }
-    }, [])
-
-    return (
+return (
         <div>
             <SolutionsHero hero={whoWeServe.hero} bgImage={isTablet} h={isTablet} badge={false} person={true} />
 

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useIsMobile } from '../hooks/useMediaQuery'
 import { useSEO } from '../hooks/useSEO'
 import CRMManagementData from '../data/ResourceManagement.json'
 import SolutionsHero from '../components/reusable/Hero'
@@ -18,22 +18,13 @@ import Text from '../components/reusable/Text';
 const ResourceManagement = () => {
     const { hero, whyChoose, sharperFinancial, financialControl, build, Financial, bringStructure } = CRMManagementData
     const { section } = whyChoose
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
+    const isMobile = useIsMobile()
     useSEO({
         title: 'Construction Resource Management Software | BuilderTek',
         description: 'Coordinate crews, equipment, schedules, and labor resources with BuilderTek resource management software.',
         keywords: 'construction resource management software, labor scheduling software, crew management platform, construction workforce management',
     })
-    useEffect(() => {
-        const handleResize = () => {
-            setIsMobile(window.innerWidth < 768)
-        }
-        window.addEventListener('resize', handleResize)
-        return () => {
-            window.removeEventListener('resize', handleResize)
-        }
-    }, [])
-    return (
+return (
         <PageTransition>
             <div className=''>
                 <SolutionsHero hero={hero} showTheme={!isMobile} hmax={true} badge={false} />
