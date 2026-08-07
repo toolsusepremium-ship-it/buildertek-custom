@@ -10,6 +10,7 @@ import blogsData from '../data/blogs.json'
 import Text from '../components/reusable/Text'
 import { getBlogBySlug, getAllBlogs } from '../lib/queries'
 import { cdnImage } from '../lib/imageUrl'
+import { submitLeadToSalesforce, splitName } from '../lib/salesforce'
 
 const ContentRenderer = ({ content }) => {
   return (
@@ -133,16 +134,49 @@ const BlogPost = () => {
 
   const shareUrl = typeof window !== 'undefined' ? window.location.href : ''
 
-  const handleLeadSubmit = (e) => {
+  const handleLeadSubmit = async (e) => {
     e.preventDefault()
+    const { name, email, phone, message } = leadForm
     setLeadSubmitted(true)
     setLeadForm({ name: '', email: '', phone: '', message: '' })
+
+    try {
+      await submitLeadToSalesforce({
+        ...splitName(name),
+        email,
+        phone,
+        lead_source: 'Website - Blog',
+        description: [
+          message,
+          `Submitted from blog post: ${blog.title}`,
+          shareUrl,
+        ].filter(Boolean).join('\n\n'),
+      })
+    } catch (err) {
+      console.error('Blog lead capture failed', err)
+    }
   }
 
-  const handleCommentSubmit = (e) => {
+  const handleCommentSubmit = async (e) => {
     e.preventDefault()
+    const { comment, name, email } = commentForm
     setCommentSubmitted(true)
     setCommentForm({ comment: '', name: '', email: '' })
+
+    try {
+      await submitLeadToSalesforce({
+        ...splitName(name),
+        email,
+        lead_source: 'Website - Blog Comment',
+        description: [
+          `Comment: ${comment}`,
+          `On blog post: ${blog.title}`,
+          shareUrl,
+        ].filter(Boolean).join('\n\n'),
+      })
+    } catch (err) {
+      console.error('Blog comment capture failed', err)
+    }
   }
 
   return (
